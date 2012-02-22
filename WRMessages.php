@@ -13,7 +13,6 @@ if (!defined('MEDIAWIKI')) die();
 $wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'WRMessages',
-	'name'           => 'Kol-Zchut Messages',
 	'author'         => 'Dror Snir ([http://www.kolzchut.org.il Kol-Zchut])',
 	'version'        => '0.0.1',
 	'url'            => 'http://www.kolzchut.org.il/he/Project:Extensions/WRMessages',
