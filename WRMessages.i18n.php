@@ -314,7 +314,7 @@ $messages['ar'] = array(
 * פורטל | תבנית:פורטל
 * הליך | תבנית:הליך
 * מושג | תבנית:מושג
-<!--* שירות | תבנית:שירות-->
+* שירות | תבנית:שירות/ar 
 * תקדים משפטי | תבנית:תקדים משפטי
 * חוק | תבנית:חוק/ar
 * ארגון | תבנית:ארגון/ar
@@ -338,8 +338,8 @@ $messages['ar'] = array(
 	#"lastmodifiedatby"    => "אין צורך לתרגם",
 	#"loginlanguagelinks"  => "אין צורך לתרגם",
 	#"logout"              => "אין צורך לתרגם",
-	'mypreferences'        => "تفضيلات",
-	#"mywatchlist"         => "אין צורך לתרגם",
+	'mypreferences'        => 'تفضيلات',
+	"mywatchlist"          => 'قائمة المراقبة',
 	#"Noarticletext-nopermission" => "אין צורך לתרגם",
 	#"protect-dropdown"    => "אין צורך לתרגם",
 	'siteuser'             => "$1",
