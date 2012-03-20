@@ -246,9 +246,9 @@ $messages['he'] = array(
 |-
 | '''שלילת מילת חיפוש''' || ניתן להוסיף סימן מינוס לפני מילה על מנת להימנע מערכים המכילים אותה || '''<big>''עובדים -פנסיה''</big>''' (סימן המינוס בצמידות למילה) יחזיר רק ערכים המכילים את המילה \"עובדים\" ואינם מכילים את המילה \"פנסיה\".
 |}",
-	'tooltip-p-logo'                  => 'עמוד הבית של {{SITENAME}}',
-	'tooltip-n-mainpage'              => 'עמוד הבית של {{SITENAME}}',
-	'tooltip-n-mainpage-description'  => 'עמוד הבית של {{SITENAME}}',
+	'tooltip-p-logo'                  => 'לעמוד הבית של {{SITENAME}}',
+	'tooltip-n-mainpage'              => 'לעמוד הבית של {{SITENAME}}',
+	'tooltip-n-mainpage-description'  => 'לעמוד הבית של {{SITENAME}}',
 	'deletereason-dropdown'           => '* סיבות נפוצות
 ** דף חדש שנוצר בטעות
 ** מחיקת הפניה של דף שהועבר
