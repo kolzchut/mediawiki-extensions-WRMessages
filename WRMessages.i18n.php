@@ -221,7 +221,15 @@ $messages['he'] = array(
 	'lastmodifiedat'                  => 'עודכן לאחרונה ב־$2, $1.',
 	'lastmodifiedatby'                => 'דף זה עודכן לאחרונה בתאריך $1 על ידי $3.',
 
-#	'loginlanguagelinks'              => '* עברית|he * العربية|ar * Русский|ru * English|en',
+	# Login and logout pages
+	'logouttext'                 => "'''התנתקתם זה עתה מהאתר.'''
+	
+	באפשרותכם להמשיך ולעשות שימוש ב{{grammar:תחילית|{{SITENAME}}}} באופן אנונימי, או [[Special:UserLogin|לשוב ולהיכנס לאתר]] עם שם משתמש זהה או אחר.
+	שימו לב כי ייתכן שדפים אחדים ימשיכו להיות מוצגים כאילו אתם עדיין מחוברים לאתר עד שתנקו את המטמון של הדפדפן שלכם.",
+	'welcomecreation'            => '== ברוך בואך, $1! ==
+	המשתמש שלך נוצר.
+	נא לא לשכוח להתאים את [[Special:Preferences|העדפות המשתמש]] שלך באתר {{SITENAME}}.',
+	//'loginlanguagelinks'              => '* עברית|he * العربية|ar * Русский|ru * English|en',
 	'login'                      	   => 'כניסת משתמש',
 	'nav-login-createaccount'         => 'כניסת משתמש / הרשמה',
 	'loginprompt'                => 'לפני התחברות ל{{grammar:תחילית|{{SITENAME}}}}, עליכם לוודא כי ה"עוגיות" (Cookies) מופעלות.',
