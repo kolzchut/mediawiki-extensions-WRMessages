@@ -165,10 +165,10 @@ $messages['he'] = array(
 	'group-socialworker'             => 'עובדים סוציאליים',
 	'group-holocaustproject'         => 'פרויקט ניצולי השואה',
 
-	'group-staff-member'             => 'חבר צוות האתר',
+	'group-staff-member'             => '{{GENDER:$1|חבר|חברת}} צוות האתר',
 	'group-automaton-member'         => 'אוטומטון',
-	'group-socialworker-member'      => 'עובד סוציאלי',
-	'group-holocaustproject-member'  => 'חבר פרויקט ניצולי השואה',
+	'group-socialworker-member'      => '{{GENDER:$1|עובד|עובדת}} סוציאלי',
+	'group-holocaustproject-member'  => '{{GENDER:$1|חבר|חברת}} פרויקט ניצולי השואה',
 
 	'grouppage-staff'                => '{{ns:project}}:צוות האתר',
 	'grouppage-socialworker'         => '{{ns:project}}:עובדים סוציאליים',
