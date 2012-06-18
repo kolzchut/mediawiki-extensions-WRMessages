@@ -7,7 +7,6 @@
  */
 
  
-$namespaceNames = array();
 $messages = array();
 
 /**
@@ -16,32 +15,7 @@ $messages = array();
  * @author Dror Snir
  * @author Ruth Bridger
  */
- 
-/* Custom Namespaces */
-/* Custom Namespaces */
-$namespaceNames['en'] = array(
-	NS_COMPANY         => "About",
-	NS_COMPANY_TALK    => "About_talk",
-	NS_COMMUNITY       => "Knowledge_Community",
-	NS_COMMUNITY_TALK  => "Knowledge_Community_talk",
-	NS_PORTAL          => "Portal",
-	NS_PORTAL_TALK     => "Portal_talk",
-	NS_DRAFTS          => "New",
-	NS_DRAFTS_TALK     => "New_talk",		
-);
-
-
-$namespaceAliases['אודות']               = NS_COMPANY;   #DS: 30/5/2011 Allow using Hebrew NS names in other languages
-$namespaceAliases['קהילת_ידע']           = NS_COMMUNITY; #DS: 30/5/2011 Allow using Hebrew NS names in other languages
-$namespaceAliases['פורטל']              = NS_PORTAL;    #DS: 30/5/2011 Allow using Hebrew NS names in other languages
-$namespaceAliases['חדש']               = NS_DRAFTS;    #DS: 30/5/2011 Allow using Hebrew NS names in other languages
-$namespaceAliases['קהילת_ידע']           = NS_COMMUNITY; #DS: 30/5/2011 Allow using Hebrew NS names in other languages
-$namespaceAliases['תבנית']             = NS_TEMPLATE;  #DS: 31/1/2011 alias for template NS, to allow easy importing from HE instance
-$namespaceAliases['קטגוריה']            = NS_CATEGORY;  #DS: 17/5/2011 alias for category NS, to prevent issues when moving article from HE
-$namespaceAliases['קובץ']              = NS_FILE;      #DS: 17/5/2011 alias for file NS, to prevent issues when moving article from HE
-$namespaceAliases['מדיה']              = NS_MEDIA;     #DS: 7/12/2011 alias for Media (file) NS, to prevent issues when moving article from HE
-
- 
+  
 $messages['en'] = array(
 	'wrmessages-desc' => 'Kol-Zchut specific messages',
 
@@ -143,19 +117,6 @@ You can [[Special:Search/{{PAGENAME}} | search for the page's title]]  in existi
  * @author Kol-Zchut Staff
  */
  
-/* Custom Namespaces */
-$namespaceNames['he'] = array(
-	NS_COMPANY         => 'אודות',
-	NS_COMPANY         => "אודות",
-	NS_COMPANY_TALK    => "שיחת_אודות",
-	NS_COMMUNITY       => "קהילת_ידע",
-	NS_COMMUNITY_TALK  => "שיחת_קהילת_ידע",
-	NS_PORTAL          => "פורטל",
-	NS_PORTAL_TALK     => "שיחת_פורטל",
-	NS_DRAFTS          => "חדש",
-	NS_DRAFTS_TALK     => "שיחת_חדש",		
-);
-
 $messages['he'] = array(
 	'wrmessages-desc' => 'הודעות המיוחדות לכל-זכות',
 
@@ -290,19 +251,6 @@ $messages['he'] = array(
  */
 
 $wgTranslateNumerals = false; # DS: 30/5/2011 Do not use arabic numerals
-
-/* Custom Namespaces */
-$namespaceNames['ar'] = array(
-	NS_COMPANY         => 'حول',
-	NS_COMPANY_TALK    => "نقاش_حول",
-	NS_COMMUNITY       => "مجتمع_المعرفة",
-	NS_COMMUNITY_TALK  => "نقاش_مجتمع_المعرفة",
-	//NS_PORTAL          => "פורטל",
-	//NS_PORTAL_TALK     => "שיחת_פורטל",
-	//NS_DRAFTS          => "חדש",
-	//NS_DRAFTS_TALK     => "שיחת_חדש",		
-);
-
 
 $messages['ar'] = array(
 	'wrmessages-desc' => 'رسائل خاصة بكل الحق',
