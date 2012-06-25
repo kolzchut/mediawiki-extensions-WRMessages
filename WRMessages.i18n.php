@@ -78,7 +78,7 @@ div.mw-geshi {
 	'copyrightwarning'                      => "'''Please note:''' all contributions to {{SITENAME}} are considered to be released under the $2 license.
 * Your contributions may be edited, altered, or removed by other contributors. If you do not want your writing to be edited or redistributed, then do not submit it here.
 * Do not submit copyrighted work without permission! You are promising us that you wrote this yourself, or copied it from a public domain or similar free resource (see $1 for additional information)
-* Please maintain the [[:he:Project:מדיניות האתר | site policy (in Hebrew)]]", //English: [[Project:Site policy | site policy]]
+* Please comply with the [[:he:Project:מדיניות האתר | site policy (in Hebrew)]]", //English: [[Project:Site policy | site policy]]
 	'edithelppage'                          => ":he:Help:מדריך לעורך", //English: Help:Editor guide
 	'hidetoc'                               => '-',
 	'showtoc'                               => '+',
