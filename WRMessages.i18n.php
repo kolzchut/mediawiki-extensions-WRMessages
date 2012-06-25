@@ -51,14 +51,14 @@ $messages['en'] = array(
 	#The following require WRMessages to be included *after* the appropriate extension
 	'multiboilerplate' => '* Right | תבנית:זכות/en
 * Portal | תבנית:פורטל/en
-* הליך | תבנית:הליך/en
-* מושג | תבנית:מושג/en
+* Proceeding | תבנית:הליך/en
+* Term | תבנית:מושג/en
 * Service | תבנית:שירות/en
-* תקדים משפטי | תבנית:תקדים משפטית/en
+* Legal precedent | תבנית:תקדים משפטית/en
 * Law | תבנית:חוקת/en
-* Organization | תבנית:ארגוןת/en
-* גורם ממשל | תבנית:גורם ממשלת/en
-* מחלה/תסמונת/לקות | תבנית:מחלהת/en
+* Organization | תבנית:ארגון/en
+* Government agency | תבנית:גורם ממשל/en
+<!--* מחלה/תסמונת/לקות | תבנית:מחלה/en-->
 <!--* Letter | תבנית:מכתב-->
 * User | תבנית:משתמש/en',
 	
@@ -287,6 +287,7 @@ $messages['ar'] = array(
 * חוק | תבנית:חוק/ar
 * ארגון | תבנית:ארגון/ar
 * גורם ממשל | תבנית:גורם ממשל/ar
+<!--* מחלה/תסמונת/לקות | תבנית:מחלה/ar-->
 <!--* מכתב | תבנית:מכתב-->
 * משתמש | תבנית:משתמש/ar',
 
