@@ -54,8 +54,8 @@ $messages['en'] = array(
 * Proceeding | תבנית:הליך/en
 * Term | תבנית:מושג/en
 * Service | תבנית:שירות/en
-* Legal precedent | תבנית:תקדים משפטית/en
-* Law | תבנית:חוקת/en
+* Legal precedent | תבנית:תקדים משפטי/en
+* Law | תבנית:חוק/en
 * Organization | תבנית:ארגון/en
 * Government agency | תבנית:גורם ממשל/en
 <!--* מחלה/תסמונת/לקות | תבנית:מחלה/en-->
