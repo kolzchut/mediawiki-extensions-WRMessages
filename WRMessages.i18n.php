@@ -49,18 +49,18 @@ $messages['en'] = array(
 	/* ******** */
 	/* Settings */  
 	#The following require WRMessages to be included *after* the appropriate extension
-	'multiboilerplate' => '* Right | תבנית:זכות
-* Portal | תבנית:פורטל
-* הליך | תבנית:הליך
-* מושג | תבנית:מושג
-* Service | תבנית:שירות
-* תקדים משפטי | תבנית:תקדים משפטי
-* Law | תבנית:חוק
-* Organization | תבנית:ארגון
-* גורם ממשל | תבנית:גורם ממשל
-* מחלה/תסמונת/לקות | תבנית:מחלה
-* Letter | תבנית:מכתב
-* User | תבנית:משתמש',
+	'multiboilerplate' => '* Right | תבנית:זכות/en
+* Portal | תבנית:פורטל/en
+* הליך | תבנית:הליך/en
+* מושג | תבנית:מושג/en
+* Service | תבנית:שירות/en
+* תקדים משפטי | תבנית:תקדים משפטית/en
+* Law | תבנית:חוקת/en
+* Organization | תבנית:ארגוןת/en
+* גורם ממשל | תבנית:גורם ממשלת/en
+* מחלה/תסמונת/לקות | תבנית:מחלהת/en
+<!--* Letter | תבנית:מכתב-->
+* User | תבנית:משתמש/en',
 	
 	'geshi.css' => '/* fix to make the syntax highlighter show a dashed border around source code like the default is */
 /* see here: http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi#Configuration */
@@ -278,12 +278,12 @@ $messages['ar'] = array(
 	/* ******** */
 	/* Settings */  
 	#The following require WRMessages to be included *after* the appropriate extension
-	'multiboilerplate' => '* זכות | תבנית:זכות
-* פורטל | תבנית:פורטל
-* הליך | תבנית:הליך
-* מושג | תבנית:מושג
+	'multiboilerplate' => '* זכות | תבנית:זכות/ar
+* פורטל | תבנית:פורטל/ar
+* הליך | תבנית:הליך/ar
+* מושג | תבנית:מושג/ar
 * שירות | תבנית:שירות/ar 
-* תקדים משפטי | תבנית:תקדים משפטי
+* תקדים משפטי | תבנית:תקדים משפטי/ar
 * חוק | תבנית:חוק/ar
 * ארגון | תבנית:ארגון/ar
 * גורם ממשל | תבנית:גורם ממשל/ar
