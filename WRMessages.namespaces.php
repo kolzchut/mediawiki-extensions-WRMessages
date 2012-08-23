@@ -31,12 +31,13 @@ $namespaceNames['en'] = array(
 );
 
 $namespaceAliases['en'] = array(
-	'mw'       	=> NS_MEDIAWIKI, #DS: 22/2/2010 alias for Mediawiki namespace. easier for me to edit interface messages 
-	'תבנית' 	=> NS_TEMPLATE, 	#DS: 31/1/2011 alias for template NS, to allow easy importing from HE instance
-	'תב' 		=> NS_TEMPLATE, 	#DS: 31/1/2011 alias for template NS, faster access
-	'קטגוריה' 	=> NS_CATEGORY, 	#DS: 17/5/2011 alias for category NS, to prevent issues when moving article from HE
-	'קובץ' 		=> NS_FILE, 	#DS: 17/5/2011 alias for file NS, to prevent issues when moving article from HE
-	'מדיה' 		=> NS_MEDIA, 	#DS: 7/12/2011 alias for Media (file) NS, to prevent issues when moving article from HE	
+	'mw'       	 => NS_MEDIAWIKI, #DS: 22/2/2010 alias for Mediawiki namespace. easier for me to edit interface messages 
+	'תבנית' 	 => NS_TEMPLATE, 	#DS: 31/1/2011 alias for template NS, to allow easy importing from HE instance
+	'תב' 		 => NS_TEMPLATE, 	#DS: 31/1/2011 alias for template NS, faster access
+	'קטגוריה' 	 => NS_CATEGORY, 	#DS: 17/5/2011 alias for category NS, to allow easy importing from HE instance
+	'קובץ' 		 => NS_FILE, 	#DS: 17/5/2011 alias for file NS, to allow easy importing from HE instance
+	'מדיה' 		 => NS_MEDIA, 	#DS: 7/12/2011 alias for Media (file) NS, to allow easy importing from HE instance
+	'מדיה-ויקי'  => NS_MEDIAWIKI, 	#DS: 7/12/2011 alias for MediaWiki NS, to allow easy importing from HE instance
 );
 
 /**

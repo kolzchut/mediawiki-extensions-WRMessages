@@ -24,14 +24,17 @@ $messages['en'] = array(
 
 	# Kol-Zchut specific usergroups
 	'group-staff'               => 'Staff',
+	'group-staff+'              => 'Staff: extra permissions',
 	'group-automaton'           => 'Automatons',
 	'group-socialworker'        => 'Social workers',
 	
 	'group-staff-member'        => 'Member of staff',
+	'group-staff+-member'        => 'Member of Staff+',
 	'group-automaton-member'    => 'Automaton',
 	'group-socialworker-member' => 'Social worker',
 
 	'grouppage-staff'           => '{{ns:project}}:Staff',
+	'grouppage-staff+'          => '{{ns:project}}:Staff',
 	'grouppage-socialworker'    => '{{ns:project}}:Social workers',
 
 	'right-staff'               => 'Staff only',
@@ -122,16 +125,19 @@ $messages['he'] = array(
 
 	# Kol-Zchut specific usergroups
 	'group-staff'                    => 'צוות האתר',
+	'group-staff+'              	  => 'צוות: הרשאות נוספות',
 	'group-automaton'                => 'אוטומטונים',
 	'group-socialworker'             => 'עובדים סוציאליים',
 	'group-holocaustproject'         => 'פרויקט ניצולי השואה',
 
 	'group-staff-member'             => '{{GENDER:$1|חבר|חברת}} צוות האתר',
+	'group-staff+-member'            => '{{GENDER:$1|חבר|חברת}} צוות האתר+',
 	'group-automaton-member'         => 'אוטומטון',
 	'group-socialworker-member'      => '{{GENDER:$1|עובד|עובדת}} סוציאלי',
 	'group-holocaustproject-member'  => '{{GENDER:$1|חבר|חברת}} פרויקט ניצולי השואה',
 
 	'grouppage-staff'                => '{{ns:project}}:צוות האתר',
+	'grouppage-staff+'               => '{{ns:project}}:צוות האתר',
 	'grouppage-socialworker'         => '{{ns:project}}:עובדים סוציאליים',
 
 	'right-staff'                        => 'מוגבל לחברי צוות האתר',
