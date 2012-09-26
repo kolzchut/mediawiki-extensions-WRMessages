@@ -19,14 +19,12 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'wrmessages-desc',
 );
 
-$dir = dirname(__FILE__) . '/';
-
-// i18n
-$wgExtensionMessagesFiles['WRMessages'] = $dir .'WRMessages.i18n.php';
-$wgExtensionMessagesFiles['WRMessagesNamespaces'] = $dir .'WRMessages.namespaces.php';
+// i18nd
+$wgExtensionMessagesFiles['WRMessages'] = __DIR__ . '/WRMessages.i18n.php';
+$wgExtensionMessagesFiles['WRMessagesNamespaces'] = __DIR__ . '/WRMessages.namespaces.php';
 
 // Autoloading
-$wgAutoloadClasses['WRMessagesHooks'] = $dir . '/WRMessages.hooks.php';
+$wgAutoloadClasses['WRMessagesHooks'] = __DIR__ . '//WRMessages.hooks.php';
 
 
 // Hooks
