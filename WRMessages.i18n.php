@@ -44,7 +44,8 @@ $messages['en'] = array(
 	/* NEW Messages */
 
 	/* Template messages */
-	'tpl-lead-link-text'            => 'Additional details...',
+	'tpl-lead-link-text'           => 'Additional details...',
+	'tpl-דוגמה-title'            	=> 'Example',
 	
 	'skinname-wrvector'     => 'All-Rights (old design)',
 	'skinname-victoria'     => 'Victoria (new design)',
@@ -152,6 +153,7 @@ $messages['he'] = array(
 
 	/* Template messages */
 	'tpl-lead-link-text'             => 'לפרטים נוספים...',
+	'tpl-דוגמה-title'            	=> 'דוגמה',
 
 	'skinname-wrvector'               => 'כל-זכות (עיצוב ישן))',
 	'skinname-victoria'               => 'ויקטוריה (עיצוב חדש)',
@@ -287,6 +289,7 @@ $messages['ar'] = array(
 	
 	/* Template messages */
 	'tpl-lead-link-text'         => 'لمزيد من التفاصيل...',
+	'tpl-דוגמה-title'            	=> 'مثال',
 	
 	/* ******** */
 	/* Settings */  
