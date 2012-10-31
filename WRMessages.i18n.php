@@ -254,6 +254,37 @@ $messages['he'] = array(
 * הזדהות מיידית בעת שליחת הצעות שינוי
 <br />'''הרשאת עריכה''' באתר כל-זכות ניתנת לארגונים מוסמכים (ממשלה, עמותות, אקדמיה וכד'). במקרה ואתם נציגי/ות ארגונים כאלה אנא [[{{INT:contactpage}} | צרו קשר עם צוות האתר]]. 
 </div>",
+
+'enotif_body' => '<div style="direction: rtl">לכבוד $WATCHINGUSERNAME,
+
+הדף $PAGETITLE ב{{grammar:תחילית|{{SITENAME}}}} $CHANGEDORCREATED ב־$PAGEEDITDATE על ידי $PAGEEDITOR, ראו $PAGETITLE_URL לגרסה הנוכחית.
+
+$NEWPAGE
+
+תקציר העריכה: $PAGESUMMARY $PAGEMINOREDIT
+
+באפשרותכם ליצור קשר עם העורך:
+בדואר האלקטרוני: $PAGEEDITOR_EMAIL
+באתר: $PAGEEDITOR_WIKI
+
+לא תהיינה הודעות על שינויים נוספים עד שתבקרו את הדף. באפשרותכם גם לאפס את דגלי ההודעות בכל הדפים שברשימת המעקב.
+
+             מערכת ההודעות של {{SITENAME}}
+
+--
+כדי לשנות את ההגדרות של הודעות הדוא"ל הנשלחות אליכם, בקרו בדף
+{{canonicalurl:{{#special:Preferences}}}}
+
+כדי לשנות את הגדרות רשימת המעקב, בקרו בדף
+{{canonicalurl:{{#special:EditWatchlist}}}}
+
+כדי למחוק את הדף מרשימת המעקב שלכם, בקרו בדף
+$UNWATCHURL
+
+למשוב ולעזרה נוספת:
+{{canonicalurl::{{MediaWiki:Helppage}}}}
+</div>',
+
 );
 
 
