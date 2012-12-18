@@ -62,7 +62,7 @@ $messages['en'] = array(
 * Law | תבנית:חוק/en
 * Organization | תבנית:ארגון/en
 * Government agency | תבנית:גורם ממשל/en
-<!--* מחלה/תסמונת/לקות | תבנית:מחלה/en-->
+* Disease/Syndrome/Disorder | תבנית:מחלה/en
 <!--* Letter | תבנית:מכתב-->
 * User | תבנית:משתמש/en',
 	
