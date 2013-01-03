@@ -55,6 +55,7 @@ $messages['en'] = array(
 	#The following require WRMessages to be included *after* the appropriate extension
 	'multiboilerplate' => '* Right | תבנית:זכות/en
 * Portal | תבנית:פורטל/en
+* Portal/Subpage | תבנית:פורטל/תת-עמוד
 * Proceeding | תבנית:הליך/en
 * Term | תבנית:מושג/en
 * Service | תבנית:שירות/en
