@@ -12,7 +12,7 @@ $dateFormats['he'] = array(
 	'wrspecial date' => 'xnd.xnm.xnY',
 	'wrspecial both' => 'xnd.xnm.xnY, H:i',
 );
-$defaultDateFormat = 'wrspecial';
+$defaultDateFormat['he'] = 'wrspecial';
 $datePreferences['he'] = array(
 	'default',
 	'wrspecial',
