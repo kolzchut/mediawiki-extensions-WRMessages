@@ -22,9 +22,10 @@ $wgExtensionCredits['other'][] = array(
 // i18nd
 $wgExtensionMessagesFiles['WRMessages'] = __DIR__ . '/WRMessages.i18n.php';
 $wgExtensionMessagesFiles['WRMessagesNamespaces'] = __DIR__ . '/WRMessages.namespaces.php';
+$wgExtensionMessagesFiles['WRMessagesAliases'] = __DIR__ . '/WRMessages.alias.php';
 
 // Autoloading
-$wgAutoloadClasses['WRMessagesHooks'] = __DIR__ . '//WRMessages.hooks.php';
+$wgAutoloadClasses['WRMessagesHooks'] = __DIR__ . '/WRMessages.hooks.php';
 
 
 // Hooks
