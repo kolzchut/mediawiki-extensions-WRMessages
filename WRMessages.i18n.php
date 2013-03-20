@@ -146,23 +146,23 @@ $messages['he'] = array(
 	'group-staff+'              	  => 'צוות: הרשאות נוספות',
 	'group-automaton'                => 'אוטומטונים',
 	'group-socialworker'             => 'עובדים סוציאליים',
-	'group-holocaustproject'         => 'פרויקט ניצולי השואה',
+	//'group-holocaustproject'         => 'פרויקט ניצולי השואה',
 
 	'group-staff-member'             => '{{GENDER:$1|חבר|חברת}} צוות האתר',
 	'group-staff+-member'            => '{{GENDER:$1|חבר|חברת}} צוות האתר+',
 	'group-automaton-member'         => 'אוטומטון',
 	'group-socialworker-member'      => '{{GENDER:$1|עובד|עובדת}} סוציאלי',
-	'group-holocaustproject-member'  => '{{GENDER:$1|חבר|חברת}} פרויקט ניצולי השואה',
+	//'group-holocaustproject-member'  => '{{GENDER:$1|חבר|חברת}} פרויקט ניצולי השואה',
 
 	'grouppage-staff'                => '{{ns:project}}:צוות האתר',
 	'grouppage-staff+'               => '{{ns:project}}:צוות האתר',
 	'grouppage-socialworker'         => '{{ns:project}}:עובדים סוציאליים',
 
 	'right-staff'                        => 'מוגבל לחברי צוות האתר',
-	'right-holocaustproject'             => 'מוגבל לחברי פרויקט ניצולי השואה',
+	//'right-holocaustproject'             => 'מוגבל לחברי פרויקט ניצולי השואה',
 	
 	'restriction-level-staff'            => 'מוגבל לחברי צוות האתר',
-	'restriction-level-holocaustproject' => 'מוגבל לחברי פרויקט ניצולי השואה',
+	//'restriction-level-holocaustproject' => 'מוגבל לחברי פרויקט ניצולי השואה',
 	
 	
 	/* ************ */
