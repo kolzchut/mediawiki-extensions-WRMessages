@@ -151,7 +151,7 @@ $messages['he'] = array(
 	'group-staff-member'             => '{{GENDER:$1|חבר|חברת}} צוות האתר',
 	'group-staff+-member'            => '{{GENDER:$1|חבר|חברת}} צוות האתר+',
 	'group-automaton-member'         => 'אוטומטון',
-	'group-socialworker-member'      => '{{GENDER:$1|עובד|עובדת}} סוציאלי',
+	'group-socialworker-member'      => '{{GENDER:$1|עובד סוציאלי|עובדת סוציאלית}}',
 	//'group-holocaustproject-member'  => '{{GENDER:$1|חבר|חברת}} פרויקט ניצולי השואה',
 
 	'grouppage-staff'                => '{{ns:project}}:צוות האתר',
