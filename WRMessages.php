@@ -70,8 +70,8 @@ $wgNamespaceProtection[NS_WR_COMPANY] = array( 'editproject' );	# If allowed to 
 $wgNamespaceProtection[NS_TEMPLATE] = array( 'editproject' ); 		# If allowed to edit the projet NS, allowed to edit this too
 
 # Extra security for non-public-oriented namespaces, using Extension:Lockdown (only works when it's present)
-	$wgNamespacePermissionLockdown[NS_WR_DRAFTS]['*'] = array('editor', 'staff');
-	$wgNonincludableNamespaces[] = NS_WR_DRAFTS;
+	//$wgNamespacePermissionLockdown[NS_WR_DRAFTS]['*'] = array('editor', 'staff');
+	//$wgNonincludableNamespaces[] = NS_WR_DRAFTS;
 	$wgNamespacePermissionLockdown[NS_WR_LIMBO]['*'] = array('editor', 'staff');
 	$wgNonincludableNamespaces[] = NS_WR_LIMBO;	
 	$wgNamespacePermissionLockdown[NS_WR_PRACTICE]['*'] = array('editor', 'staff');
