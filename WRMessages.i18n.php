@@ -108,11 +108,40 @@ div.mw-geshi {
 	#'logout'                               => Equals original string (not in sync w/ Hebrew)
 	'mypreferences'                         => 'Preference',
 	'mywatchlist'                           => 'Watchlist',
-	'noarticletext-nopermission'            => "<big>{{#ifeq: {{NAMESPACE}} | User talk
-  | '''No messages''' have been posted for this user yet.
-  | '''{{SITENAME}} does not have a page with this exact name.'''
-}}</big><br />
-You can [[Special:Search/{{PAGENAME}} | search for the page's title]]  in existing pages.",
+	'noarticletext'							 => "<div style=\"font-weight: bold; background-color: rgba(255, 255, 153, 0.3); 
+  text-align: center;
+  width: 3em;
+  height: 1em;
+  font-size: 65px;
+  margin-right: 0.5em;
+  transform: skew(20deg, 1deg) ;
+  -webkit-transform: skew(20deg, 1deg);
+  -moz-transform: skew(20deg, 1deg);
+  -o-transform: skew(20deg, 1deg);
+  -ms-transform: skew(20deg, 1deg);
+  -moz-box-shadow:10px 10px 5px #888;
+  -webkit-box-shadow:10px 10px 5px #888;
+  box-shadow:10px 10px 5px #888;\"><span style=\"position: relative; top: 0.33em;\">אופס!</span></div>{{DISPLAYTITLE:{{FULLPAGENAME}} - העמוד לא נמצא}}
+<p style=\"font-size: 30px;\">כרגע אין בכל-זכות דף בשם זה.</p>
+<div class=\"editor-only-content\" style=\"background-color: #CFCFCF; border: 1px solid black;\">'''עורכים יקרים:'''
+באפשרותכם [[Special:Search/{{PAGENAME}}|לחפש את כותרת הדף]] בדפים אחרים, <span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} לחפש ביומנים הרלוונטיים], או [{{fullurl:{{FULLPAGENAME}}|action=edit}} לערוך דף זה]</span>.
+</div>
+
+'''אנחנו רוצים לעזור, אז בואו נראה מה אפשר לעשות בנוגע לזה:'''
+* אם הקלדתם את הכתובת בעצמכם, אנא בדקו שאין בה טעות
+* אם הגעתם לכאן מקישור באתר, כנראה שהוא שבור... אנא [mailto:webadmin@kolzchut.org.il?subject=קישור%20שבור דווחו לנו] על כך (אנא ציינו את שם העמוד ממנו הגעתם!).
+* אתם יכולים [[עמוד ראשי | לחזור לעמוד הראשי]] של כל-זכות.
+* או שאתם יכולים לחפש כאן למטה:
+
+<div id=\"wr-mainpage-search\" style=\"max-width:500px; margin-bottom: 1em;\">
+<inputbox>
+type=search2
+break=no
+buttonlabel={{int:searchbutton}}
+</inputbox> 
+</div><!-- /wr-mainpage-search -->",
+
+	'noarticletext-nopermission'			=> '{{int:noarticletext}}',
 	'protect-dropdown'                      => '* Edit protection
 ** Maintained by staff
 ** Edit warring / Content dispute
@@ -180,6 +209,7 @@ $messages['he'] = array(
 	#The following require WRMessages to be included *after* the appropriate extension
 	'multiboilerplate'                => '* זכות | תבנית:זכות
 * פורטל | תבנית:פורטל
+* פורטל/תת-עמוד | תבנית:פורטל/תת-עמוד
 * הליך | תבנית:הליך
 * מושג | תבנית:מושג
 * שירות | תבנית:שירות
@@ -187,6 +217,7 @@ $messages['he'] = array(
 * חוק | תבנית:חוק
 * ארגון | תבנית:ארגון
 * גורם ממשל | תבנית:גורם ממשל
+* שאלות ותשובות | תבנית:שאלות ותשובות
 * מחלה/תסמונת/לקות | תבנית:מחלה
 * מכתב | תבנית:מכתב
 * משתמש | תבנית:משתמש',
@@ -272,35 +303,23 @@ $messages['he'] = array(
 <br />'''הרשאת עריכה''' באתר כל-זכות ניתנת לארגונים מוסמכים (ממשלה, עמותות, אקדמיה וכד'). במקרה ואתם נציגי/ות ארגונים כאלה אנא [[{{INT:contactpage}} | צרו קשר עם צוות האתר]]. 
 </div>",
 
-'enotif_body' => '<div style="direction: rtl">לכבוד $WATCHINGUSERNAME,
+'enotif_body' => 'לכבוד $WATCHINGUSERNAME,
 
-הדף $PAGETITLE ב{{grammar:תחילית|{{SITENAME}}}} $CHANGEDORCREATED ב־$PAGEEDITDATE על ידי $PAGEEDITOR, ראו $PAGETITLE_URL לגרסה הנוכחית.
-
-$NEWPAGE
+$PAGEINTRO $NEWPAGE
 
 תקציר העריכה: $PAGESUMMARY $PAGEMINOREDIT
 
-באפשרותכם ליצור קשר עם העורך:
-בדואר האלקטרוני: $PAGEEDITOR_EMAIL
-באתר: $PAGEEDITOR_WIKI
+לא תהיינה הודעות על שינויים נוספות עד שתבקרו בדף.
 
-לא תהיינה הודעות על שינויים נוספים עד שתבקרו את הדף. באפשרותכם גם לאפס את דגלי ההודעות בכל הדפים שברשימת המעקב.
+בברכה,
+מערכת ההודעות של {{SITENAME}}
 
-             מערכת ההודעות של {{SITENAME}}
-
---
+--------
 כדי לשנות את ההגדרות של הודעות הדוא"ל הנשלחות אליכם, בקרו בדף
 {{canonicalurl:{{#special:Preferences}}}}
 
 כדי לשנות את הגדרות רשימת המעקב, בקרו בדף
-{{canonicalurl:{{#special:EditWatchlist}}}}
-
-כדי למחוק את הדף מרשימת המעקב שלכם, בקרו בדף
-$UNWATCHURL
-
-למשוב ולעזרה נוספת:
-{{canonicalurl::{{MediaWiki:Helppage}}}}
-</div>',
+{{canonicalurl:{{#special:EditWatchlist}}}}',
 
 );
 
