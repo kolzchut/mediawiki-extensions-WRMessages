@@ -113,7 +113,7 @@ div.mw-geshi {
   width: 3em;
   height: 1em;
   font-size: 65px;
-  margin-right: 0.5em;
+  margin-{{right}}: 0.5em;
   transform: skew(20deg, 1deg) ;
   -webkit-transform: skew(20deg, 1deg);
   -moz-transform: skew(20deg, 1deg);
@@ -121,17 +121,17 @@ div.mw-geshi {
   -ms-transform: skew(20deg, 1deg);
   -moz-box-shadow:10px 10px 5px #888;
   -webkit-box-shadow:10px 10px 5px #888;
-  box-shadow:10px 10px 5px #888;\"><span style=\"position: relative; top: 0.33em;\">אופס!</span></div>{{DISPLAYTITLE:{{FULLPAGENAME}} - העמוד לא נמצא}}
-<p style=\"font-size: 30px;\">כרגע אין בכל-זכות דף בשם זה.</p>
-<div class=\"editor-only-content\" style=\"background-color: #CFCFCF; border: 1px solid black;\">'''עורכים יקרים:'''
-באפשרותכם [[Special:Search/{{PAGENAME}}|לחפש את כותרת הדף]] בדפים אחרים, <span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} לחפש ביומנים הרלוונטיים], או [{{fullurl:{{FULLPAGENAME}}|action=edit}} לערוך דף זה]</span>.
+  box-shadow:10px 10px 5px #888;\"><span style=\"position: relative; top: 0.33em;\">Oops!</span></div>{{DISPLAYTITLE:{{FULLPAGENAME}} - page not found}}
+<p style=\"font-size: 30px;\">All-Rights does not have this page yet.</p>
+<div class=\"editor-only-content\" style=\"background-color: #CFCFCF; border: 1px solid black;\">'''Dear editors:'''
+You can [[Special:Search/{{PAGENAME}}|search for this page title]] in other pages, <span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} search the related logs], or [{{fullurl:{{FULLPAGENAME}}|action=edit}} edit this page]</span>.
 </div>
 
-'''אנחנו רוצים לעזור, אז בואו נראה מה אפשר לעשות בנוגע לזה:'''
-* אם הקלדתם את הכתובת בעצמכם, אנא בדקו שאין בה טעות
-* אם הגעתם לכאן מקישור באתר, כנראה שהוא שבור... אנא [mailto:webadmin@kolzchut.org.il?subject=קישור%20שבור דווחו לנו] על כך (אנא ציינו את שם העמוד ממנו הגעתם!).
-* אתם יכולים [[עמוד ראשי | לחזור לעמוד הראשי]] של כל-זכות.
-* או שאתם יכולים לחפש כאן למטה:
+'''We would like to assist you, so let's see what we can do about it:'''
+* If you typed this address manually, please check it for possible mistakes or mispelling
+* If you got here from another All-Rights page, then the link is probably broken. Please [mailto:webadmin@kolzchut.org.il?subject=Broken%20link report it] to us (please mention the name of the page you arrived from!).
+* You can [[{{Mediawiki:mainpage}} | return to All-Rights' main page]].
+* Or you can search the site right here:
 
 <div id=\"wr-mainpage-search\" style=\"max-width:500px; margin-bottom: 1em;\">
 <inputbox>
@@ -140,7 +140,6 @@ break=no
 buttonlabel={{int:searchbutton}}
 </inputbox> 
 </div><!-- /wr-mainpage-search -->",
-
 	'noarticletext-nopermission'			=> '{{int:noarticletext}}',
 	'protect-dropdown'                      => '* Edit protection
 ** Maintained by staff
@@ -157,6 +156,22 @@ buttonlabel={{int:searchbutton}}
 	'tooltip-p-logo'                  => '{{SITENAME}} Main Page',
 	'tooltip-n-mainpage'              => '{{SITENAME}} Main Page',
 	'tooltip-n-mainpage-description'  => '{{SITENAME}} Main Page',
+	'enotif_body'						=> 'Dear $WATCHINGUSERNAME,
+
+$PAGEINTRO $NEWPAGE
+
+Editor\'s summary: $PAGESUMMARY $PAGEMINOREDIT
+
+There will be no other notifications in case of further activity unless you visit this page.
+
+Regards,
+{{SITENAME}} notification system.
+
+--------
+To change your watchlist settings, visit
+{{canonicalurl:{{#special:EditWatchlist}}}}',
+	
+	
 );
 
 
@@ -261,7 +276,39 @@ $messages['he'] = array(
 
 	'mypreferences'                   => 'העדפות',
 	'mywatchlist'                     => 'רשימת מעקב',
-	'noarticletext-nopermission'      => "<big>'''אין בכל-זכות {{#בחר:{{NAMESPACE}}| =דף מידע| משתמש=דף משתמש| {{ns:project}}=דף על {{SITENAME}}| תמונה=דף תמונה| מדיה ויקי=הודעת מערכת| תבנית=תבנית| עזרה=דף עזרה| קטגוריה=קטגוריה| |קהילת ידע=קהילת ידע שיחה|שיחת {{ns:project}}|שיחת תמונה|שיחת מדיה ויקי|שיחת תבנית|שיחת עזרה|שיחת קטגוריה|שיחת פורטל|שיחת מדף|שיחת שער=דף שיחה| שיחת משתמש=דף שיחת משתמש| }} בשם זה.'''</big><br /> באפשרותכם [[Special:Search/{{PAGENAME}}|לחפש את כותרת הדף]] בדפים אחרים.",
+	'noarticletext'							 => "<div style=\"font-weight: bold; background-color: rgba(255, 255, 153, 0.3); 
+  text-align: center;
+  width: 3em;
+  height: 1em;
+  font-size: 65px;
+  margin-right: 0.5em;
+  transform: skew(20deg, 1deg) ;
+  -webkit-transform: skew(20deg, 1deg);
+  -moz-transform: skew(20deg, 1deg);
+  -o-transform: skew(20deg, 1deg);
+  -ms-transform: skew(20deg, 1deg);
+  -moz-box-shadow:10px 10px 5px #888;
+  -webkit-box-shadow:10px 10px 5px #888;
+  box-shadow:10px 10px 5px #888;\"><span style=\"position: relative; top: 0.33em;\">אופס!</span></div>{{DISPLAYTITLE:{{FULLPAGENAME}} - העמוד לא נמצא}}
+<p style=\"font-size: 30px;\">כרגע אין בכל-זכות דף בשם זה.</p>
+<div class=\"editor-only-content\" style=\"background-color: #CFCFCF; border: 1px solid black;\">'''עורכים יקרים:'''
+באפשרותכם [[Special:Search/{{PAGENAME}}|לחפש את כותרת הדף]] בדפים אחרים, <span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} לחפש ביומנים הרלוונטיים], או [{{fullurl:{{FULLPAGENAME}}|action=edit}} לערוך דף זה]</span>.
+</div>
+
+'''אנחנו רוצים לעזור, אז בואו נראה מה אפשר לעשות בנוגע לזה:'''
+* אם הקלדתם את הכתובת בעצמכם, אנא בדקו שאין בה טעות
+* אם הגעתם לכאן מקישור באתר, כנראה שהוא שבור... אנא [mailto:webadmin@kolzchut.org.il?subject=קישור%20שבור דווחו לנו] על כך (אנא ציינו את שם העמוד ממנו הגעתם!).
+* אתם יכולים [[{{Mediawiki:mainpage}} | לחזור לעמוד הראשי]] של כל-זכות.
+* או שאתם יכולים לחפש כאן למטה:
+
+<div id=\"wr-mainpage-search\" style=\"max-width:500px; margin-bottom: 1em;\">
+<inputbox>
+type=search2
+break=no
+buttonlabel={{int:searchbutton}}
+</inputbox> 
+</div><!-- /wr-mainpage-search -->",
+	'noarticletext-nopermission'			=> '{{int:noarticletext}}',
 	'protect-dropdown'                => '* סיבות הגנה נפוצות
 ** השחתה רבה 
 ** ספאם רב 
@@ -315,9 +362,6 @@ $PAGEINTRO $NEWPAGE
 מערכת ההודעות של {{SITENAME}}
 
 --------
-כדי לשנות את ההגדרות של הודעות הדוא"ל הנשלחות אליכם, בקרו בדף
-{{canonicalurl:{{#special:Preferences}}}}
-
 כדי לשנות את הגדרות רשימת המעקב, בקרו בדף
 {{canonicalurl:{{#special:EditWatchlist}}}}',
 
