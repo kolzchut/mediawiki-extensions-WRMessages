@@ -156,11 +156,11 @@ buttonlabel={{int:searchbutton}}
 	'tooltip-p-logo'                  => '{{SITENAME}} Main Page',
 	'tooltip-n-mainpage'              => '{{SITENAME}} Main Page',
 	'tooltip-n-mainpage-description'  => '{{SITENAME}} Main Page',
-	'enotif_body_intro_deleted'    => 'The {{SITENAME}} page [$3 $1] has been {{GENDER:$2|deleted}} on $PAGEEDITDATE by $2.',
-	'enotif_body_intro_created'    => 'The {{SITENAME}} page [[$1]] has been {{GENDER:$2|created}} on $PAGEEDITDATE by $2.',
-	'enotif_body_intro_moved'      => 'The {{SITENAME}} page [[$1]] has been {{GENDER:$2|moved}} on $PAGEEDITDATE by $2.',
-	'enotif_body_intro_restored'   => 'The {{SITENAME}} page [[$1]] has been {{GENDER:$2|restored}} on $PAGEEDITDATE by $2.',
-	'enotif_body_intro_changed'    => 'The {{SITENAME}} page [[$1]] has been {{GENDER:$2|changed}} on $PAGEEDITDATE by $2.',	
+	'enotif_body_intro_deleted'    => 'The {{SITENAME}} page $1 has been {{GENDER:$2|deleted}} on $PAGEEDITDATE by $2. See $3.',
+	'enotif_body_intro_created'    => 'The {{SITENAME}} page $1 has been {{GENDER:$2|created}} on $PAGEEDITDATE by $2. See $3.',
+	'enotif_body_intro_moved'      => 'The {{SITENAME}} page $1 has been {{GENDER:$2|moved}} on $PAGEEDITDATE by $2. See $3.',
+	'enotif_body_intro_restored'   => 'The {{SITENAME}} page $1 has been {{GENDER:$2|restored}} on $PAGEEDITDATE by $2. See $3.',
+	'enotif_body_intro_changed'    => 'The {{SITENAME}} page $1 has been {{GENDER:$2|changed}} on $PAGEEDITDATE by $2. See $3.',	
 	'enotif_lastvisited' => '',		//We don't want this link sent
 	'enotif_lastdiff' => '',		//We don't want this link sent
 	'enotif_body'						=> 'Dear $WATCHINGUSERNAME,
@@ -356,11 +356,11 @@ buttonlabel={{int:searchbutton}}
 * הזדהות מיידית בעת שליחת הצעות שינוי
 <br />'''הרשאת עריכה''' באתר כל-זכות ניתנת לארגונים מוסמכים (ממשלה, עמותות, אקדמיה וכד'). במקרה ואתם נציגי/ות ארגונים כאלה אנא [[{{INT:contactpage}} | צרו קשר עם צוות האתר]]. 
 </div>",
-	'enotif_body_intro_deleted' => 'הדף [$3 $1] ב{{grammar:תחילית|{{SITENAME}}}} נמחק ב־$PAGEEDITDATE על ידי $2.',
-	'enotif_body_intro_created' => 'הדף [[$1]] ב{{grammar:תחילית|{{SITENAME}}}} נוצר ב־$PAGEEDITDATE על ידי $2.',
-	'enotif_body_intro_moved' => 'הדף [[$1]] ב{{grammar:תחילית|{{SITENAME}}}} הועבר ב־$PAGEEDITDATE על ידי $2.',
-	'enotif_body_intro_restored' => 'הדף [[$1]] ב{{grammar:תחילית|{{SITENAME}}}} שוחזר ב־$PAGEEDITDATE על ידי $2.',
-	'enotif_body_intro_changed' => 'הדף [[$1]] ב{{grammar:תחילית|{{SITENAME}}}} שונה ב־$PAGEEDITDATE על ידי $2.',
+	'enotif_body_intro_deleted' => 'הדף [$3 $1] ב{{grammar:תחילית|{{SITENAME}}}} נמחק ב־$PAGEEDITDATE על ידי $2, ראו $3.',
+	'enotif_body_intro_created' => 'הדף [[$1]] ב{{grammar:תחילית|{{SITENAME}}}} נוצר ב־$PAGEEDITDATE על ידי $2, ראו $3.',
+	'enotif_body_intro_moved' => 'הדף [[$1]] ב{{grammar:תחילית|{{SITENAME}}}} הועבר ב־$PAGEEDITDATE על ידי $2, ראו $3',
+	'enotif_body_intro_restored' => 'הדף [[$1]] ב{{grammar:תחילית|{{SITENAME}}}} שוחזר ב־$PAGEEDITDATE על ידי $2, ראו $3',
+	'enotif_body_intro_changed' => 'הדף [[$1]] ב{{grammar:תחילית|{{SITENAME}}}} שונה ב־$PAGEEDITDATE על ידי $2, ראו $3',
 	'enotif_lastvisited' => '',		//We don't want this link sent
 	'enotif_lastdiff' => '',		//We don't want this link sent
 	'enotif_body' => 'לכבוד $WATCHINGUSERNAME,
