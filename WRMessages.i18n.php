@@ -156,6 +156,8 @@ buttonlabel={{int:searchbutton}}
 	'tooltip-p-logo'                  => '{{SITENAME}} Main Page',
 	'tooltip-n-mainpage'              => '{{SITENAME}} Main Page',
 	'tooltip-n-mainpage-description'  => '{{SITENAME}} Main Page',
+	'enotif_lastvisited' => '',		//We don't want this link sent
+	'enotif_lastdiff' => '',		//We don't want this link sent
 	'enotif_body'						=> 'Dear $WATCHINGUSERNAME,
 
 $PAGEINTRO $NEWPAGE
@@ -350,13 +352,15 @@ buttonlabel={{int:searchbutton}}
 <br />'''הרשאת עריכה''' באתר כל-זכות ניתנת לארגונים מוסמכים (ממשלה, עמותות, אקדמיה וכד'). במקרה ואתם נציגי/ות ארגונים כאלה אנא [[{{INT:contactpage}} | צרו קשר עם צוות האתר]]. 
 </div>",
 
+'enotif_lastvisited' => '',		//We don't want this link sent
+'enotif_lastdiff' => '',		//We don't want this link sent
 'enotif_body' => 'לכבוד $WATCHINGUSERNAME,
 
 $PAGEINTRO $NEWPAGE
 
 תקציר העריכה: $PAGESUMMARY $PAGEMINOREDIT
 
-לא תהיינה הודעות על שינויים נוספות עד שתבקרו בדף.
+לא תהיינה הודעות על שינויים נוספים עד שתבקרו בדף.
 
 בברכה,
 מערכת ההודעות של {{SITENAME}}
