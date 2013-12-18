@@ -94,7 +94,7 @@ div.mw-geshi {
 	/* *************************** */
 	/* Modified Messages from core */
 	'aboutpage'                             => ":he:אודות:מי_אנחנו", //English: 'About:Us',
-	'aboutsite'                             => 'About {{SITENAME}}',
+	#'aboutsite'                             => Equals original string (not in sync w/ Hebrew)
 	#'copyright'                            => Equals original string (not in sync w/ Hebrew)
 	'copyrightwarning'                      => "'''Please note:''' all contributions to {{SITENAME}} are considered to be released under the $2 license.
 * Your contributions may be edited, altered, or removed by other contributors. If you do not want your writing to be edited or redistributed, then do not submit it here.
@@ -106,8 +106,6 @@ div.mw-geshi {
 	'lastmodifiedat'                        => 'Last updated on $1, at $2.',
 	'lastmodifiedatby'                      => 'This page was last modified on $2 at $1 by $3.',
 	#'logout'                               => Equals original string (not in sync w/ Hebrew)
-	'mypreferences'                         => 'Preference',
-	'mywatchlist'                           => 'Watchlist',
 	'noarticletext'							 => "<div style=\"font-weight: bold; background-color: rgba(255, 255, 153, 0.3); 
   text-align: center;
   width: 3em;
@@ -177,7 +175,11 @@ Regards,
 --------
 To change your watchlist settings, visit
 {{canonicalurl:{{#special:EditWatchlist}}}}',
-	
+
+	'kz-disclaimers' => '<p>האתר פונה לנשים וגברים כאחד. השימוש בלשון זכר נעשה מטעמי נוחות בלבד.</p>
+<p>המידע באתר "כל-זכות" הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד. יש לעיין בתנאי השימוש.</p>',
+
+	'helena-disclaimers' => '{{int:kz-disclaimers}}',
 	
 );
 
@@ -281,12 +283,9 @@ $messages['he'] = array(
 	'gotaccountlink'             => 'כניסת משתמש',
 	'createaccounterror'         => 'לא ניתן היה ליצור את המשתמש: $1',
 
-	'mypreferences'                   => 'העדפות',
-	'mywatchlist'                     => 'רשימת מעקב',
 	'noarticletext'							 => "<div style=\"font-weight: bold; background-color: rgba(255, 255, 153, 0.3); 
   text-align: center;
   width: 3em;
-  height: 1em;
   font-size: 65px;
   margin-right: 0.5em;
   transform: skew(20deg, 1deg) ;
@@ -296,7 +295,7 @@ $messages['he'] = array(
   -ms-transform: skew(20deg, 1deg);
   -moz-box-shadow:10px 10px 5px #888;
   -webkit-box-shadow:10px 10px 5px #888;
-  box-shadow:10px 10px 5px #888;\"><span style=\"position: relative; top: 0.33em;\">אופס!</span></div>{{DISPLAYTITLE:{{FULLPAGENAME}} - העמוד לא נמצא}}
+  box-shadow:10px 10px 5px #888;\">אופס!</div>{{DISPLAYTITLE:{{FULLPAGENAME}} - העמוד לא נמצא}}
 <p style=\"font-size: 30px;\">כרגע אין בכל-זכות דף בשם זה.</p>
 <div class=\"editor-only-content\" style=\"background-color: #CFCFCF; border: 1px solid black;\">'''עורכים יקרים:'''
 באפשרותכם [[Special:Search/{{PAGENAME}}|לחפש את כותרת הדף]] בדפים אחרים, <span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} לחפש ביומנים הרלוונטיים], או [{{fullurl:{{FULLPAGENAME}}|action=edit}} לערוך דף זה]</span>.
@@ -448,8 +447,6 @@ $messages['ar'] = array(
 	#"lastmodifiedatby"    => "אין צורך לתרגם",
 	#"loginlanguagelinks"  => "אין צורך לתרגם",
 	#"logout"              => "אין צורך לתרגם",
-	'mypreferences'        => 'تفضيلات',
-	"mywatchlist"          => 'قائمة المراقبة',
 	#"Noarticletext-nopermission" => "אין צורך לתרגם",
 	#"protect-dropdown"    => "אין צורך לתרגם",
 	'siteuser'             => "$1",
