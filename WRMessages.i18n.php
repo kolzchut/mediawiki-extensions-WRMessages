@@ -283,6 +283,8 @@ $messages['he'] = array(
 	'gotaccountlink'             => 'כניסת משתמש',
 	'createaccounterror'         => 'לא ניתן היה ליצור את המשתמש: $1',
 
+    'upload' => 'העלאת קובץ',
+
 	'noarticletext'							 => "<div style=\"font-weight: bold; background-color: rgba(255, 255, 153, 0.3); 
   text-align: center;
   width: 3em;
