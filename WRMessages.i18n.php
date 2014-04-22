@@ -62,7 +62,11 @@ $messages['en'] = array(
 	/* Template messages */
 	'tpl-lead-link-text'           => 'Additional details...',
 	'tpl-דוגמה-title'            	=> 'Example',
-	
+
+	'tpl-mainpage-portalbox-more-portals-link' => 'Project:Active portals',
+	'tpl-mainpage-portalbox-more-portals-link-text' => 'Full list of subjects...',
+
+
 	'skinname-wrvector'     => 'All-Rights (old design)',
 	'skinname-victoria'     => 'Victoria (new design)',
 
@@ -226,6 +230,9 @@ $messages['he'] = array(
 	/* Template messages */
 	'tpl-lead-link-text'             => 'לפרטים נוספים...',
 	'tpl-דוגמה-title'            	=> 'דוגמה',
+
+	'tpl-mainpage-portalbox-more-portals-link' => 'Project:פורטלים פעילים',
+	'tpl-mainpage-portalbox-more-portals-link-text' => 'לרשימת התחומים המלאה...',
 
 	'skinname-wrvector'               => 'כל-זכות (עיצוב ישן))',
 	'skinname-victoria'               => 'ויקטוריה (עיצוב חדש)',
