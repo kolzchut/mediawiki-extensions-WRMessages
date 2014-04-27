@@ -180,7 +180,8 @@ Regards,
 To change your watchlist settings, visit
 {{canonicalurl:{{#special:EditWatchlist}}}}',
 
-	'kz-disclaimers' => '<p>המידע באתר "כל-זכות" הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד. יש לעיין בתנאי השימוש.</p>',
+	'kz-disclaimers' => '<p>The information contained in "All-Rights" is general in nature and does not purport to be binding or authoritative. Use of this information is not a substitute for obtaining legal or other professional advice and the user assumes sole responsibility when relying on this information. The English translations from the Hebrew may not be up to date and it is highly recommended to refer to the Hebrew source page for updates.</p>
+<p>המידע באתר "כל-זכות" הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד. יש לעיין בתנאי השימוש.</p>',
 
 	'helena-disclaimers' => '{{int:kz-disclaimers}}',
 
