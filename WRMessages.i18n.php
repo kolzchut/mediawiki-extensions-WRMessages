@@ -79,7 +79,7 @@ $messages['en'] = array(
 * Proceeding | תבנית:הליך/en
 * Term | תבנית:מושג/en
 * Service | תבנית:שירות/en
-* Legal precedent | תבנית:תקדים משפטי/en
+* Court Ruling | תבנית:פסק דין/en
 * Law | תבנית:חוק/en
 * Organization | תבנית:ארגון/en
 * Government agency | תבנית:גורם ממשל/en
@@ -440,7 +440,7 @@ $messages['ar'] = array(
 * הליך | תבנית:הליך/ar
 * מושג | תבנית:מושג/ar
 * שירות | תבנית:שירות/ar 
-* פסק דין | תבנית:תקדים משפטי/ar
+* פסק דין | תבנית:פסק דין/ar
 * חוק | תבנית:חוק/ar
 * ארגון | תבנית:ארגון/ar
 * גורם ממשל | תבנית:גורם ממשל/ar
