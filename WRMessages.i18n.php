@@ -21,37 +21,34 @@ $datePreferences['he'] = array(
 	'ISO 8601',
 );
 
- 
- 
+
+
 $messages = array();
 
 /**
  * English
- * Base messages override + new messages for Kol-Zchut (WikiRights) 
+ * Base messages override + new messages for Kol-Zchut (WikiRights)
  * @author Dror Snir
  * @author Ruth Bridger
  */
-  
+
 $messages['en'] = array(
 	'wrmessages-desc' => 'Kol-Zchut specific messages',
-
-	# Per http://lists.wikimedia.org/pipermail/wikitech-l/2008-September/039454.html
-	'robots.txt'  => '# Lines here will be added to the global robots.txt', # do not translate or duplicate this message to other languages
 
 	# Kol-Zchut specific usergroups
 	'group-staff'               => 'Staff',
 	'group-staff+'              => 'Staff: extra permissions',
 	'group-automaton'           => 'Automatons',
-	'group-socialworker'        => 'Social workers',
-	
+	'group-socialworker'        => 'Social Workers',
+
 	'group-staff-member'        => 'Member of staff',
-	'group-staff+-member'        => 'Member of Staff+',
+	'group-staff+-member'       => 'Member of Staff+',
 	'group-automaton-member'    => 'Automaton',
-	'group-socialworker-member' => 'Social worker',
+	'group-socialworker-member' => 'Social Worker',
 
 	'grouppage-staff'           => '{{ns:project}}:Staff',
 	'grouppage-staff+'          => '{{ns:project}}:Staff',
-	'grouppage-socialworker'    => '{{ns:project}}:Social workers',
+	'grouppage-socialworker'    => '{{ns:project}}:Social Workers',
 
 	'right-staff'               => 'Staff only',
 	'restriction-level-staff'   => 'Staff only',
@@ -60,18 +57,14 @@ $messages['en'] = array(
 	/* NEW Messages */
 
 	/* Template messages */
-	'tpl-lead-link-text'           => 'Additional details...',
-	'tpl-דוגמה-title'            	=> 'Example',
+	'tpl-lead-link-text'         => 'Additional details...',
+	'tpl-דוגמה-title'            => 'Example',
 
 	'tpl-mainpage-portalbox-more-portals-link' => 'Project:Active portals',
 	'tpl-mainpage-portalbox-more-portals-link-text' => 'Full list of subjects...',
 
-
-	'skinname-wrvector'     => 'All-Rights (old design)',
-	'skinname-victoria'     => 'Victoria (new design)',
-
 	/* ******** */
-	/* Settings */  
+	/* Settings */
 	#The following require WRMessages to be included *after* the appropriate extension
 	'multiboilerplate' => '* Right | תבנית:זכות/en
 * Portal | תבנית:פורטל/en
@@ -86,31 +79,23 @@ $messages['en'] = array(
 * Disease/Syndrome/Disorder | תבנית:מחלה/en
 <!--* Letter | תבנית:מכתב-->
 * User | תבנית:משתמש/en',
-	
-	'geshi.css' => '/* fix to make the syntax highlighter show a dashed border around source code like the default is */
-/* see here: http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi#Configuration */
-div.mw-geshi {
-  padding: 1em; 
-  margin:1em 0; 
-  border: 1px dashed #2fab6f,
-}',
 
 	/* *************************** */
 	/* Modified Messages from core */
-	'aboutpage'                             => ":he:אודות:מי_אנחנו", //English: 'About:Us',
-	#'aboutsite'                             => Equals original string (not in sync w/ Hebrew)
-	#'copyright'                            => Equals original string (not in sync w/ Hebrew)
-	'copyrightwarning'                      => "'''Please note:''' all contributions to {{SITENAME}} are considered to be released under the $2 license.
+	'aboutpage'                      => '{{MediaWiki:kz-about-page}}', // Do not translate
+	//'aboutsite'                    => Equals original string (not in sync w/ Hebrew)
+	//'copyright'                    => Equals original string (not in sync w/ Hebrew)
+	'copyrightwarning'             => "'''Please note:''' all contributions to {{SITENAME}} are considered to be released under the $2 license.
 * Your contributions may be edited, altered, or removed by other contributors. If you do not want your writing to be edited or redistributed, then do not submit it here.
 * Do not submit copyrighted work without permission! You are promising us that you wrote this yourself, or copied it from a public domain or similar free resource (see $1 for additional information)
 * Please comply with the [[:he:Project:מדיניות האתר | site policy (in Hebrew)]]", //English: [[Project:Site policy | site policy]]
-	'edithelppage'                          => ":he:Help:מדריך לעורך", //English: Help:Editor guide
-	'hidetoc'                               => '-',
-	'showtoc'                               => '+',
-	'lastmodifiedat'                        => 'Last updated on $1, at $2.',
+	'edithelppage'                    => '{{MediaWiki:kz-help-editor-page}}',
+	'hidetoc'                         => '-',
+	'showtoc'                         => '+',
+	'lastmodifiedat'                  => 'Last updated on $1, at $2.',
 	'lastmodifiedatby'                      => 'This page was last modified on $2 at $1 by $3.',
 	#'logout'                               => Equals original string (not in sync w/ Hebrew)
-	'noarticletext'							 => "<div style=\"font-weight: bold; background-color: rgba(255, 255, 153, 0.3); 
+	'noarticletext'							 => "<div style=\"font-weight: bold; background-color: rgba(255, 255, 153, 0.3);
   text-align: center;
   width: 3em;
   height: 1em;
@@ -124,7 +109,7 @@ div.mw-geshi {
   -moz-box-shadow:10px 10px 5px #888;
   -webkit-box-shadow:10px 10px 5px #888;
   box-shadow:10px 10px 5px #888;\"><span style=\"position: relative; top: 0.33em;\">Oops!</span></div>{{DISPLAYTITLE:{{FULLPAGENAME}} - page not found}}
-<p style=\"font-size: 30px;\">All-Rights does not have this page yet.</p>
+<p style=\"font-size: 30px;\">{{SITENAME}} does not have this page yet.</p>
 <div class=\"editor-only-content\" style=\"background-color: #CFCFCF; border: 1px solid black;\">'''Dear editors:'''
 You can [[Special:Search/{{PAGENAME}}|search for this page title]] in other pages, <span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} search the related logs], or [{{fullurl:{{FULLPAGENAME}}|action=edit}} edit this page]</span>.
 </div>
@@ -140,7 +125,7 @@ You can [[Special:Search/{{PAGENAME}}|search for this page title]] in other page
 type=search2
 break=no
 buttonlabel={{int:searchbutton}}
-</inputbox> 
+</inputbox>
 </div><!-- /wr-mainpage-search -->",
 	'noarticletext-nopermission'			=> '{{int:noarticletext}}',
 	'protect-dropdown'                      => '* Edit protection
@@ -148,24 +133,27 @@ buttonlabel={{int:searchbutton}}
 ** Edit warring / Content dispute
 ** Highly visible template
 * Move protection
-** Move warring
 ** Highly visible page',
 	'siteuser'                              => '$1',
 	'siteusers'                             => '$1',
 	#'userlogout'                           => Equals original string (not in sync w/ Hebrew),
 	'tagline'                               => 'From {{SITENAME}} ({{SERVERNAME}})',
+
 	#'search-nonefound'                     => MISSING - not yet translated (see HE custom),
+
 	'tooltip-p-logo'                  => '{{SITENAME}} Main Page',
 	'tooltip-n-mainpage'              => '{{SITENAME}} Main Page',
 	'tooltip-n-mainpage-description'  => '{{SITENAME}} Main Page',
+
+	/* Email notifications */
 	'enotif_body_intro_deleted'    => 'The {{SITENAME}} page $1 has been {{GENDER:$2|deleted}} on $PAGEEDITDATE by $2. See $3.',
 	'enotif_body_intro_created'    => 'The {{SITENAME}} page $1 has been {{GENDER:$2|created}} on $PAGEEDITDATE by $2. See $3.',
 	'enotif_body_intro_moved'      => 'The {{SITENAME}} page $1 has been {{GENDER:$2|moved}} on $PAGEEDITDATE by $2. See $3.',
 	'enotif_body_intro_restored'   => 'The {{SITENAME}} page $1 has been {{GENDER:$2|restored}} on $PAGEEDITDATE by $2. See $3.',
-	'enotif_body_intro_changed'    => 'The {{SITENAME}} page $1 has been {{GENDER:$2|changed}} on $PAGEEDITDATE by $2. See $3.',	
+	'enotif_body_intro_changed'    => 'The {{SITENAME}} page $1 has been {{GENDER:$2|changed}} on $PAGEEDITDATE by $2. See $3.',
 	'enotif_lastvisited' => '',		//We don't want this link sent
 	'enotif_lastdiff' => '',		//We don't want this link sent
-	'enotif_body'						=> 'Dear $WATCHINGUSERNAME,
+	'enotif_body' => 'Dear $WATCHINGUSERNAME,
 
 $PAGEINTRO $NEWPAGE
 
@@ -180,9 +168,10 @@ Regards,
 To change your watchlist settings, visit
 {{canonicalurl:{{#special:EditWatchlist}}}}',
 
+	/* END Email notifications */
+
 	'kz-disclaimers' => '<p>The information contained in "All-Rights" is general in nature and does not purport to be binding or authoritative. Use of this information is not a substitute for obtaining legal or other professional advice and the user assumes sole responsibility when relying on this information. While all English pages are maintained on an on-going basis, it is highly recommended to refer to the corresponding Hebrew page for updates.</p>
 <p>המידע באתר "כל-זכות" הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד. יש לעיין בתנאי השימוש.</p>',
-
 	'helena-disclaimers' => '{{int:kz-disclaimers}}',
 
 	'userpage' => 'User page',
@@ -192,55 +181,46 @@ To change your watchlist settings, visit
 
 /**
  * Hebrew (עברית)
- * Base messages override + new messages for Kol-Zchut (WikiRights) 
+ * Base messages override + new messages for Kol-Zchut (WikiRights)
  * @author Dror Snir
  * @author Kol-Zchut Staff
  */
- 
+
 $messages['he'] = array(
 	'wrmessages-desc' => 'הודעות המיוחדות לכל-זכות',
 
 	# Kol-Zchut specific usergroups
-	'group-staff'                    => 'צוות האתר',
-	'group-staff+'              	  => 'צוות: הרשאות נוספות',
-	'group-automaton'                => 'אוטומטונים',
-	'group-socialworker'             => 'עובדים סוציאליים',
-	//'group-holocaustproject'         => 'פרויקט ניצולי השואה',
+	'group-staff'               => 'צוות האתר',
+	'group-staff+'              => 'צוות: הרשאות נוספות',
+	'group-automaton'           => 'אוטומטונים',
+	'group-socialworker'        => 'עובדים סוציאליים',
 
-	'group-staff-member'             => '{{GENDER:$1|חבר|חברת}} צוות האתר',
-	'group-staff+-member'            => '{{GENDER:$1|חבר|חברת}} צוות האתר+',
-	'group-automaton-member'         => 'אוטומטון',
-	'group-socialworker-member'      => '{{GENDER:$1|עובד סוציאלי|עובדת סוציאלית}}',
-	//'group-holocaustproject-member'  => '{{GENDER:$1|חבר|חברת}} פרויקט ניצולי השואה',
+	'group-staff-member'        => '{{GENDER:$1|חבר|חברת}} צוות האתר',
+	'group-staff+-member'       => '{{GENDER:$1|חבר|חברת}} צוות האתר+',
+	'group-automaton-member'    => 'אוטומטון',
+	'group-socialworker-member' => '{{GENDER:$1|עובד סוציאלי|עובדת סוציאלית}}',
 
-	'grouppage-staff'                => '{{ns:project}}:צוות האתר',
-	'grouppage-staff+'               => '{{ns:project}}:צוות האתר',
-	'grouppage-socialworker'         => '{{ns:project}}:עובדים סוציאליים',
+	'grouppage-staff'           => '{{ns:project}}:צוות האתר',
+	'grouppage-staff+'          => '{{ns:project}}:צוות האתר',
+	'grouppage-socialworker'    => '{{ns:project}}:עובדים סוציאליים',
 
-	'right-staff'                        => 'מוגבל לחברי צוות האתר',
-	//'right-holocaustproject'             => 'מוגבל לחברי פרויקט ניצולי השואה',
-	
-	'restriction-level-staff'            => 'מוגבל לחברי צוות האתר',
-	//'restriction-level-holocaustproject' => 'מוגבל לחברי פרויקט ניצולי השואה',
-	
-	
+	'right-staff'               => 'מוגבל לחברי צוות האתר',
+	'restriction-level-staff'   => 'מוגבל לחברי צוות האתר',
+
 	/* ************ */
 	/* NEW Messages */
 
 	/* Template messages */
-	'tpl-lead-link-text'             => 'לפרטים נוספים...',
-	'tpl-דוגמה-title'            	=> 'דוגמה',
+	'tpl-lead-link-text'         => 'לפרטים נוספים...',
+	'tpl-דוגמה-title'            => 'דוגמה',
 
 	'tpl-mainpage-portalbox-more-portals-link' => 'Project:פורטלים פעילים',
 	'tpl-mainpage-portalbox-more-portals-link-text' => 'לרשימת התחומים המלאה...',
 
-	'skinname-wrvector'               => 'כל-זכות (עיצוב ישן))',
-	'skinname-victoria'               => 'ויקטוריה (עיצוב חדש)',
-
 	/* ******** */
-	/* Settings */  
+	/* Settings */
 	#The following require WRMessages to be included *after* the appropriate extension
-	'multiboilerplate'                => '* זכות | תבנית:זכות
+	'multiboilerplate' => '* זכות | תבנית:זכות
 * פורטל | תבנית:פורטל
 * פורטל/תת-עמוד | תבנית:פורטל/תת-עמוד
 * הליך | תבנית:הליך
@@ -254,32 +234,28 @@ $messages['he'] = array(
 * מחלה/תסמונת/לקות | תבנית:מחלה
 * מכתב | תבנית:מכתב
 * משתמש | תבנית:משתמש',
-	
-	
+
+
 	/* *************************** */
 	/* Modified Messages from core */
-	'aboutpage'                       => 'אודות:מי אנחנו',
-	'aboutsite'                       => 'אודות כל-זכות (חל"צ)',
-	'copyright'                       => 'התוכן מוגש בכפוף ל־$1',
-	'copyrightwarning'                => "'''שימו לב:''' תרומתכם ל{{grammar:תחילית|{{SITENAME}}}} תפורסם תחת תנאי הרשיון $2.
+	'aboutpage'          => '{{MediaWiki:kz-about-page}}',
+	'aboutsite'            => 'אודות כל-זכות (חל"צ)',
+	'copyright'            => 'התוכן מוגש בכפוף ל־$1',
+	'copyrightwarning'     => "'''שימו לב:''' תרומתכם ל{{grammar:תחילית|{{SITENAME}}}} תפורסם תחת תנאי הרשיון $2.
 * תורמים אחרים עשויים לערוך או אף להסיר את תרומתכם. אם אינכם רוצים שעבודתכם תהיה זמינה לעריכה על ידי אחרים – אל תפרסמו אותה באתר זה.
 * אל תעשו שימוש בחומר המוגן בזכויות יוצרים ללא רשות! אתם מבטיחים לנו כי כתבתם את הטקסט הזה בעצמכם, או העתקתם אותו ממקור שאינו מוגן על ידי זכויות יוצרים (ראו $1 לפרטים נוספים) 
-* אנא שמרו על [[Project:מדיניות האתר | כללי ההתנהגות באתר]]",
-	'edithelppage'                    => 'Help:מדריך לעורך',
-	'hidetoc'                         => '-',
-	'showtoc'                         => '+',
-	'lastmodifiedat'                  => 'עודכן לאחרונה ב־$2, $1.',
-	'lastmodifiedatby'                => 'דף זה עודכן לאחרונה בתאריך $1 על ידי $3.',
+* אנא שמרו על [[Project:מדיניות | כללי ההתנהגות באתר]]",
+	'edithelppage'         => '{{MediaWiki:kz-help-editor-page}}',
+	'hidetoc'              => '-',
+	'showtoc'              => '+',
+	'lastmodifiedat'       => 'עודכן לאחרונה ב־$2, $1.',
+	'lastmodifiedatby'     => 'דף זה עודכן לאחרונה בתאריך $1 על ידי $3.',
 
-	# Login and logout pages
+	/* Login and logout pages */
 	'logouttext'                 => "'''התנתקתם זה עתה מהאתר.'''
-	
+
 	באפשרותכם להמשיך ולעשות שימוש ב{{grammar:תחילית|{{SITENAME}}}} באופן אנונימי, או [[Special:UserLogin|לשוב ולהיכנס לאתר]] עם שם משתמש זהה או אחר.
 	שימו לב כי ייתכן שדפים אחדים ימשיכו להיות מוצגים כאילו אתם עדיין מחוברים לאתר עד שתנקו את המטמון של הדפדפן שלכם.",
-	'welcomecreation'            => '== ברוך בואך, $1! ==
-	המשתמש שלך נוצר.
-	נא לא לשכוח להתאים את [[Special:Preferences|העדפות המשתמש]] שלך באתר {{SITENAME}}.',
-	//'loginlanguagelinks'              => '* עברית|he * العربية|ar * Русский|ru * English|en',
 	'login'                      	   => 'כניסת משתמש',
 	'nav-login-createaccount'         => 'כניסת משתמש / הרשמה',
 	'loginprompt'                => 'לפני התחברות ל{{grammar:תחילית|{{SITENAME}}}}, עליכם לוודא כי ה"עוגיות" (Cookies) מופעלות.',
@@ -292,13 +268,14 @@ $messages['he'] = array(
 	'gotaccountlink'             => 'כניסת משתמש',
 	'createaccounterror'         => 'לא ניתן היה ליצור את המשתמש: $1',
 
-    'upload' => 'העלאת קובץ',
+	'upload' => 'העלאת קובץ',	//Shorter than original Hebrew
 
-	'noarticletext'							 => "<div style=\"font-weight: bold; background-color: rgba(255, 255, 153, 0.3); 
+	'noarticletext'							 => "<div style=\"font-weight: bold; background-color: rgba(255, 255, 153, 0.3);
   text-align: center;
   width: 3em;
+  height: 1em;
   font-size: 65px;
-  margin-right: 0.5em;
+  margin-{{right}}: 0.5em;
   transform: skew(20deg, 1deg) ;
   -webkit-transform: skew(20deg, 1deg);
   -moz-transform: skew(20deg, 1deg);
@@ -323,19 +300,19 @@ $messages['he'] = array(
 type=search2
 break=no
 buttonlabel={{int:searchbutton}}
-</inputbox> 
+</inputbox>
 </div><!-- /wr-mainpage-search -->",
 	'noarticletext-nopermission'			=> '{{int:noarticletext}}',
 	'protect-dropdown'                => '* סיבות הגנה נפוצות
-** השחתה רבה 
-** ספאם רב 
-** מלחמת עריכה בלתי מועילה 
-** דף בשימוש רב 
-** ניהול מרכזי',
+** בניהול צוות האתר
+** מלחמת עריכה בלתי מועילה
+** דף שאסור להזיז
+** דף בשימוש רב ',
+
 	'siteuser'                        => '$1',
 	'siteusers'                       => '$1',
-	'userlogout'                      => 'יציאה',
 	'tagline'                         => 'מתוך {{SITENAME}} ({{SERVERNAME}})',
+
 	'search-nonefound'                => "<big>'''לא נמצאו תוצאות המתאימות לחיפוש.'''</big>
 {| class=\"wikitable\"
 |+ <u>אם לא מצאתם את מה שחיפשתם, אולי תוכלו להיעזר באחת האפשרויות הבאות</u>:
@@ -347,9 +324,10 @@ buttonlabel={{int:searchbutton}}
 |-
 | '''שלילת מילת חיפוש''' || ניתן להוסיף סימן מינוס לפני מילה על מנת להימנע מערכים המכילים אותה || '''<big>''עובדים -פנסיה''</big>''' (סימן המינוס בצמידות למילה) יחזיר רק ערכים המכילים את המילה \"עובדים\" ואינם מכילים את המילה \"פנסיה\".
 |}",
-	'tooltip-p-logo'                  => 'לעמוד הבית של {{SITENAME}}',
-	'tooltip-n-mainpage'              => 'לעמוד הבית של {{SITENAME}}',
-	'tooltip-n-mainpage-description'  => 'לעמוד הבית של {{SITENAME}}',
+
+	'tooltip-p-logo'                  => 'לדף הבית של {{SITENAME}}',
+	'tooltip-n-mainpage'              => 'לדף הבית של {{SITENAME}}',
+	'tooltip-n-mainpage-description'  => 'לדף הבית של {{SITENAME}}',
 	'deletereason-dropdown'           => '* סיבות נפוצות
 ** דף חדש שנוצר בטעות
 ** מחיקת הפניה של דף שהועבר
@@ -366,6 +344,8 @@ buttonlabel={{int:searchbutton}}
 * הזדהות מיידית בעת שליחת הצעות שינוי
 <br />'''הרשאת עריכה''' באתר כל-זכות ניתנת לארגונים מוסמכים (ממשלה, עמותות, אקדמיה וכד'). במקרה ואתם נציגי/ות ארגונים כאלה אנא [[{{int:kz-contact-page}} | צרו קשר עם צוות האתר]].
 </div>",
+
+	/* Email notifications */
 	'enotif_body_intro_deleted' => 'הדף $1 ב{{grammar:תחילית|{{SITENAME}}}} נמחק ב־$PAGEEDITDATE על ידי $2, ראו $3.',
 	'enotif_body_intro_created' => 'הדף $1 ב{{grammar:תחילית|{{SITENAME}}}} נוצר ב־$PAGEEDITDATE על ידי $2, ראו $3.',
 	'enotif_body_intro_moved' => 'הדף $1 ב{{grammar:תחילית|{{SITENAME}}}} הועבר ב־$PAGEEDITDATE על ידי $2, ראו $3',
@@ -388,18 +368,19 @@ $PAGEINTRO $NEWPAGE
 כדי לשנות את הגדרות רשימת המעקב, בקרו בדף
 {{canonicalurl:{{#special:EditWatchlist}}}}',
 
+	/* END Email notifications */
+
 	'kz-disclaimers' => '<p>האתר פונה לנשים וגברים כאחד. השימוש בלשון זכר נעשה מטעמי נוחות בלבד.</p>
 <p>המידע באתר "כל-זכות" הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד. יש לעיין בתנאי השימוש.</p>',
-
+	'helena-disclaimers' => '{{int:kz-disclaimers}}',
 	'userpage' => 'דף משתמש',
-
 
 );
 
 
 /**
 /* Arabic (العربية) 
- * Base messages override + new messages for Kol-Zchut (WikiRights) 
+ * Base messages override + new messages for Kol-Zchut (WikiRights)
  * @author Jalal Hassan
  * @author Suheir Daksa-Halabi
  * @author Dror Snir
@@ -410,30 +391,36 @@ $wgTranslateNumerals = false; # DS: 30/5/2011 Do not use arabic numerals
 
 $messages['ar'] = array(
 	'wrmessages-desc' => 'رسائل خاصة بكل الحق',
-	
+
 	# Kol-Zchut specific usergroups
 	'group-staff'               => 'فريق عمل الموقع',
+	'group-staff+'              => 'צוות: הרשאות נוספות',	 // Missing translation
+	'group-automaton'           => 'אוטומטונים',		 // Missing translation
 	'group-socialworker'        => 'عاملون اجتماعيون',
 
 	'group-staff-member'        => 'عضو طاقم الموقع',
-	'group-socialworker-member' => 'عامل اجتماعي',	
+	'group-socialworker-member' => 'عامل اجتماعي',
 
-	'grouppage-staff'           => ':he:Project:צוות האתר', //Arabic: '{{ns:project}}:فريق عمل الموقع'
-	'grouppage-socialworker'    => ':he:Project:עובדים סוציאליים', //Arabic: '{{ns:project}}:عاملون اجتماعيون' 
+	'grouppage-staff'           => ':he:Project:צוות האתר', //Arabic: 'Project:فريق عمل الموقع'
+	'grouppage-staff+'          => ':he:Project::צוות האתר',
+	'grouppage-socialworker'    => ':he:Project:עובדים סוציאליים', //Arabic: 'Project:عاملون اجتماعيون' 
 
 	'right-staff'               => 'يقتصر على أعضاء فريق عمل الموقع',
 	'restriction-level-staff'   => 'يقتصر على أعضاء فريق عمل الموقع',
-	
+
 	/* ************ */
 	/* NEW Messages */
-	#$messages["SITENAME"] = "كول زخوت (جميع الحقوق)";	
-	
+	#$messages["SITENAME"] = "كول زخوت (جميع الحقوق)";
+
 	/* Template messages */
 	'tpl-lead-link-text'         => 'لمزيد من التفاصيل...',
-	'tpl-דוגמה-title'            	=> 'مثال',
-	
+	'tpl-דוגמה-title'            => 'مثال',
+
+	'tpl-mainpage-portalbox-more-portals-link' => 'Project:פורטלים פעילים', // Missing translation
+	'tpl-mainpage-portalbox-more-portals-link-text' => 'לרשימת התחומים המלאה...',  // Missing translation
+
 	/* ******** */
-	/* Settings */  
+	/* Settings */
 	#The following require WRMessages to be included *after* the appropriate extension
 	'multiboilerplate' => '* זכות | תבנית:זכות/ar
 * פורטל | תבנית:פורטל/ar
@@ -450,30 +437,73 @@ $messages['ar'] = array(
 
 	/* *************************** */
 	/* Modified Messages from core */
-	'aboutpage'            => ':he:אודות:מי_אנחנו', //Arabic: 'حول:من نحن'
+	'aboutpage'          => '{{MediaWiki:kz-about-page}}',
 	'aboutsite'            => "حول {{SITENAME}} (شركة لفائدة الجمهور)",
 	'copyright'            => "المضامين مقدّمة بالخضوع لـ-1$",
 	'copyrightwarning'     => "'''انتبهوا:''' مساهمتكم لكول زخوت (جميع الحقوق) ستنشر تحت شروط الرخصة $2. ,
 * قد يقوم مساهمون آخرون بتحرير مساهماتكم وربما إزالتها. إذا لم ترغبوا بأن تحرّر مساهماتكم من قبل الآخرين - لا تنشروها على هذا الموقع. 
 * لا تستخدموا مواد محمية بحقوق الملكية بدون تصريح! تعدوننا بأنكم كتبتم هذا النص بانفسكم ، أو نسختموه من مصدر غير محمي بحقوق الملكية(راجعو $1 لمزيد من التفاصيل) 
 * الرجاء المحافظة على [[Project:سياسة الموقع| قواعد السلوك في الموقع]]",
-	'edithelppage'         => ":he:עזרה:מדריך לעורך", //Arabic: '{{ns:Help}}:دليل للمحرر'
+	'edithelppage'         => '{{MediaWiki:kz-help-editor-page}}',
 	'hidetoc'              => '-',
 	'showtoc'              => '+',
-	#"lastmodifiedat"      => "אין צורך לתרגם",
-	#"lastmodifiedatby"    => "אין צורך לתרגם",
-	#"loginlanguagelinks"  => "אין צורך לתרגם",
-	#"logout"              => "אין צורך לתרגם",
-	#"Noarticletext-nopermission" => "אין צורך לתרגם",
-	#"protect-dropdown"    => "אין צורך לתרגם",
+	//'lastmodifiedat'      // Not customized yet in Arabic
+	//'lastmodifiedatby'    // Not customized yet in Arabic
+
+	/* Login and logout pages */
+	//'logouttext' => '???',	// Not customized yet in Arabic
+	//'login' => '???',	// Not customized yet in Arabic
+	//'nav-login-createaccount' => '???',	// Not customized yet in Arabic
+	//'loginprompt' => '???',	// Not customized yet in Arabic
+	//'userlogin' => '???',	// Not customized yet in Arabic
+	//userloginnocreate' => '???',	// Not customized yet in Arabic
+	//'logout' => '???',	// Not customized yet in Arabic
+	//'userlogout' => '???', // Not customized yet in Arabic
+	//'notloggedin' => '???', // Not customized yet in Arabic
+	//'nologin' => '???', // Not customized yet in Arabic
+	//'gotaccountlink => '???', // Not customized yet in Arabic
+	//'createaccounterror' => '???', // Not customized yet in Arabic
+
+	//'upload' => '???', // Not customized yet in Arabic
+
+	//'noarticletext' => '???', // Not customized yet in Arabic
+	//'protect-dropdown' => '???', // Not customized yet in Arabic
 	'siteuser'             => "$1",
-	'siteuser'             => "$1",
-	#"userlogout"          => "אין צורך לתרגם",
+	'siteusers'             => "$1",
+
 	'tagline'              => "من {{SITENAME}} ({{SERVERNAME}})",
-	#"search-nonefound"    =>  יתורגם בהמשך, קצת מסובך כרגע...,
+	//'search-nonefound' => '???', // Not customized yet in Arabic
 
 	'tooltip-p-logo'                  => 'الصفحة الرئيسية {{SITENAME}}',
 	'tooltip-n-mainpage'              => 'الصفحة الرئيسية {{SITENAME}}',
 	'tooltip-n-mainpage-description'  => 'الصفحة الرئيسية {{SITENAME}}',
-	
+
+	'deletereason-dropdown'           => '* סיבות נפוצות
+** דף חדש שנוצר בטעות
+** מחיקת הפניה של דף שהועבר
+** דף שהוחלף באחר:
+** מחיקת דף ניסוי
+* זכויות יוצרים וכדומה
+** הפרת זכויות יוצרים
+** לבקשת הכותב', // Same as Hebrew
+	//'signupstart' => '???', // Not customized yet in Arabic
+
+
+	/* Email notifications */
+	//'enotif_body_intro_deleted' => '???', // Not customized yet in Arabic
+	//'enotif_body_intro_created' => => '???', // Not customized yet in Arabic
+	//'enotif_body_intro_moved' => '???', // Not customized yet in Arabic
+	//'enotif_body_intro_restored' => '???', // Not customized yet in Arabic
+	//'enotif_body_intro_changed' => '???', // Not customized yet in Arabic
+	//'enotif_lastvisited' => '???', // Not customized yet in Arabic
+	//'enotif_lastdiff' => '???', // Not customized yet in Arabic
+	//'enotif_body' => '???', // Not customized yet in Arabic
+
+	/* END Email notifications */
+
+	'kz-disclaimers' => '<p>المعلومات الواردة في موقع "كول زخوت" (كل حق) هي معلومات عامة غير ملزمة. الحقوق الملزمة تحدّد حسب القانون، الأنظمة وقرارات الحكم الصادرة عن المحاكم. استخدام المعلومات الواردة في الموقع ليست بديلا للحصول على استشارة أو علاج قانوني، مهني أو آخر وبالتالي فإن الاعتماد على ما ورد فيه هو على مسؤولية المستخدِم فقط. يجب مراجعة  شروط الاستخدام.<p>
+<p>המידע באתר "כל-זכות" הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד. יש לעיין בתנאי השימוש.</p>',
+	'helena-disclaimers' => '{{int:kz-disclaimers}}',
+	'userpage' => 'صفحة مستخدم',  // Shorter version
+
 );
