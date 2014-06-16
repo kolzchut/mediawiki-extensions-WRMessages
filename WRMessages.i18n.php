@@ -417,7 +417,7 @@ $messages['ar'] = array(
 	'tpl-דוגמה-title'            => 'مثال',
 
 	'tpl-mainpage-portalbox-more-portals-link' => 'Project:פורטלים פעילים', // Missing translation
-	'tpl-mainpage-portalbox-more-portals-link-text' => 'לרשימת התחומים המלאה...',  // Missing translation
+	'tpl-mainpage-portalbox-more-portals-link-text' => 'لقائمة المجالات كاملةً..',  // Missing translation
 
 	/* ******** */
 	/* Settings */
