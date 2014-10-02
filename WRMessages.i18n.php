@@ -382,6 +382,12 @@ $PAGEINTRO $NEWPAGE
 	'helena-disclaimers' => '{{int:kz-disclaimers}}',
 	'userpage' => 'דף משתמש',
 
+	/*
+	 * Override Extension:WRLanguageLinks
+	 *
+	 */
+	'wr-langlinks-label'        => '{{PLURAL:$1|תרגום|תרגומים}}:',	// Just because EN overrides the previous Hebrew
+
 );
 
 
