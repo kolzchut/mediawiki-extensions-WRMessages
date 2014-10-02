@@ -176,6 +176,13 @@ To change your watchlist settings, visit
 
 	'userpage' => 'User page',
 
+
+	/*
+	 * Override Extension:WRLanguageLinks
+	 *
+	 */
+	'wr-langlinks-label'        => 'Hebrew source:',
+
 );
 
 
@@ -424,6 +431,7 @@ $messages['ar'] = array(
 	#The following require WRMessages to be included *after* the appropriate extension
 	'multiboilerplate' => '* זכות | תבנית:זכות/ar
 * פורטל | תבנית:פורטל/ar
+* פורטל/תת-עמוד | תבנית:פורטל/תת-עמוד
 * הליך | תבנית:הליך/ar
 * מושג | תבנית:מושג/ar
 * שירות | תבנית:שירות/ar 
@@ -505,5 +513,13 @@ $messages['ar'] = array(
 <p>המידע באתר "כל-זכות" הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד. יש לעיין [[:he:Project:הבהרה משפטית | בתנאי השימוש]].</p>',
 	'helena-disclaimers' => '{{int:kz-disclaimers}}',
 	'userpage' => 'صفحة مستخدم',  // Shorter version
+
+
+	/*
+ * Override Extension:WRLanguageLinks
+ *
+ */
+	'wr-langlinks-label'        => 'المصدر بالعبرية:',
+
 
 );
