@@ -124,10 +124,10 @@ You can [[Special:Search/{{PAGENAME}}|search for this page title]] in other page
 <inputbox>
 type=search2
 break=no
-buttonlabel={{int:searchbutton}}
+buttonlabel={{Mediawiki:searchbutton}}
 </inputbox>
 </div><!-- /wr-mainpage-search -->",
-	'noarticletext-nopermission'			=> '{{int:noarticletext}}',
+	'noarticletext-nopermission'			=> '{{Mediawiki:noarticletext}}',
 	'protect-dropdown'                      => '* Edit protection
 ** Maintained by staff
 ** Edit warring / Content dispute
@@ -306,10 +306,10 @@ $messages['he'] = array(
 <inputbox>
 type=search2
 break=no
-buttonlabel={{int:searchbutton}}
+buttonlabel={{Mediawiki:searchbutton}}
 </inputbox>
 </div><!-- /wr-mainpage-search -->",
-	'noarticletext-nopermission'			=> '{{int:noarticletext}}',
+	'noarticletext-nopermission'			=> '{{Mediawiki:noarticletext}}',
 	'protect-dropdown'                => '* סיבות הגנה נפוצות
 ** בניהול צוות האתר
 ** מלחמת עריכה בלתי מועילה
@@ -349,7 +349,7 @@ buttonlabel={{int:searchbutton}}
 * הרשמה למעקב אחרי שינויים בערכים
 * שינוי הגדרות מערכת בהתאם להעדפותיכם
 * הזדהות מיידית בעת שליחת הצעות שינוי
-<br />'''הרשאת עריכה''' באתר כל-זכות ניתנת לארגונים מוסמכים (ממשלה, עמותות, אקדמיה וכד'). במקרה ואתם נציגי/ות ארגונים כאלה אנא [[{{int:kz-contact-page}} | צרו קשר עם צוות האתר]].
+<br />'''הרשאת עריכה''' באתר כל-זכות ניתנת לארגונים מוסמכים (ממשלה, עמותות, אקדמיה וכד'). במקרה ואתם נציגי/ות ארגונים כאלה אנא [[{{Mediawiki:kz-contact-page}} | צרו קשר עם צוות האתר]].
 </div>",
 
 	/* Email notifications */
