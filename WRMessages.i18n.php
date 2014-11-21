@@ -172,7 +172,7 @@ To change your watchlist settings, visit
 
 	'kz-disclaimers' => '<p>The information contained in "All-Rights" is general in nature and does not purport to be binding or authoritative. Use of this information is not a substitute for obtaining legal or other professional advice and the user assumes sole responsibility when relying on this information. While all English pages are maintained on an on-going basis, it is highly recommended to refer to the corresponding Hebrew page for updates.</p>
 <p dir="rtl">המידע באתר "כל-זכות" הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד. יש לעיין [[:he:Project:הבהרה משפטית | בתנאי השימוש]].</p>',
-	'helena-disclaimers' => '{{int:kz-disclaimers}}',
+	'helena-disclaimers' => '{{Mediawiki:kz-disclaimers}}',
 
 	'userpage' => 'User page',
 
@@ -379,7 +379,7 @@ $PAGEINTRO $NEWPAGE
 
 	'kz-disclaimers' => '<p>האתר פונה לנשים וגברים כאחד. השימוש בלשון זכר נעשה מטעמי נוחות בלבד.</p>
 <p>המידע באתר "כל-זכות" הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד. יש לעיין [[Project:הבהרה משפטית | בתנאי השימוש]].</p>',
-	'helena-disclaimers' => '{{int:kz-disclaimers}}',
+	'helena-disclaimers' => '{{Mediawiki:kz-disclaimers}}',
 	'userpage' => 'דף משתמש',
 
 	/*
@@ -518,7 +518,7 @@ $messages['ar'] = array(
 	'kz-disclaimers' => '<p>الموقع يتوجه للنساء والرجال على حد سواء. تم استعمال صيغة المذكّر فقط بهدف التسهيل.</p>
 <p>المعلومات الواردة في موقع "كول زخوت" (كل حق) هي معلومات عامة غير ملزمة. الحقوق الملزمة تحدّد حسب القانون، الأنظمة وقرارات الحكم الصادرة عن المحاكم. استخدام المعلومات الواردة في الموقع ليست بديلا للحصول على استشارة أو علاج قانوني، مهني أو آخر وبالتالي فإن الاعتماد على ما ورد فيه هو على مسؤولية المستخدِم فقط. يجب مراجعة  شروط الاستخدام.</p>
 <p>המידע באתר "כל-זכות" הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד. יש לעיין [[:he:Project:הבהרה משפטית | בתנאי השימוש]].</p>',
-	'helena-disclaimers' => '{{int:kz-disclaimers}}',
+	'helena-disclaimers' => '{{Mediawiki:kz-disclaimers}}',
 	'userpage' => 'صفحة مستخدم',  // Shorter version
 
 
