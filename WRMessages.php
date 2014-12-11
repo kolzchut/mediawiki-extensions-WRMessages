@@ -77,6 +77,15 @@ $wgNamespaceProtection[NS_TEMPLATE] = array( 'editproject' ); 		# If allowed to 
 	$wgNamespacePermissionLockdown[NS_WR_PRACTICE]['*'] = array('editor', 'staff');
 	$wgNonincludableNamespaces[] = NS_WR_PRACTICE;	
 
+# Extra security for potentially private information, using Extension:Lockdown
+    $wgSpecialPageLockdown['Listusers'] = array( 'staff');
+    $wgSpecialPageLockdown['Activeusers'] = array( 'editor', 'staff' );
+    $wgSpecialPageLockdown['BlockList'] = array( 'editor', 'staff' );
+    $wgSpecialPageLockdown['Log'] = array( 'editor', 'staff' );
+    $wgSpecialPageLockdown['LinkSearch'] = array( 'editor', 'staff' );
+    $wgSpecialPageLockdown['Export'] = array( 'editor', 'staff' );
+
+
 # Disable search engines indexing
 $wgNamespaceRobotPolicies[NS_MAIN] 		= 'index,follow';
 $wgNamespaceRobotPolicies[NS_PROJECT] 		= 'index,follow';
