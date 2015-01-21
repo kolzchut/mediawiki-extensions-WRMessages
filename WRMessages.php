@@ -10,19 +10,20 @@ if (!defined('MEDIAWIKI')) die();
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
-$wgExtensionCredits['other'][] = array(
+$GLOBALS['wgExtensionCredits']['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'WRMessages',
 	'author'         => 'Dror Snir ([http://www.kolzchut.org.il Kol-Zchut])',
-	'version'        => '0.1',
+	'version'        => '0.2',
 	'url'            => 'http://www.kolzchut.org.il/he/Project:Extensions/WRMessages',
 	'descriptionmsg' => 'wrmessages-desc',
 );
 
-// i18nd
-$wgExtensionMessagesFiles['WRMessages'] = __DIR__ . '/WRMessages.i18n.php';
-$wgExtensionMessagesFiles['WRMessagesNamespaces'] = __DIR__ . '/WRMessages.namespaces.php';
-$wgExtensionMessagesFiles['WRMessagesAliases'] = __DIR__ . '/WRMessages.alias.php';
+// i18n
+$GLOBALS['wgMessagesDirs']['WRMessages'] = __DIR__ . '/i18n';
+$GLOBALS['wgExtensionMessagesFiles']['WRMessagesTimePrefs'] = __DIR__ . '/WRMessages.i18n.php';
+$GLOBALS['wgExtensionMessagesFiles']['WRMessagesNamespaces'] = __DIR__ . '/WRMessages.namespaces.php';
+$GLOBALS['wgExtensionMessagesFiles']['WRMessagesAliases'] = __DIR__ . '/WRMessages.alias.php';
 
 // Autoloading
 $wgAutoloadClasses['WRMessagesHooks'] = __DIR__ . '/WRMessages.hooks.php';

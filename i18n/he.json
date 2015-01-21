@@ -1,0 +1,84 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dror S.",
+			"..."
+		]
+	},
+	"wrmessages-desc": "הודעות המיוחדות לכל-זכות",
+
+	"group-staff": "צוות האתר",
+	"group-staff+": "צוות: הרשאות נוספות",
+	"group-automaton": "אוטומטונים",
+	"group-socialworker": "עובדים סוציאליים",
+	"group-staff-member": "{{GENDER:$1|חבר|חברת}} צוות האתר",
+	"group-staff+-member": "{{GENDER:$1|חבר|חברת}} צוות האתר+",
+	"group-automaton-member": "אוטומטון",
+	"group-socialworker-member": "{{GENDER:$1|עובד סוציאלי|עובדת סוציאלית}}",
+	"grouppage-staff": "{{ns:project}}:צוות האתר",
+	"grouppage-staff+": "{{ns:project}}:צוות האתר",
+	"grouppage-socialworker": "{{ns:project}}:עובדים סוציאליים",
+	"right-staff": "מוגבל לחברי צוות האתר",
+	"restriction-level-staff": "מוגבל לחברי צוות האתר",
+
+	"tpl-lead-link-text": "לפרטים נוספים...",
+	"tpl-דוגמה-title": "דוגמה",
+	"tpl-mainpage-portalbox-more-portals-link": "Project:פורטלים פעילים",
+	"tpl-mainpage-portalbox-more-portals-link-text": "לרשימת התחומים המלאה...",
+
+	"multiboilerplate": "* זכות | תבנית:זכות\n* פורטל | תבנית:פורטל\n* פורטל/תת-עמוד | תבנית:פורטל/תת-עמוד\n* הליך | תבנית:הליך\n* מושג | תבנית:מושג\n* שירות | תבנית:שירות\n* פסק דין | תבנית:פסק דין\n* חוק | תבנית:חוק\n* ארגון | תבנית:ארגון\n* גורם ממשל | תבנית:גורם ממשל\n* שאלות ותשובות | תבנית:שאלות ותשובות\n* מחלה/תסמונת/לקות | תבנית:מחלה\n* מכתב | תבנית:מכתב\n* משתמש | תבנית:משתמש",
+
+	"aboutpage": "{{MediaWiki:kz-about-page}}",
+	"aboutsite": "אודות כל-זכות (חל\"צ)",
+	"copyright": "התוכן מוגש בכפוף ל־$1",
+	"copyrightwarning": "'''שימו לב:''' תרומתכם ל{{grammar:תחילית|{{SITENAME}}}} תפורסם תחת תנאי הרשיון $2.\n* תורמים אחרים עשויים לערוך או אף להסיר את תרומתכם. אם אינכם רוצים שעבודתכם תהיה זמינה לעריכה על ידי אחרים – אל תפרסמו אותה באתר זה.\n* אל תעשו שימוש בחומר המוגן בזכויות יוצרים ללא רשות! אתם מבטיחים לנו כי כתבתם את הטקסט הזה בעצמכם, או העתקתם אותו ממקור שאינו מוגן על ידי זכויות יוצרים (ראו $1 לפרטים נוספים) \n* אנא שמרו על [[Project:מדיניות | כללי ההתנהגות באתר]]",
+	"edithelppage": "{{MediaWiki:kz-help-editor-page}}",
+	"hidetoc": "-",
+	"showtoc": "+",
+	"lastmodifiedat": "עודכן לאחרונה ב־$2, $1.",
+	"lastmodifiedatby": "דף זה עודכן לאחרונה בתאריך $1 על ידי $3.",
+
+	"logouttext": "'''התנתקתם זה עתה מהאתר.'''\n\nבאפשרותכם להמשיך ולעשות שימוש ב{{grammar:תחילית|{{SITENAME}}}} באופן אנונימי, או [[Special:UserLogin|לשוב ולהיכנס לאתר]] עם שם משתמש זהה או אחר.\nשימו לב כי ייתכן שדפים אחדים ימשיכו להיות מוצגים כאילו אתם עדיין מחוברים לאתר עד שתנקו את המטמון של הדפדפן שלכם.",
+	"login": "כניסת משתמש",
+	"nav-login-createaccount": "כניסת משתמש / הרשמה",
+	"loginprompt": "לפני התחברות ל{{grammar:תחילית|{{SITENAME}}}}, עליכם לוודא כי ה\"עוגיות\" (Cookies) מופעלות.",
+	"userlogin": "כניסת משתמש / הרשמה",
+	"userloginnocreate": "כניסת משתמש",
+	"logout": "יציאה",
+	"userlogout": "יציאה",
+	"notloggedin": "לא מחובר",
+	"nologin": "לא נרשמתם עדיין? $1.",
+	"gotaccountlink": "כניסת משתמש",
+	"createaccounterror": "לא ניתן היה ליצור את המשתמש: $1",
+
+	"upload": "העלאת קובץ",
+
+	"noarticletext": "<div style=\"font-weight: bold; background-color: rgba(255, 255, 153, 0.3);\n  text-align: center;\n  width: 3em;\n  height: 1em;\n  font-size: 65px;\n  margin-{{right}}: 0.5em;\n  transform: skew(20deg, 1deg) ;\n  -webkit-transform: skew(20deg, 1deg);\n  -moz-transform: skew(20deg, 1deg);\n  -o-transform: skew(20deg, 1deg);\n  -ms-transform: skew(20deg, 1deg);\n  -moz-box-shadow:10px 10px 5px #888;\n  -webkit-box-shadow:10px 10px 5px #888;\n  box-shadow:10px 10px 5px #888;\">אופס!</div>{{DISPLAYTITLE:{{FULLPAGENAME}} - העמוד לא נמצא}}\n<p style=\"font-size: 30px;\">כרגע אין בכל-זכות דף בשם זה.</p>\n<div class=\"editor-only-content\" style=\"background-color: #CFCFCF; border: 1px solid black;\">'''עורכים יקרים:'''\nבאפשרותכם [[Special:Search/{{PAGENAME}}|לחפש את כותרת הדף]] בדפים אחרים, <span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} לחפש ביומנים הרלוונטיים], או [{{fullurl:{{FULLPAGENAME}}|action=edit}} לערוך דף זה]</span>.\n</div>\n\n'''אנחנו רוצים לעזור, אז בואו נראה מה אפשר לעשות בנוגע לזה:'''\n* אם הקלדתם את הכתובת בעצמכם, אנא בדקו שאין בה טעות\n* אם הגעתם לכאן מקישור באתר, כנראה שהוא שבור... אנא [mailto:webadmin@kolzchut.org.il?subject=קישור%20שבור דווחו לנו] על כך (אנא ציינו את שם העמוד ממנו הגעתם!).\n* אתם יכולים [[{{Mediawiki:mainpage}} | לחזור לעמוד הראשי]] של כל-זכות.\n* או שאתם יכולים לחפש כאן למטה:\n\n<div id=\"wr-mainpage-search\" style=\"max-width:500px; margin-bottom: 1em;\">\n<inputbox>\ntype=search2\nbreak=no\nbuttonlabel={{Mediawiki:searchbutton}}\n</inputbox>\n</div><!-- /wr-mainpage-search -->",
+	"noarticletext-nopermission": "{{Mediawiki:noarticletext}}",
+	"protect-dropdown": "* סיבות הגנה נפוצות\n** בניהול צוות האתר\n** מלחמת עריכה בלתי מועילה\n** דף שאסור להזיז\n** דף בשימוש רב",
+
+	"siteuser": "$1",
+	"siteusers": "$1",
+	"tagline": "מתוך כל-זכות ({{SERVERNAME}}), אנציקלופדיית הזכויות של ישראל",
+
+	"search-nonefound": "<big>'''לא נמצאו תוצאות המתאימות לחיפוש.'''</big>\n{| class=\"wikitable\"\n|+ <u>אם לא מצאתם את מה שחיפשתם, אולי תוכלו להיעזר באחת האפשרויות הבאות</u>:\n! אפשרות !! הסבר !! דוגמה\n|-\n| '''חיפוש Wildcard (ג'וקר/תַּו-כֹּל)''' || זהו חיפוש בו הסימן * (כוכבית) מחליף אות אחת או יותר שאינן מצוינות, בין אם בתחילת המילה או בסופה. || '''<big>''*כויות''</big>''' יציג תוצאות הכוללות (בין היתר) גם את המילים: זכויות, נכויות, וכד'.\n|-\n| '''ביטויים במרכאות כפולות''' || ניתן לחפש ביטוי שלם ע\"י הקפתו במרכאות || '''<big>''\"זכויות עובדים\"''</big>''' יחזיר רק ערכים בהם שתי המילים מופיעות בצמידות.\n|-\n| '''שלילת מילת חיפוש''' || ניתן להוסיף סימן מינוס לפני מילה על מנת להימנע מערכים המכילים אותה || '''<big>''עובדים -פנסיה''</big>''' (סימן המינוס בצמידות למילה) יחזיר רק ערכים המכילים את המילה \"עובדים\" ואינם מכילים את המילה \"פנסיה\".\n|}",
+
+	"tooltip-p-logo": "לדף הבית של {{SITENAME}}",
+	"tooltip-n-mainpage": "לדף הבית של {{SITENAME}}",
+	"tooltip-n-mainpage-description": "לדף הבית של {{SITENAME}}",
+	"deletereason-dropdown": "* סיבות נפוצות\n** דף חדש שנוצר בטעות\n** מחיקת הפניה של דף שהועבר\n** דף שהוחלף באחר:\n** מחיקת דף ניסוי\n* זכויות יוצרים וכדומה\n** הפרת זכויות יוצרים\n** לבקשת הכותב",
+	"signupstart":	"<div style=\"max-width: 90%; min-width: 20em; width: 40em; background-color: LightBlue; padding: 5px;\">הרשמה לאתר כל-זכות מומלצת ונותנת יתרונות מסוימים, בעיקר לאנשי מקצוע בתחום הסיוע לציבור.<br />\n'''חשוב להדגיש''' כי ההרשמה בפני עצמה אינה מאפשרת עריכה של התוכן באתר אך מאפשרת:\n* הרשמה למעקב אחרי שינויים בערכים\n* שינוי הגדרות מערכת בהתאם להעדפותיכם\n* הזדהות מיידית בעת שליחת הצעות שינוי\n<br />'''הרשאת עריכה''' באתר כל-זכות ניתנת לארגונים מוסמכים (ממשלה, עמותות, אקדמיה וכד'). במקרה ואתם נציגי/ות ארגונים כאלה אנא [[{{Mediawiki:kz-contact-page}} | צרו קשר עם צוות האתר]].\n</div>",
+
+	"enotif_body_intro_deleted": "הדף $1 ב{{grammar:תחילית|{{SITENAME}}}} נמחק ב־$PAGEEDITDATE על ידי $2, ראו $3.",
+	"enotif_body_intro_created": "הדף $1 ב{{grammar:תחילית|{{SITENAME}}}} נוצר ב־$PAGEEDITDATE על ידי $2, ראו $3.",
+	"enotif_body_intro_moved": "הדף $1 ב{{grammar:תחילית|{{SITENAME}}}} הועבר ב־$PAGEEDITDATE על ידי $2, ראו $3",
+	"enotif_body_intro_restored": "הדף $1 ב{{grammar:תחילית|{{SITENAME}}}} שוחזר ב־$PAGEEDITDATE על ידי $2, ראו $3",
+	"enotif_body_intro_changed": "הדף $1 ב{{grammar:תחילית|{{SITENAME}}}} שונה ב־$PAGEEDITDATE על ידי $2, ראו $3",
+	"enotif_body": "לכבוד $WATCHINGUSERNAME,\n\n$PAGEINTRO $NEWPAGE\n\nתקציר העריכה: $PAGESUMMARY $PAGEMINOREDIT\n\nלא תהיינה הודעות על שינויים נוספים עד שתבקרו בדף.\n\nבברכה,\nמערכת ההודעות של {{SITENAME}}\n\n--------\nכדי לשנות את הגדרות רשימת המעקב, בקרו בדף\n{{canonicalurl:{{#special:EditWatchlist}}}}",
+
+	"kz-disclaimers": "<p>האתר פונה לנשים וגברים כאחד. השימוש בלשון זכר נעשה מטעמי נוחות בלבד.</p>\n<p>המידע באתר \"כל-זכות\" הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד. יש לעיין [[Project:הבהרה משפטית | בתנאי השימוש]].</p>",
+	"helena-disclaimers": "{{Mediawiki:kz-disclaimers}}",
+	"userpage": "דף משתמש",
+
+	"wr-langlinks-label": "{{PLURAL:$1|תרגום|תרגומים}}:"
+}
