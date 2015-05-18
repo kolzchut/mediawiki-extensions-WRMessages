@@ -13,7 +13,7 @@ if (!defined('MEDIAWIKI')) die();
 $GLOBALS['wgExtensionCredits']['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'WRMessages',
-	'author'         => 'Dror Snir ([http://www.kolzchut.org.il Kol-Zchut])',
+	'author'         => 'Dror S. [FFS] ([http://www.kolzchut.org.il Kol-Zchut])',
 	'version'        => '0.2',
 	'url'            => 'http://www.kolzchut.org.il/he/Project:Extensions/WRMessages',
 	'descriptionmsg' => 'wrmessages-desc',

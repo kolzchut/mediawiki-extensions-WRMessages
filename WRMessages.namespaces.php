@@ -10,8 +10,8 @@
 
 /**
  * English
- * Custom namespaces for Kol-Zchut (WikiRights) 
- * @author Dror Snir
+ * Custom namespaces for Kol-Zchut (WikiRights)
+ * @author Dror S. [FFS]
  */
 $namespaceNames['en'] = array(
 	NS_WR_COMPANY         => 'About',
@@ -43,7 +43,7 @@ $namespaceAliases['en'] = array(
 /**
  * Hebrew (עברית)
  * Custom namespaces for Kol-Zchut (WikiRights) 
- * @author Dror Snir
+ * @author Dror S. [FFS]
  * @author Kol-Zchut Staff
  */
 $namespaceNames['he'] = array(

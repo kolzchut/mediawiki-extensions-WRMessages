@@ -4,8 +4,6 @@
  *
  * @file
  * @ingroup Extensions
- * @author Dror Snir
- * @copyright © 2006-2008 Dror Snir
  * @license GNU General Public Licence 2.0 or later
  */
 
@@ -21,7 +19,7 @@ $specialPageAliases['en'] = array(
 /** Hebrew (עברית) */
 $specialPageAliases['he'] = array(
 	'Userrights'    => array( 'הרשאות_משתמש' ),
-	'CreateAccount' => array( 'רישום_לחשבון', 'רישום חשבון' ),	
+	'CreateAccount' => array( 'רישום_לחשבון', 'רישום חשבון' ),
 	'Specialpages'  => array( 'מיוחדים' ),
 	'Userlogin'     => array( 'כניסת_משתמש' ),
 	'Whatlinkshere' => array( 'דפים_המקשרים_לכאן' ),
