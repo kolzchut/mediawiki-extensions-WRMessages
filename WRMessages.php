@@ -21,7 +21,7 @@ $GLOBALS['wgExtensionCredits']['other'][] = array(
 
 // i18n
 $GLOBALS['wgMessagesDirs']['WRMessages'] = __DIR__ . '/i18n';
-$GLOBALS['wgExtensionMessagesFiles']['WRMessagesTimePrefs'] = __DIR__ . '/WRMessages.i18n.php';
+$GLOBALS['wgExtensionMessagesFiles']['WRMessagesOld'] = __DIR__ . '/WRMessages.i18n.php';
 $GLOBALS['wgExtensionMessagesFiles']['WRMessagesNamespaces'] = __DIR__ . '/WRMessages.namespaces.php';
 $GLOBALS['wgExtensionMessagesFiles']['WRMessagesAliases'] = __DIR__ . '/WRMessages.alias.php';
 
