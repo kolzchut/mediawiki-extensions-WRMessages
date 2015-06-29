@@ -1,0 +1,56 @@
+{
+	"@metadata": {
+		"authors": [
+			"Suheir Daksa-Halabi",
+			"Jalal Hassan",
+			"Ahlam Rahal"
+		]
+	},
+
+	"kz-aboutpage": "{{MediaWiki:kz-about-page}}",
+	"kz-aboutsite": "حول {{SITENAME}} (شركة لفائدة الجمهور)",
+	"kz-copyright": "المضامين مقدّمة بالخضوع لـ-1$",
+	"kz-copyrightwarning": "'''انتبهوا:''' مساهمتكم لكول زخوت (جميع الحقوق) ستنشر تحت شروط الرخصة $2. ,\n* قد يقوم مساهمون آخرون بتحرير مساهماتكم وربما إزالتها. إذا لم ترغبوا بأن تحرّر مساهماتكم من قبل الآخرين - لا تنشروها على هذا الموقع. \n* لا تستخدموا مواد محمية بحقوق الملكية بدون تصريح! تعدوننا بأنكم كتبتم هذا النص بانفسكم ، أو نسختموه من مصدر غير محمي بحقوق الملكية(راجعو $1 لمزيد من التفاصيل) \n* الرجاء المحافظة على [[Project:سياسة الموقع| قواعد السلوك في الموقع]]",
+	"kz-edithelppage": "{{MediaWiki:kz-help-editor-page}}",
+	"kz-hidetoc": "-",
+	"kz-showtoc": "+",
+	"kz-lastmodifiedat": "تم حتلنته للمرة الاخيرة في ־$1, $2",
+	"kz-lastmodifiedatby": "{{GENDER:$4|أجرى|أجرت}} $3 آخر تعديل لهذه الصفحة في $2، $1.",
+	"kz-logouttext": "<strong>أنت الآن غير مسجل الدخول.</strong> قد ترى بعض الصفحات كما لو أنك ما زلت مسجل الدخول، وذلك حتى تفرغ التخزين المؤقت في متصفحك.",
+	"kz-login": "تسجيل الدخول",
+	"kz-nav-login-createaccount": "دخول / إنشاء حساب",
+	"kz-userlogin": "دخول / إنشاء حساب",
+	"kz-userloginnocreate": "تسجيل الدخول",
+	"kz-logout": "تسجيل الخروج",
+	"kz-userlogout": "اخرج",
+	"kz-notloggedin": "غير مسجل الدخول",
+	"kz-nologin": "ليس لديك حساب؟ '''$1'''.",
+	"kz-gotaccountlink": "تسجيل الدخول",
+	"kz-createaccounterror": "تعذر إنشاء حساب المستخدم: $1",
+	"kz-upload": "ارفع ملفا",
+	"kz-noarticletext": "لا يوجد حاليا أي نص في هذه الصفحة.\nيمكنك [[Special:Search/{{PAGENAME}}|البحث عن عنوان هذه الصفحة]] في الصفحات الأخرى،\n<span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} البحث في السجلات المتعلقة]،\nأو [{{fullurl:{{FULLPAGENAME}}|action=edit}} تعديل هذه الصفحة]</span>.",
+	"kz-noarticletext-nopermission": "لا يوجد حاليا أي نص في هذه الصفحة.\nيمكنك [[Special:Search/{{PAGENAME}}|البحث عن عنوان هذه الصفحة]] في الصفحات الأخرى، أو <span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} البحث في السجلات المتعلقة بها]</span>، لكنك لست مخولاً لإنشاء هذه الصفحة.",
+    "kz-protect-dropdown": "* סיבות הגנה נפוצות\n** בניהול צוות האתר\n** מלחמת עריכה בלתי מועילה\n** דף שאסור להזיז\n** דף בשימוש רב",
+	"kz-siteuser": "$1",
+	"kz-siteusers": "$1",
+	"kz-tagline": "من {{SITENAME}} ({{SERVERNAME}})",
+	"kz-search-nonefound": "لا توجد نتائج تطابق الاستعلام.",
+	"kz-tooltip-p-logo": "الصفحة الرئيسية {{SITENAME}}",
+	"kz-tooltip-n-mainpage": "الصفحة الرئيسية {{SITENAME}}",
+	"kz-tooltip-n-mainpage-description": "الصفحة الرئيسية {{SITENAME}}",
+	"kz-deletereason-dropdown": "* סיבות נפוצות\n** דף חדש שנוצר בטעות\n** מחיקת הפניה של דף שהועבר\n** דף שהוחלף באחר:\n** מחיקת דף ניסוי\n* זכויות יוצרים וכדומה\n** הפרת זכויות יוצרים\n** לבקשת הכותב",
+	"kz-signupstart": "{{int:loginstart}}",
+
+	"kz-enotif_body": "عزيزي $WATCHINGUSERNAME\n\n$PAGEINTRO $NEWPAGE\n\nملخص التعديل: $PAGESUMMARY $PAGEMINOREDIT\n\nاتصل بالمحرر:\nالبريد: $PAGEEDITOR_EMAIL\nويكي: $PAGEEDITOR_WIKI\n\nلن يكون هناك إخطارات أخرى في حالة حدوث مزيد من التغييرات إلا إذا قمت بزيارة تلك الصفحة أثناء تواجدك. يمكنك أيضاً إزالة العلامات عن جميع الصفحات في قائمة مراقبتك.\n\nنظام {{SITENAME}} للإشعار\n\n--\nلتغيير إعدادات الإشعار بالبريد الإلكتروني الخاص بك، قم بزيارة\n{{canonicalurl:{{#special:Preferences}}}}\n\nلتغيير إعدادات قائمة مراقبتك، قم بزيارة\n{{canonicalurl:{{#special:EditWatchlist}}}}\n\nلحذف الصفحة من قائمة مراقبتك، قم بزيارة\n$UNWATCHURL\n\nللمقترحات وللحصول على مساعدة إضافية:\n$HELPPAGE",
+	"kz-enotif_body_intro_deleted": "صفحة {{SITENAME}} $1 {{GENDER:$2|حذفها|حذفتها}} $2 في $PAGEEDITDATE.راجع $3.",
+	"kz-enotif_body_intro_created": "صفحة {{SITENAME}} $1 {{GENDER:$2|أنشأها|أنشأتها}} $2 في $PAGEEDITDATE. لمشاهدة النسخة الحالية راجع $3.",
+	"kz-enotif_body_intro_moved": "صفحة {{SITENAME}} $1 {{GENDER:$2|نقلها|نقلتها}} $2 في $PAGEEDITDATE. لمشاهدة النسخة الحالية راجع $3.",
+	"kz-enotif_body_intro_restored": "صفحة {{SITENAME}} $1 {{GENDER:$2|استرجعها|استرجعتها}} $2 في $PAGEEDITDATE. لمشاهدة النسخة الحالية راجع $3.",
+	"kz-enotif_body_intro_changed": "صفحة {{SITENAME}} $1 {{GENDER:$2|عدلها|عدلتها}} $2 في $PAGEEDITDATE. لمشاهدة النسخة الحالية راجع $3.",
+	"kz-enotif_lastvisited": "",
+	"kz-enotif_lastdiff": "",
+
+	"kz-helena-disclaimers": "{{Mediawiki:kz-disclaimers}}",
+	"kz-userpage": "صفحة مستخدم",
+	"kz-wr-langlinks-label": "المصدر بالعبرية:"
+}

@@ -1,0 +1,55 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dror S.",
+			"Ruth Bridger"
+		]
+	},
+
+	"kz-aboutpage": "{{MediaWiki:kz-about-page}}",
+	"kz-aboutsite": "About {{SITENAME}}",
+	"kz-copyright": "Content is available under $1 unless otherwise noted.",
+	"kz-copyrightwarning": "'''Please note:''' all contributions to {{SITENAME}} are considered to be released under the $2 license.\n* Your contributions may be edited, altered, or removed by other contributors. If you do not want your writing to be edited or redistributed, then do not submit it here.\n* Do not submit copyrighted work without permission! You are promising us that you wrote this yourself, or copied it from a public domain or similar free resource (see $1 for additional information)\n* Please comply with the [[:he:Project:מדיניות | site policy (in Hebrew)]]",
+	"kz-edithelppage": "{{MediaWiki:kz-help-editor-page}}",
+	"kz-hidetoc": "-",
+	"kz-showtoc": "+",
+	"kz-lastmodifiedat": "Last updated on $1, at $2.",
+	"kz-lastmodifiedatby": "This page was last modified on $2 at $1 by $3.",
+	"kz-logouttext": "<strong>You are now logged out.</strong>\n\nNote that some pages may continue to be displayed as if you were still logged in, until you clear your browser cache.",
+	"kz-login": "Log in",
+	"kz-nav-login-createaccount": "Sign up",
+	"kz-userlogin": "{{MediaWiki:userlogin}}",
+	"kz-userloginnocreate": "Log in / sign up",
+	"kz-logout": "Log out",
+	"kz-userlogout": "Log out",
+	"kz-notloggedin": "Not logged in",
+	"kz-nologin": "Don't have an account? $1.",
+	"kz-gotaccountlink": "Log in",
+	"kz-createaccounterror": "Could not create account: $1",
+	"kz-upload": "Upload file",
+	"kz-noarticletext": "<div style=\"font-weight: bold; background-color: rgba(255, 255, 153, 0.3);\n  text-align: center;\n  width: 3em;\n  height: 1em;\n  font-size: 65px;\n  margin-{{right}}: 0.5em;\n  transform: skew(20deg, 1deg) ;\n  -webkit-transform: skew(20deg, 1deg);\n  -moz-transform: skew(20deg, 1deg);\n  -o-transform: skew(20deg, 1deg);\n  -ms-transform: skew(20deg, 1deg);\n  -moz-box-shadow:10px 10px 5px #888;\n  -webkit-box-shadow:10px 10px 5px #888;\n  box-shadow:10px 10px 5px #888;\"><span style=\"position: relative; top: 0.33em;\">Oops!</span></div>{{DISPLAYTITLE:{{FULLPAGENAME}} - page not found}}\n<p style=\"font-size: 30px;\">{{SITENAME}} does not have this page yet.</p>\n<div class=\"editor-only-content\" style=\"background-color: #CFCFCF; border: 1px solid black;\">'''Dear editors:'''\nYou can [[Special:Search/{{PAGENAME}}|search for this page title]] in other pages, <span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} search the related logs], or [{{fullurl:{{FULLPAGENAME}}|action=edit}} edit this page]</span>.\n</div>\n\n'''We would like to assist you, so let's see what we can do about it:'''\n* If you typed this address manually, please check it for possible mistakes or mispelling\n* If you got here from another All-Rights page, then the link is probably broken. Please [mailto:webadmin@kolzchut.org.il?subject=Broken%20link report it] to us (please mention the name of the page you arrived from!).\n* You can [[{{Mediawiki:mainpage}} | return to All-Rights' main page]].\n* Or you can search the site right here:\n\n<div id=\"wr-mainpage-search\" style=\"max-width:500px; margin-bottom: 1em;\">\n<inputbox>\ntype=search2\nbreak=no\nbuttonlabel={{Mediawiki:searchbutton}}\n</inputbox>\n</div><!-- /wr-mainpage-search -->",
+	"kz-noarticletext-nopermission": "{{Mediawiki:kz-noarticletext}}",
+	"kz-protect-dropdown": "* סיבות הגנה נפוצות\n** בניהול צוות האתר\n** מלחמת עריכה בלתי מועילה\n** דף שאסור להזיז\n** דף בשימוש רב",
+	"kz-siteuser": "$1",
+	"kz-siteusers": "$1",
+	"kz-tagline": "From {{SITENAME}} ({{SERVERNAME}})",
+	"kz-search-nonefound": "{{MediaWiki:search-nonefound}}",
+	"kz-tooltip-p-logo": "{{SITENAME}} Main Page",
+	"kz-tooltip-n-mainpage": "{{SITENAME}} Main Page",
+	"kz-tooltip-n-mainpage-description": "{{SITENAME}} Main Page",
+	"kz-deletereason-dropdown": "* סיבות נפוצות\n** דף חדש שנוצר בטעות\n** מחיקת הפניה של דף שהועבר\n** דף שהוחלף באחר:\n** מחיקת דף ניסוי\n* זכויות יוצרים וכדומה\n** הפרת זכויות יוצרים\n** לבקשת הכותב",
+	"kz-signupstart": "{{int:loginstart}}",
+
+	"kz-enotif_body": "Dear $WATCHINGUSERNAME,\n\n$PAGEINTRO $NEWPAGE\n\nEditor's summary: $PAGESUMMARY $PAGEMINOREDIT\n\nThere will be no other notifications in case of further activity unless you visit this page.\n\nRegards,\n{{SITENAME}} notification system.\n\n--------\nTo change your watchlist settings, visit\n{{canonicalurl:{{#special:EditWatchlist}}}}",
+	"kz-enotif_body_intro_deleted": "The {{SITENAME}} page $1 has been {{GENDER:$2|deleted}} on $PAGEEDITDATE by $2. See $3.",
+	"kz-enotif_body_intro_created": "The {{SITENAME}} page $1 has been {{GENDER:$2|created}} on $PAGEEDITDATE by $2. See $3.",
+	"kz-enotif_body_intro_moved": "The {{SITENAME}} page $1 has been {{GENDER:$2|moved}} on $PAGEEDITDATE by $2. See $3.",
+	"kz-enotif_body_intro_restored": "The {{SITENAME}} page $1 has been {{GENDER:$2|restored}} on $PAGEEDITDATE by $2. See $3.",
+	"kz-enotif_body_intro_changed": "The {{SITENAME}} page $1 has been {{GENDER:$2|changed}} on $PAGEEDITDATE by $2. See $3.",
+	"kz-enotif_lastvisited": "",
+	"kz-enotif_lastdiff": "",
+
+	"kz-helena-disclaimers": "{{Mediawiki:kz-disclaimers}}",
+	"kz-userpage": "User page",
+	"kz-wr-langlinks-label": "Hebrew source:"
+}

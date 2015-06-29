@@ -1,0 +1,31 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dror S.",
+			"Ruth Bridger"
+		]
+	},
+	"wrmessages-desc": "Kol-Zchut specific messages",
+
+	"group-staff": "Staff",
+	"group-staff+": "Staff: extra permissions",
+	"group-automaton": "Automatons",
+	"group-socialworker": "Social Workers",
+	"group-staff-member": "Member of staff",
+	"group-staff+-member": "Member of Staff+",
+	"group-automaton-member": "Automaton",
+	"group-socialworker-member": "Social Worker",
+	"grouppage-staff": "{{ns:project}}:Staff",
+	"grouppage-staff+": "{{ns:project}}:Staff",
+	"grouppage-socialworker": "{{ns:project}}:Social Workers",
+	"right-staff": "Staff only",
+	"restriction-level-staff": "Staff only",
+
+	"tpl-lead-link-text": "Additional details...",
+	"tpl-דוגמה-title": "Example",
+	"tpl-mainpage-portalbox-more-portals-link": "Project:Active portals",
+	"tpl-mainpage-portalbox-more-portals-link-text": "Full list of subjects...",
+
+	"multiboilerplate": "* Right | תבנית:זכות/en\n* Portal | תבנית:פורטל/en\n* Portal/Subpage | תבנית:פורטל/תת-עמוד\n* Proceeding | תבנית:הליך/en\n* Term | תבנית:מושג/en\n* Service | תבנית:שירות/en\n* Court Ruling | תבנית:פסק דין/en\n* Law | תבנית:חוק/en\n* Organization | תבנית:ארגון/en\n* Government agency | תבנית:גורם ממשל/en\n* Disease/Syndrome/Disorder | תבנית:מחלה/en\n<!--* Letter | תבנית:מכתב-->\n* User | תבנית:משתמש/en",
+	"kz-disclaimers": "<p>The information contained in \"All-Rights\" is general in nature and does not purport to be binding or authoritative. Use of this information is not a substitute for obtaining legal or other professional advice and the user assumes sole responsibility when relying on this information. While all English pages are maintained on an on-going basis, it is highly recommended to refer to the corresponding Hebrew page for updates.</p>\n<p dir=\"rtl\">המידע באתר \"כל-זכות\" הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד. יש לעיין [[:he:Project:הבהרה משפטית | בתנאי השימוש]].</p>"
+}

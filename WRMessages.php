@@ -1,29 +1,32 @@
 <?php
 if (!defined('MEDIAWIKI')) die();
 /**
- * An extension that adds Kol-Zchut specific messsages. Originally based on [[Extension:WikimediaMessages]]
+ * An extension to add Kol-Zchut-specific messsages and override some of the default ones.
+ * Originally based on [[Extension:WikimediaMessages]]
  *
  * @file
  * @ingroup Extensions
  *
- * @copyright Copyright © 2012, Dror Snir (Kol-Zchut Ltd.)
+ * @copyright Copyright © 2012, Dror S. & Kol-Zchut Ltd (CIC)
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
-$GLOBALS['wgExtensionCredits']['other'][] = array(
+$wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'WRMessages',
 	'author'         => 'Dror S. [FFS] ([http://www.kolzchut.org.il Kol-Zchut])',
-	'version'        => '0.2',
+	'version'        => '0.2.1',
 	'url'            => 'http://www.kolzchut.org.il/he/Project:Extensions/WRMessages',
 	'descriptionmsg' => 'wrmessages-desc',
 );
 
 // i18n
-$GLOBALS['wgMessagesDirs']['WRMessages'] = __DIR__ . '/i18n';
-$GLOBALS['wgExtensionMessagesFiles']['WRMessagesOld'] = __DIR__ . '/WRMessages.i18n.php';
-$GLOBALS['wgExtensionMessagesFiles']['WRMessagesNamespaces'] = __DIR__ . '/WRMessages.namespaces.php';
-$GLOBALS['wgExtensionMessagesFiles']['WRMessagesAliases'] = __DIR__ . '/WRMessages.alias.php';
+$wgMessagesDirs['WRMessages'] = array(
+	__DIR__ . '/i18n/new',
+	__DIR__ . '/i18n/overrides'
+);
+$wgExtensionMessagesFiles['WRMessagesNamespaces'] = __DIR__ . '/WRMessages.namespaces.php';
+$wgExtensionMessagesFiles['WRMessagesAliases'] = __DIR__ . '/WRMessages.alias.php';
 
 // Autoloading
 $wgAutoloadClasses['WRMessagesHooks'] = __DIR__ . '/WRMessages.hooks.php';
@@ -31,64 +34,74 @@ $wgAutoloadClasses['WRMessagesHooks'] = __DIR__ . '/WRMessages.hooks.php';
 
 // Hooks
 $wgHooks['CanonicalNamespaces'][] = 'WRMessagesHooks::onCanonicalNamespaces';
+$wgHooks['MessageCache::get'][] = 'WRMessagesHooks::onMessageCacheGet';
+/** Custom Namespaces */
 
-// Namespaces
-define('NS_WR_COMPANY', 110);		#DS: 16/5/2010 additional namespace to host the company's site
-define('NS_WR_COMPANY_TALK', 111);
-define('NS_WR_COMMUNITY', 112); 		#DS: 30/5/2010 additional namespace host knowledge communities
-define('NS_WR_COMMUNITY_TALK', 113); 
-define('NS_WR_PORTAL', 114);		#DS: 31/1/2011 additional namespace to host portals data (but not the portals themselves at this point). 30/5/2011 not currently used
-define('NS_WR_PORTAL_TALK', 115);
-define('NS_WR_DRAFTS', 116);		#DS: 12/5/2011 additional namespace to host draft articles
-define('NS_WR_DRAFTS_TALK', 117);
-define('NS_WR_LIMBO', 118);		#DS: 26/9/2011 additional namespace to host on-hold articles
-define('NS_WR_LIMBO_TALK', 119);
-define('NS_WR_PRACTICE', 120);		#DS: 1/12/2011 additional namespace: a huge sandbox
-define('NS_WR_PRACTICE_TALK', 121);
-define('NS_WR_DATA', 122);			#DS: 7/3/2012 additional namespace: for holding small data like "tax reduction point"
-define('NS_WR_DATA_TALK', 123);
+// DS 2010-05-16 company's site
+// DS 2015 We switched back to using NS_PROJECT for this, only redirects left
+define('NS_WR_COMPANY', 110);
+define('NS_WR_COMPANY_TALK', NS_WR_COMPANY + 1);
+// DS 2010-05-30 knowledge communities
+define('NS_WR_COMMUNITY', 112);
+define('NS_WR_COMMUNITY_TALK', NS_WR_COMMUNITY + 1);
+// DS 2011-01-31 portals data (but not the portals themselves at this point).
+// 2015-06-28: Was never used
+define('NS_WR_PORTAL', 114);
+define('NS_WR_PORTAL_TALK', NS_WR_PORTAL + 1);
+// DS 2011-05-12 draft articles before publishing to NS_MAIN
+define('NS_WR_DRAFTS', 116);
+define('NS_WR_DRAFTS_TALK', NS_WR_DRAFTS + 1 );
+// DS 2011-09-26 on-hold articles, with warning about being inactive
+define('NS_WR_LIMBO', 118);
+define('NS_WR_LIMBO_TALK', NS_WR_LIMBO + 1);
+// DS 2011-12-01 a huge sandbox
+define('NS_WR_PRACTICE', 120);
+define('NS_WR_PRACTICE_TALK', NS_WR_PRACTICE + 1);
+// DS 2012-03-07 holding small data like "tax reduction point"
+define('NS_WR_DATA', 122);
+define('NS_WR_DATA_TALK', NS_WR_DATA + 1);
 
 
-	
-#DS: 28/12/2009 Enable subpages on most namespaces
+/** Enable subpages on most namespaces [DS 2009-12-28] */
 $wgNamespacesWithSubpages[NS_WR_COMPANY] = true;
-$wgNamespacesWithSubpages[NS_WR_COMMUNITY] = true; 
+$wgNamespacesWithSubpages[NS_WR_COMMUNITY] = true;
 $wgNamespacesWithSubpages[NS_WR_PORTAL] = true;
 $wgNamespacesWithSubpages[NS_WR_DRAFTS] = true;
 $wgNamespacesWithSubpages[NS_WR_LIMBO] = true;
 $wgNamespacesWithSubpages[NS_WR_PRACTICE] = true;
 $wgNamespacesWithSubpages[NS_WR_DATA] = true;
-
 $wgNamespacesWithSubpages[NS_MAIN] = true;
 $wgNamespacesWithSubpages[NS_HELP] = true;
 $wgNamespacesWithSubpages[NS_TEMPLATE] = true;
 $wgNamespacesWithSubpages[NS_PROJECT] = true;
 
 
-# Enable edit protection for some sensitive namespaces
-$wgNamespaceProtection[NS_PROJECT] = array( 'editproject' ); 		# Only allow staff to edit project ("WikiRights") namespace
-$wgNamespaceProtection[NS_WR_COMPANY] = array( 'editproject' );	# If allowed to edit the projet NS, allowed to edit this too
-$wgNamespaceProtection[NS_TEMPLATE] = array( 'editproject' ); 		# If allowed to edit the projet NS, allowed to edit this too
+/** Edit protection for some sensitive namespaces */
+// Only allow staff to edit NS_PROJECT
+$wgNamespaceProtection[NS_PROJECT] = array( 'editproject' );
+// If allowed to edit the NS_PROJECT, allowed to edit the following as well:
+$wgNamespaceProtection[NS_WR_COMPANY] = array( 'editproject' );
+$wgNamespaceProtection[NS_TEMPLATE] = array( 'editproject' );
 
-# Extra security for non-public-oriented namespaces, using Extension:Lockdown (only works when it's present)
+/** Extra security for non-public-oriented namespaces, [dependant on Extension:Lockdown!] */
 	//$wgNamespacePermissionLockdown[NS_WR_DRAFTS]['*'] = array('editor', 'staff');
 	//$wgNonincludableNamespaces[] = NS_WR_DRAFTS;
 	//$wgNamespacePermissionLockdown[NS_WR_LIMBO]['*'] = array('editor', 'staff');
-	$wgNonincludableNamespaces[] = NS_WR_LIMBO;	
+	$wgNonincludableNamespaces[] = NS_WR_LIMBO;
 	$wgNamespacePermissionLockdown[NS_WR_PRACTICE]['*'] = array('editor', 'staff');
-	$wgNonincludableNamespaces[] = NS_WR_PRACTICE;	
+	$wgNonincludableNamespaces[] = NS_WR_PRACTICE;
 
-# Extra security for potentially private information, using Extension:Lockdown
-    $wgSpecialPageLockdown['Listusers'] = array( 'staff');
-    $wgSpecialPageLockdown['Activeusers'] = array( 'editor', 'staff' );
-    $wgSpecialPageLockdown['BlockList'] = array( 'editor', 'staff' );
-    $wgSpecialPageLockdown['Log'] = array( 'editor', 'staff' );
-    $wgSpecialPageLockdown['LinkSearch'] = array( 'editor', 'staff' );
-    $wgSpecialPageLockdown['Export'] = array( 'editor', 'staff' );
+/** Extra security for potentially private information [dependant on Extension:Lockdown!] */
+	$wgSpecialPageLockdown['Listusers'] = array( 'staff');
+	$wgSpecialPageLockdown['Activeusers'] = array( 'editor', 'staff' );
+	$wgSpecialPageLockdown['BlockList'] = array( 'editor', 'staff' );
+	$wgSpecialPageLockdown['Log'] = array( 'editor', 'staff' );
+	$wgSpecialPageLockdown['LinkSearch'] = array( 'editor', 'staff' );
+	$wgSpecialPageLockdown['Export'] = array( 'editor', 'staff' );
 
 
-# Disable search engines indexing
-$wgNamespaceRobotPolicies[NS_MAIN] 		= 'index,follow';
-$wgNamespaceRobotPolicies[NS_PROJECT] 		= 'index,follow';
-$wgNamespaceRobotPolicies[NS_WR_COMPANY] 		= 'index,follow';
-$wgNamespaceRobotPolicies[NS_WR_COMMUNITY] 	= 'index,follow';
+/** Disable search engines indexing */
+$wgNamespaceRobotPolicies[NS_MAIN] = 'index,follow';
+$wgNamespaceRobotPolicies[NS_PROJECT] = 'index,follow';
+$wgNamespaceRobotPolicies[NS_WR_COMPANY] = 'index,follow';
+$wgNamespaceRobotPolicies[NS_WR_COMMUNITY] = 'index,follow';
