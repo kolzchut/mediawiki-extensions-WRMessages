@@ -56,7 +56,6 @@ class WRMessagesHooks {
 			'login',
 			'logouttext',
 			'nav-login-createaccount',
-			'loginprompt',
 			'userlogin',
 			'userloginnocreate',
 			'logout',
