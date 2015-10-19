@@ -75,6 +75,8 @@ class WRMessagesHooks {
 			'tooltip-p-logo',
 			'tooltip-n-mainpage',
 			'tooltip-n-mainpage-description',
+			"accesskey-p-logo",
+			"accesskey-n-mainpage",
 			'emailsender',
 			'enotif_body_intro_deleted',
 			'enotif_body_intro_created',
