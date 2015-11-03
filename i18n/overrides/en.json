@@ -37,6 +37,8 @@
 	"kz-tooltip-p-logo": "{{SITENAME}} Main Page",
 	"kz-tooltip-n-mainpage": "{{SITENAME}} Main Page",
 	"kz-tooltip-n-mainpage-description": "{{SITENAME}} Main Page",
+	"kz-accesskey-p-logo": "z",
+	"kz-accesskey-n-mainpage": "",
 	"kz-deletereason-dropdown": "* סיבות נפוצות\n** דף חדש שנוצר בטעות\n** מחיקת הפניה של דף שהועבר\n** דף שהוחלף באחר:\n** מחיקת דף ניסוי\n* זכויות יוצרים וכדומה\n** הפרת זכויות יוצרים\n** לבקשת הכותב",
 	"kz-signupstart": "{{int:loginstart}}",
 
