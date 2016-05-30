@@ -16,7 +16,7 @@ $wgExtensionCredits['other'][] = array(
 	'name'           => 'WRMessages',
 	'author'         => 'Dror S. [FFS] ([http://www.kolzchut.org.il Kol-Zchut])',
 	'version'        => '0.2.1',
-	'url'            => 'http://www.kolzchut.org.il/he/Project:Extensions/WRMessages',
+	'url'            => 'https://github.com/kolzchut/mediawiki-extensions-WRMessages',
 	'descriptionmsg' => 'wrmessages-desc',
 );
 
