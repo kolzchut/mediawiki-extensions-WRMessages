@@ -64,25 +64,27 @@ $namespaceNames['he'] = array(
 );
 
 $namespaceAliases['he'] = $namespaceAliases['en'] + array(
-	'תירגול'      => NS_WR_PRACTICE, #alias for the practice namespace, because some people think this is the way it should be written
-	'שיחת_תירגול' => NS_WR_PRACTICE_TALK, 
+	'תירגול'      => NS_WR_PRACTICE, # alias for spelling variation
+	'שיחת_תירגול' => NS_WR_PRACTICE_TALK,
 	'כל_זכות'	=> NS_PROJECT,	# alias for the project namespace, because people might forget the hyphen
 	'כלזכות'	=> NS_PROJECT, # alias for the project namespace, because people might forget the hyphen
 );
 
 /**
-/* Arabic (العربية) 
- * Custom namespaces for Kol-Zchut (WikiRights) 
+/* Arabic (العربية)
+ * Custom namespaces for Kol-Zchut (WikiRights)
  * @author Jalal Hassan
  * @author Suheir Daksa-Halabi
  */
 global $wgTranslateNumerals;
 $wgTranslateNumerals = false; # DS: 30/5/2011 Do not use arabic numerals
 $namespaceNames['ar'] = array(
-	NS_WR_COMPANY         => 'حول',
-	NS_WR_COMPANY_TALK    => 'نقاش_حول',
-	NS_WR_COMMUNITY       => 'مجتمع_المعرفة',
-	NS_WR_COMMUNITY_TALK  => 'نقاش_مجتمع_المعرفة',
+	NS_WR_COMPANY           => 'حول',
+	NS_WR_COMPANY_TALK      => 'نقاش_حول',
+	NS_WR_COMMUNITY         => 'مجتمع_المعرفة',
+	NS_WR_COMMUNITY_TALK    => 'نقاش_مجتمع_المعرفة',
+	NS_WR_LIMBO	            => 'تجميد',
+	NS_WR_LIMBO_TALK        => 'نقاش_تجميد',
 	/*
 	NS_WR_PORTAL          => 'פורטל',
 	NS_WR_PORTAL_TALK     => 'שיחת_פורטל',
@@ -90,8 +92,7 @@ $namespaceNames['ar'] = array(
 	NS_WR_DRAFTS_TALK     => 'שיחת_חדש',
 	NS_WR_PRACTICE			=>	'תרגול',
 	NS_WR_PRACTICE_TALK		=> 'שיחת_תרגול',
-	NS_WR_LIMBO				=> 'הקפאה',
-	NS_WR_LIMBO_TALK		=> 'שיחת_הקפאה',
+
 	NS_WR_DATA				=> 'נתון',
 	NS_WR_DATA_TALK			=> 'שיחת_נתון',
 	*/
