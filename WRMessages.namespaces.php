@@ -6,7 +6,7 @@
  * @ingroup Extensions
  */
 
-	$namespaceNames = array();
+$namespaceNames = array();
 
 /**
  * English
@@ -14,15 +14,15 @@
  * @author Dror S. [FFS]
  */
 $namespaceNames['en'] = array(
-	NS_WR_COMPANY         => 'About',
-	NS_WR_COMPANY_TALK    => 'About_talk',
-	NS_WR_COMMUNITY       => 'Knowledge_Community',
-	NS_WR_COMMUNITY_TALK  => 'Knowledge_Community_talk',
-	NS_WR_PORTAL          => 'Portal',
-	NS_WR_PORTAL_TALK     => 'Portal_talk',
-	NS_WR_DRAFTS          => 'New',
-	NS_WR_DRAFTS_TALK     => 'New_talk',
-	NS_WR_PRACTICE			=>	'Practice',
+	NS_WR_COMPANY           => 'About',
+	NS_WR_COMPANY_TALK      => 'About_talk',
+	NS_WR_COMMUNITY         => 'Knowledge_Community',
+	NS_WR_COMMUNITY_TALK    => 'Knowledge_Community_talk',
+	NS_WR_PORTAL            => 'Portal',
+	NS_WR_PORTAL_TALK       => 'Portal_talk',
+	NS_WR_DRAFTS            => 'New',
+	NS_WR_DRAFTS_TALK       => 'New_talk',
+	NS_WR_PRACTICE		    =>	'Practice',
 	NS_WR_PRACTICE_TALK		=> 'Practice_talk',
 	NS_WR_LIMBO				=> 'On_Hold',
 	NS_WR_LIMBO_TALK		=> 'On_Hold_talk',
@@ -31,31 +31,31 @@ $namespaceNames['en'] = array(
 );
 
 $namespaceAliases['en'] = array(
-	'mw'       	 => NS_MEDIAWIKI, #DS: 22/2/2010 alias for Mediawiki namespace. easier for me to edit interface messages 
-	'תבנית' 	 => NS_TEMPLATE, 	#DS: 31/1/2011 alias for template NS, to allow easy importing from HE instance
-	'תב' 		 => NS_TEMPLATE, 	#DS: 31/1/2011 alias for template NS, faster access
-	'קטגוריה' 	 => NS_CATEGORY, 	#DS: 17/5/2011 alias for category NS, to allow easy importing from HE instance
-	'קובץ' 		 => NS_FILE, 	#DS: 17/5/2011 alias for file NS, to allow easy importing from HE instance
-	'מדיה' 		 => NS_MEDIA, 	#DS: 7/12/2011 alias for Media (file) NS, to allow easy importing from HE instance
-	'מדיה-ויקי'  => NS_MEDIAWIKI, 	#DS: 7/12/2011 alias for MediaWiki NS, to allow easy importing from HE instance
+	'mw'     => NS_MEDIAWIKI, # Short alias - faster to type
+	'תבנית' 	 => NS_TEMPLATE, 	# Allow easy importing from HE instance
+	'תב' 	 => NS_TEMPLATE, 	# Short alias - faster to type
+	'קטגוריה' 	 => NS_CATEGORY, 	# Allow the Hebrew keyword to be used in other language instances
+	'קובץ' 	 => NS_FILE, 	# Allow the Hebrew keyword to be used in other language instances
+	'מדיה' 	 => NS_MEDIA, 	# Allow the Hebrew keyword to be used in other language instances
+	'מדיה-ויקי' => NS_MEDIAWIKI, 	# Allow the Hebrew keyword to be used in other language instances
 );
 
 /**
  * Hebrew (עברית)
- * Custom namespaces for Kol-Zchut (WikiRights) 
+ * Custom namespaces for Kol-Zchut (WikiRights)
  * @author Dror S. [FFS]
  * @author Kol-Zchut Staff
  */
 $namespaceNames['he'] = array(
-	NS_WR_COMPANY         => 'אודות',
-	NS_WR_COMPANY_TALK    => 'שיחת_אודות',
-	NS_WR_COMMUNITY       => 'קהילת_ידע',
-	NS_WR_COMMUNITY_TALK  => 'שיחת_קהילת_ידע',
-	NS_WR_PORTAL          => 'פורטל',
-	NS_WR_PORTAL_TALK     => 'שיחת_פורטל',
-	NS_WR_DRAFTS          => 'חדש',
-	NS_WR_DRAFTS_TALK     => 'שיחת_חדש',
-	NS_WR_PRACTICE			=>	'תרגול',
+	NS_WR_COMPANY           => 'אודות',
+	NS_WR_COMPANY_TALK      => 'שיחת_אודות',
+	NS_WR_COMMUNITY         => 'קהילת_ידע',
+	NS_WR_COMMUNITY_TALK    => 'שיחת_קהילת_ידע',
+	NS_WR_PORTAL            => 'פורטל',
+	NS_WR_PORTAL_TALK       => 'שיחת_פורטל',
+	NS_WR_DRAFTS            => 'חדש',
+	NS_WR_DRAFTS_TALK       => 'שיחת_חדש',
+	NS_WR_PRACTICE          => 'תרגול',
 	NS_WR_PRACTICE_TALK		=> 'שיחת_תרגול',
 	NS_WR_LIMBO				=> 'הקפאה',
 	NS_WR_LIMBO_TALK		=> 'שיחת_הקפאה',
