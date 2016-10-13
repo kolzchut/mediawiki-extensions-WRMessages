@@ -39,27 +39,27 @@ $wgHooks['MessageCache::get'][] = 'WRMessagesHooks::onMessageCacheGet';
 
 // DS 2010-05-16 company's site
 // DS 2015 We switched back to using NS_PROJECT for this, only redirects left
-define('NS_WR_COMPANY', 110);
-define('NS_WR_COMPANY_TALK', NS_WR_COMPANY + 1);
+define( 'NS_WR_COMPANY', 110 );
+define( 'NS_WR_COMPANY_TALK', NS_WR_COMPANY + 1 );
 // DS 2010-05-30 knowledge communities
-define('NS_WR_COMMUNITY', 112);
-define('NS_WR_COMMUNITY_TALK', NS_WR_COMMUNITY + 1);
+define( 'NS_WR_COMMUNITY', 112 );
+define( 'NS_WR_COMMUNITY_TALK', NS_WR_COMMUNITY + 1 );
 // DS 2011-01-31 portals data (but not the portals themselves at this point).
 // 2015-06-28: Was never used
-define('NS_WR_PORTAL', 114);
-define('NS_WR_PORTAL_TALK', NS_WR_PORTAL + 1);
+define( 'NS_WR_PORTAL', 114 );
+define( 'NS_WR_PORTAL_TALK', NS_WR_PORTAL + 1 );
 // DS 2011-05-12 draft articles before publishing to NS_MAIN
-define('NS_WR_DRAFTS', 116);
-define('NS_WR_DRAFTS_TALK', NS_WR_DRAFTS + 1 );
+define( 'NS_WR_DRAFTS', 116 );
+define( 'NS_WR_DRAFTS_TALK', NS_WR_DRAFTS + 1 );
 // DS 2011-09-26 on-hold articles, with warning about being inactive
-define('NS_WR_LIMBO', 118);
-define('NS_WR_LIMBO_TALK', NS_WR_LIMBO + 1);
+define( 'NS_WR_LIMBO', 118 );
+define( 'NS_WR_LIMBO_TALK', NS_WR_LIMBO + 1 );
 // DS 2011-12-01 a huge sandbox
-define('NS_WR_PRACTICE', 120);
-define('NS_WR_PRACTICE_TALK', NS_WR_PRACTICE + 1);
+define( 'NS_WR_PRACTICE', 120 );
+define( 'NS_WR_PRACTICE_TALK', NS_WR_PRACTICE + 1 );
 // DS 2012-03-07 holding small data like "tax reduction point"
-define('NS_WR_DATA', 122);
-define('NS_WR_DATA_TALK', NS_WR_DATA + 1);
+define( 'NS_WR_DATA', 122 );
+define( 'NS_WR_DATA_TALK', NS_WR_DATA + 1 );
 
 
 /** Enable subpages on most namespaces [DS 2009-12-28] */
@@ -84,15 +84,15 @@ $wgNamespaceProtection[NS_WR_COMPANY] = array( 'editproject' );
 $wgNamespaceProtection[NS_TEMPLATE] = array( 'editproject' );
 
 /** Extra security for non-public-oriented namespaces, [dependant on Extension:Lockdown!] */
-	//$wgNamespacePermissionLockdown[NS_WR_DRAFTS]['*'] = array('editor', 'staff');
-	//$wgNonincludableNamespaces[] = NS_WR_DRAFTS;
-	//$wgNamespacePermissionLockdown[NS_WR_LIMBO]['*'] = array('editor', 'staff');
+	// $wgNamespacePermissionLockdown[NS_WR_DRAFTS]['*'] = array('editor', 'staff');
+	// $wgNonincludableNamespaces[] = NS_WR_DRAFTS;
+	// $wgNamespacePermissionLockdown[NS_WR_LIMBO]['*'] = array('editor', 'staff');
 	$wgNonincludableNamespaces[] = NS_WR_LIMBO;
-	$wgNamespacePermissionLockdown[NS_WR_PRACTICE]['*'] = array('editor', 'staff');
+	$wgNamespacePermissionLockdown[NS_WR_PRACTICE]['*'] = array( 'editor', 'staff' );
 	$wgNonincludableNamespaces[] = NS_WR_PRACTICE;
 
 /** Extra security for potentially private information [dependant on Extension:Lockdown!] */
-	$wgSpecialPageLockdown['Listusers'] = array( 'staff');
+	$wgSpecialPageLockdown['Listusers'] = array( 'staff' );
 	$wgSpecialPageLockdown['Activeusers'] = array( 'editor', 'staff' );
 	$wgSpecialPageLockdown['BlockList'] = array( 'editor', 'staff' );
 	$wgSpecialPageLockdown['Log'] = array( 'editor', 'staff' );
