@@ -33,7 +33,7 @@
 	"kz-siteuser": "$1",
 	"kz-siteusers": "$1",
 	"kz-tagline": "From {{SITENAME}} ({{SERVERNAME}})",
-	"kz-search-nonefound": "{{MediaWiki:search-nonefound}}",
+	"kz-search-nonefound": "There were no results matching your search.",
 	"kz-tooltip-p-logo": "{{SITENAME}} Main Page",
 	"kz-tooltip-n-mainpage": "{{SITENAME}} Main Page",
 	"kz-tooltip-n-mainpage-description": "{{SITENAME}} Main Page",
