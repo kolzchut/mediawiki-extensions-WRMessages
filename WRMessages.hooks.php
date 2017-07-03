@@ -90,7 +90,9 @@ class WRMessagesHooks {
 			'userpage',
 
 			'helena-disclaimers',
-			'wr-langlinks-label'
+			'wr-langlinks-label',
+
+			'smw_purge'
 		);
 
 		if ( in_array( $lcKey, $keys, true ) ) {
