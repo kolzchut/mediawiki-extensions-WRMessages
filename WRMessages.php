@@ -77,6 +77,14 @@ $wgNamespacesWithSubpages[NS_PROJECT] = true;
 
 
 /** Edit protection for some sensitive namespaces */
+$wgNamespaceProtection[NS_MAIN] = array( 'edit-main' );
+$wgNamespaceProtection[NS_WR_DATA] = array( 'edit-main' );
+$wgNamespaceProtection[NS_WR_DRAFTS] = array( 'edit-main' );
+$wgNamespaceProtection[NS_WR_LIMBO] = array( 'edit-main' );
+$wgNamespaceProtection[NS_HELP] = array( 'edit-main' );
+$wgNamespaceProtection[NS_WR_DATA] = array( 'edit-main' );
+
+
 // Only allow staff to edit NS_PROJECT
 $wgNamespaceProtection[NS_PROJECT] = array( 'editproject' );
 // If allowed to edit the NS_PROJECT, allowed to edit the following as well:
