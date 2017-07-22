@@ -54,5 +54,7 @@
 
 	"kz-helena-disclaimers": "{{Mediawiki:kz-disclaimers}}",
 	"kz-userpage": "صفحة مستخدم",
-	"kz-wr-langlinks-label": "المصدر بالعبرية:"
+	"kz-wr-langlinks-label": "المصدر بالعبرية:",
+
+	"kz-emailsender": "{{SITENAME}}"
 }

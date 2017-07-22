@@ -55,5 +55,6 @@
 	"kz-userpage": "User page",
 	"kz-wr-langlinks-label": "Hebrew source:",
 
-	"kz-smw_purge": "Refresh"
+	"kz-smw_purge": "Refresh",
+	"kz-emailsender": "{{SITENAME}}"
 }
