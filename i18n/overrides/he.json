@@ -53,7 +53,7 @@
 
 	"kz-helena-disclaimers": "{{Mediawiki:kz-disclaimers}}",
 	"kz-userpage": "דף משתמש",
-	"kz-wr-langlinks-label": "{{PLURAL:$1|תרגום|תרגומים}}:",
+	"kz-wr-langlinks-label": "תרגום:",
 
 	"kz-smw_purge": "רענון",
 	"kz-emailsender": "{{SITENAME}}"
