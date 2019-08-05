@@ -2,13 +2,13 @@
 
 class WRMessagesHooks {
 	/**
-	* For extensions adding their own namespaces or altering the defaults.
-	* @see https://www.mediawiki.org/wiki/Manual:Hooks/CanonicalNamespaces
-	*
-	* @param array $list
-	*
-	* @return true
-	*/
+	 * For extensions adding their own namespaces or altering the defaults.
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/CanonicalNamespaces
+	 *
+	 * @param array $list
+	 *
+	 * @return true
+	 */
 	public static function onCanonicalNamespaces( array &$list ) {
 		$list[NS_WR_COMPANY] = 'אודות';
 		$list[NS_WR_COMPANY_TALK] = 'שיחת_אודות';
@@ -41,7 +41,7 @@ class WRMessagesHooks {
 	public static function onMessageCacheGet( &$lcKey ) {
 		global $wgLanguageCode;
 
-		static $keys = array(
+		static $keys = [
 			'aboutpage',
 			'aboutsite',
 			'copyright',
@@ -94,10 +94,10 @@ class WRMessagesHooks {
 
 			'smw_purge',
 			'emailsender'
-		);
+		];
 
 		if ( in_array( $lcKey, $keys, true ) ) {
-			$prefixedKey ="kz-$lcKey";
+			$prefixedKey = "kz-$lcKey";
 
 			// MessageCache uses ucfirst if ord( key ) is < 128, which is true of all
 			// of the above.  Revisit if non-ASCII keys are used.
@@ -110,7 +110,6 @@ class WRMessagesHooks {
 				// language pages (MediaWiki:$ucKey/xy) are not checked when
 				// deciding which key to use, but are still used if applicable
 				// after the key is decided.
-				//
 				// 2. Otherwise, use the prefixed key with normal fallback order
 				// (including MediaWiki pages if they exist).
 				$cache->getMsgFromNamespace( $ucKey, $wgLanguageCode ) === false
@@ -119,9 +118,5 @@ class WRMessagesHooks {
 			}
 		}
 		return true;
-
-
-
-
 	}
 }

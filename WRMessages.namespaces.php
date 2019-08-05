@@ -6,14 +6,14 @@
  * @ingroup Extensions
  */
 
-$namespaceNames = array();
+$namespaceNames = [];
 
 /**
  * English
  * Custom namespaces for Kol-Zchut (WikiRights)
  * @author Dror S. [FFS]
  */
-$namespaceNames['en'] = array(
+$namespaceNames['en'] = [
 	NS_WR_COMPANY           => 'About',
 	NS_WR_COMPANY_TALK      => 'About_talk',
 	NS_WR_COMMUNITY         => 'Knowledge_Community',
@@ -28,9 +28,9 @@ $namespaceNames['en'] = array(
 	NS_WR_LIMBO_TALK		=> 'On_Hold_talk',
 	NS_WR_DATA				=> 'Data',
 	NS_WR_DATA_TALK			=> 'Data_talk',
-);
+];
 
-$namespaceAliases['en'] = array(
+$namespaceAliases['en'] = [
 	'mw'     => NS_MEDIAWIKI, # Short alias - faster to type
 	'תבנית' 	 => NS_TEMPLATE, 	# Allow easy importing from HE instance
 	'תב' 	 => NS_TEMPLATE, 	# Short alias - faster to type
@@ -38,7 +38,7 @@ $namespaceAliases['en'] = array(
 	'קובץ' 	 => NS_FILE, 	# Allow the Hebrew keyword to be used in other language instances
 	'מדיה' 	 => NS_MEDIA, 	# Allow the Hebrew keyword to be used in other language instances
 	'מדיה-ויקי' => NS_MEDIAWIKI, 	# Allow the Hebrew keyword to be used in other language instances
-);
+];
 
 /**
  * Hebrew (עברית)
@@ -46,7 +46,7 @@ $namespaceAliases['en'] = array(
  * @author Dror S. [FFS]
  * @author Kol-Zchut Staff
  */
-$namespaceNames['he'] = array(
+$namespaceNames['he'] = [
 	NS_WR_COMPANY           => 'אודות',
 	NS_WR_COMPANY_TALK      => 'שיחת_אודות',
 	NS_WR_COMMUNITY         => 'קהילת_ידע',
@@ -61,14 +61,14 @@ $namespaceNames['he'] = array(
 	NS_WR_LIMBO_TALK		=> 'שיחת_הקפאה',
 	NS_WR_DATA				=> 'נתון',
 	NS_WR_DATA_TALK			=> 'שיחת_נתון',
-);
+];
 
-$namespaceAliases['he'] = $namespaceAliases['en'] + array(
+$namespaceAliases['he'] = $namespaceAliases['en'] + [
 	'תירגול'      => NS_WR_PRACTICE, # alias for spelling variation
 	'שיחת_תירגול' => NS_WR_PRACTICE_TALK,
 	'כל_זכות'	=> NS_PROJECT,	# alias for the project namespace, because people might forget the hyphen
 	'כלזכות'	=> NS_PROJECT, # alias for the project namespace, because people might forget the hyphen
-);
+];
 
 /**
 /* Arabic (العربية)
@@ -78,7 +78,7 @@ $namespaceAliases['he'] = $namespaceAliases['en'] + array(
  */
 global $wgTranslateNumerals;
 $wgTranslateNumerals = false; # DS: 30/5/2011 Do not use arabic numerals
-$namespaceNames['ar'] = array(
+$namespaceNames['ar'] = [
 	NS_WR_COMPANY           => 'حول',
 	NS_WR_COMPANY_TALK      => 'نقاش_حول',
 	NS_WR_COMMUNITY         => 'مجتمع_المعرفة',
@@ -96,8 +96,6 @@ $namespaceNames['ar'] = array(
 	NS_WR_DATA				=> 'נתון',
 	NS_WR_DATA_TALK			=> 'שיחת_נתון',
 	*/
-);
+];
 
 $namespaceAliases['ar'] = $namespaceAliases['he'];
-
-

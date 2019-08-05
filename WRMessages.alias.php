@@ -7,28 +7,28 @@
  * @license GNU General Public Licence 2.0 or later
  */
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English (English) */
-$specialPageAliases['en'] = array(
-	'Export'       => array( 'ייצוא', 'ייצוא_דפים' ),
-	'Import'       => array( 'ייבוא', 'ייבוא_דפים' ),
+$specialPageAliases['en'] = [
+	'Export'       => [ 'ייצוא', 'ייצוא_דפים' ],
+	'Import'       => [ 'ייבוא', 'ייבוא_דפים' ],
 
-);
+];
 
 /** Hebrew (עברית) */
-$specialPageAliases['he'] = array(
-	'Userrights'    => array( 'הרשאות_משתמש' ),
-	'CreateAccount' => array( 'רישום_לחשבון', 'רישום חשבון' ),
-	'Specialpages'  => array( 'מיוחדים' ),
-	'Userlogin'     => array( 'כניסת_משתמש' ),
-	'Whatlinkshere' => array( 'דפים_המקשרים_לכאן' ),
+$specialPageAliases['he'] = [
+	'Userrights'    => [ 'הרשאות_משתמש' ],
+	'CreateAccount' => [ 'רישום_לחשבון', 'רישום חשבון' ],
+	'Specialpages'  => [ 'מיוחדים' ],
+	'Userlogin'     => [ 'כניסת_משתמש' ],
+	'Whatlinkshere' => [ 'דפים_המקשרים_לכאן' ],
 
-);
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'Export'       => array( 'ייצוא', 'ייצוא_דפים' ),
-	'Import'       => array( 'ייבוא', 'ייבוא_דפים' ),
+$specialPageAliases['ar'] = [
+	'Export'       => [ 'ייצוא', 'ייצוא_דפים' ],
+	'Import'       => [ 'ייבוא', 'ייבוא_דפים' ],
 
-);
+];

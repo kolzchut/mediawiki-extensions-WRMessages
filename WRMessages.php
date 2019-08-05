@@ -1,5 +1,7 @@
 <?php
-if (!defined('MEDIAWIKI')) die();
+if ( !defined( 'MEDIAWIKI' ) ) {
+	die();
+}
 /**
  * An extension to add Kol-Zchut-specific messsages and override some of the default ones.
  * Originally based on [[Extension:WikimediaMessages]]
@@ -11,26 +13,25 @@ if (!defined('MEDIAWIKI')) die();
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  */
 
-$wgExtensionCredits['other'][] = array(
+$wgExtensionCredits['other'][] = [
 	'path'           => __FILE__,
 	'name'           => 'WRMessages',
 	'author'         => 'Dror S. [FFS] ([http://www.kolzchut.org.il Kol-Zchut])',
 	'version'        => '0.2.1',
 	'url'            => 'https://github.com/kolzchut/mediawiki-extensions-WRMessages',
 	'descriptionmsg' => 'wrmessages-desc',
-);
+];
 
 // i18n
-$wgMessagesDirs['WRMessages'] = array(
+$wgMessagesDirs['WRMessages'] = [
 	__DIR__ . '/i18n/new',
 	__DIR__ . '/i18n/overrides'
-);
+];
 $wgExtensionMessagesFiles['WRMessagesNamespaces'] = __DIR__ . '/WRMessages.namespaces.php';
 $wgExtensionMessagesFiles['WRMessagesAliases'] = __DIR__ . '/WRMessages.alias.php';
 
 // Autoloading
 $wgAutoloadClasses['WRMessagesHooks'] = __DIR__ . '/WRMessages.hooks.php';
-
 
 // Hooks
 $wgHooks['CanonicalNamespaces'][] = 'WRMessagesHooks::onCanonicalNamespaces';
@@ -61,7 +62,6 @@ define( 'NS_WR_PRACTICE_TALK', NS_WR_PRACTICE + 1 );
 define( 'NS_WR_DATA', 122 );
 define( 'NS_WR_DATA_TALK', NS_WR_DATA + 1 );
 
-
 /** Enable subpages on most namespaces [DS 2009-12-28] */
 $wgNamespacesWithSubpages[NS_WR_COMPANY] = true;
 $wgNamespacesWithSubpages[NS_WR_COMMUNITY] = true;
@@ -75,38 +75,35 @@ $wgNamespacesWithSubpages[NS_HELP] = true;
 $wgNamespacesWithSubpages[NS_TEMPLATE] = true;
 $wgNamespacesWithSubpages[NS_PROJECT] = true;
 
-
 /** Edit protection for some sensitive namespaces */
-$wgNamespaceProtection[NS_MAIN] = array( 'edit-main' );
-$wgNamespaceProtection[NS_WR_DATA] = array( 'edit-main' );
-$wgNamespaceProtection[NS_WR_DRAFTS] = array( 'edit-main' );
-$wgNamespaceProtection[NS_WR_LIMBO] = array( 'edit-main' );
-$wgNamespaceProtection[NS_HELP] = array( 'edit-main' );
-$wgNamespaceProtection[NS_WR_DATA] = array( 'edit-main' );
-
+$wgNamespaceProtection[NS_MAIN] = [ 'edit-main' ];
+$wgNamespaceProtection[NS_WR_DATA] = [ 'edit-main' ];
+$wgNamespaceProtection[NS_WR_DRAFTS] = [ 'edit-main' ];
+$wgNamespaceProtection[NS_WR_LIMBO] = [ 'edit-main' ];
+$wgNamespaceProtection[NS_HELP] = [ 'edit-main' ];
+$wgNamespaceProtection[NS_WR_DATA] = [ 'edit-main' ];
 
 // Only allow staff to edit NS_PROJECT
-$wgNamespaceProtection[NS_PROJECT] = array( 'editproject' );
+$wgNamespaceProtection[NS_PROJECT] = [ 'editproject' ];
 // If allowed to edit the NS_PROJECT, allowed to edit the following as well:
-$wgNamespaceProtection[NS_WR_COMPANY] = array( 'editproject' );
-$wgNamespaceProtection[NS_TEMPLATE] = array( 'editproject' );
+$wgNamespaceProtection[NS_WR_COMPANY] = [ 'editproject' ];
+$wgNamespaceProtection[NS_TEMPLATE] = [ 'editproject' ];
 
 /** Extra security for non-public-oriented namespaces, [dependant on Extension:Lockdown!] */
 	// $wgNamespacePermissionLockdown[NS_WR_DRAFTS]['*'] = array('editor', 'staff');
 	// $wgNonincludableNamespaces[] = NS_WR_DRAFTS;
 	// $wgNamespacePermissionLockdown[NS_WR_LIMBO]['*'] = array('editor', 'staff');
 	$wgNonincludableNamespaces[] = NS_WR_LIMBO;
-	$wgNamespacePermissionLockdown[NS_WR_PRACTICE]['*'] = array( 'editor', 'staff' );
+	$wgNamespacePermissionLockdown[NS_WR_PRACTICE]['*'] = [ 'editor', 'staff' ];
 	$wgNonincludableNamespaces[] = NS_WR_PRACTICE;
 
 /** Extra security for potentially private information [dependant on Extension:Lockdown!] */
-	$wgSpecialPageLockdown['Listusers'] = array( 'staff' );
-	$wgSpecialPageLockdown['Activeusers'] = array( 'editor', 'staff' );
-	$wgSpecialPageLockdown['BlockList'] = array( 'editor', 'staff' );
-	$wgSpecialPageLockdown['Log'] = array( 'editor', 'staff' );
-	$wgSpecialPageLockdown['LinkSearch'] = array( 'editor', 'staff' );
-	$wgSpecialPageLockdown['Export'] = array( 'editor', 'staff' );
-
+	$wgSpecialPageLockdown['Listusers'] = [ 'staff' ];
+	$wgSpecialPageLockdown['Activeusers'] = [ 'editor', 'staff' ];
+	$wgSpecialPageLockdown['BlockList'] = [ 'editor', 'staff' ];
+	$wgSpecialPageLockdown['Log'] = [ 'editor', 'staff' ];
+	$wgSpecialPageLockdown['LinkSearch'] = [ 'editor', 'staff' ];
+	$wgSpecialPageLockdown['Export'] = [ 'editor', 'staff' ];
 
 /** Disable search engines indexing */
 $wgNamespaceRobotPolicies[NS_MAIN] = 'index,follow';

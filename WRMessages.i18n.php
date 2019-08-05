@@ -21,4 +21,3 @@ $datePreferences['he'] = [
 	'hebrew',
 	'ISO 8601',
 ];
-
