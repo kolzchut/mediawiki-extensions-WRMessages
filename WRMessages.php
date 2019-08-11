@@ -17,7 +17,7 @@ $wgExtensionCredits['other'][] = [
 	'path'           => __FILE__,
 	'name'           => 'WRMessages',
 	'author'         => 'Dror S. [FFS] ([http://www.kolzchut.org.il Kol-Zchut])',
-	'version'        => '0.2.2',
+	'version'        => '0.3.0',
 	'url'            => 'https://github.com/kolzchut/mediawiki-extensions-WRMessages',
 	'descriptionmsg' => 'wrmessages-desc',
 ];
@@ -34,6 +34,7 @@ $wgExtensionMessagesFiles['WRMessagesAliases'] = __DIR__ . '/WRMessages.alias.ph
 $wgAutoloadClasses['WRMessagesHooks'] = __DIR__ . '/WRMessages.hooks.php';
 
 // Hooks
+$wgHooks['LinkerMakeExternalLink'][] = 'WRMessagesHooks::onLinkerMakeExternalLink';
 $wgHooks['CanonicalNamespaces'][] = 'WRMessagesHooks::onCanonicalNamespaces';
 $wgHooks['MessageCache::get'][] = 'WRMessagesHooks::onMessageCacheGet';
 

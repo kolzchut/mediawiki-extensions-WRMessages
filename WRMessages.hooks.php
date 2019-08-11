@@ -1,6 +1,19 @@
 <?php
 
 class WRMessagesHooks {
+
+	/**
+	 * Hook: LinkerMakeExternalLink
+	 *
+	 * Remove 'noreferrer' (added automatically by the parser) from government URLs
+	 */
+	public static function onLinkerMakeExternalLink( &$url, &$text, &$link, &$attribs, $linktype ) {
+		$parsedUrl = wfParseUrl( $url );
+		if ( preg_match( '/gov.il$/i', $parsedUrl['host'] ) === 1 ) {
+			$attribs['rel'] = str_replace( 'noreferrer', '', $attribs['rel'] );
+		}
+	}
+
 	/**
 	 * For extensions adding their own namespaces or altering the defaults.
 	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/CanonicalNamespaces
