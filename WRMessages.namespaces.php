@@ -28,6 +28,8 @@ $namespaceNames['en'] = [
 	NS_WR_LIMBO_TALK		=> 'On_Hold_talk',
 	NS_WR_DATA				=> 'Data',
 	NS_WR_DATA_TALK			=> 'Data_talk',
+	NS_WR_LANDING			=> 'Landing',
+	NS_WR_LANDING_TALK		=> 'Landing_talk',
 ];
 
 $namespaceAliases['en'] = [
@@ -61,6 +63,8 @@ $namespaceNames['he'] = [
 	NS_WR_LIMBO_TALK		=> 'שיחת_הקפאה',
 	NS_WR_DATA				=> 'נתון',
 	NS_WR_DATA_TALK			=> 'שיחת_נתון',
+	NS_WR_LANDING			=> 'נחיתה',
+	NS_WR_LANDING_TALK		=> 'שיחת_נחיתה',
 ];
 
 $namespaceAliases['he'] = $namespaceAliases['en'] + [
@@ -85,6 +89,8 @@ $namespaceNames['ar'] = [
 	NS_WR_COMMUNITY_TALK    => 'نقاش_مجتمع_المعرفة',
 	NS_WR_LIMBO	            => 'تجميد',
 	NS_WR_LIMBO_TALK        => 'نقاش_تجميد',
+	NS_WR_LANDING			=> 'صفحة_البدء',
+	NS_WR_LANDING_TALK		=> 'صفحة_البدء_نقاش'
 	/*
 	NS_WR_PORTAL          => 'פורטל',
 	NS_WR_PORTAL_TALK     => 'שיחת_פורטל',

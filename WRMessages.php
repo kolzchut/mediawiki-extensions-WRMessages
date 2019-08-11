@@ -17,7 +17,7 @@ $wgExtensionCredits['other'][] = [
 	'path'           => __FILE__,
 	'name'           => 'WRMessages',
 	'author'         => 'Dror S. [FFS] ([http://www.kolzchut.org.il Kol-Zchut])',
-	'version'        => '0.2.1',
+	'version'        => '0.2.2',
 	'url'            => 'https://github.com/kolzchut/mediawiki-extensions-WRMessages',
 	'descriptionmsg' => 'wrmessages-desc',
 ];
@@ -36,31 +36,34 @@ $wgAutoloadClasses['WRMessagesHooks'] = __DIR__ . '/WRMessages.hooks.php';
 // Hooks
 $wgHooks['CanonicalNamespaces'][] = 'WRMessagesHooks::onCanonicalNamespaces';
 $wgHooks['MessageCache::get'][] = 'WRMessagesHooks::onMessageCacheGet';
+
+
 /** Custom Namespaces */
 
-// DS 2010-05-16 company's site
-// DS 2015 We switched back to using NS_PROJECT for this, only redirects left
+// 2015 No longer in use (using NS_PROJECT instead, only redirects left)
 define( 'NS_WR_COMPANY', 110 );
 define( 'NS_WR_COMPANY_TALK', NS_WR_COMPANY + 1 );
-// DS 2010-05-30 knowledge communities
+// 2010-05-30 knowledge communities, no longer in use
 define( 'NS_WR_COMMUNITY', 112 );
 define( 'NS_WR_COMMUNITY_TALK', NS_WR_COMMUNITY + 1 );
-// DS 2011-01-31 portals data (but not the portals themselves at this point).
-// 2015-06-28: Was never used
+// 2011-01-31 portals data (but not the portals themselves). Never used
 define( 'NS_WR_PORTAL', 114 );
 define( 'NS_WR_PORTAL_TALK', NS_WR_PORTAL + 1 );
-// DS 2011-05-12 draft articles before publishing to NS_MAIN
+// 2011-05-12 draft articles before publishing to NS_MAIN
 define( 'NS_WR_DRAFTS', 116 );
 define( 'NS_WR_DRAFTS_TALK', NS_WR_DRAFTS + 1 );
-// DS 2011-09-26 on-hold articles, with warning about being inactive
+// 2011-09-26 on-hold articles,with warning about being inactive
 define( 'NS_WR_LIMBO', 118 );
 define( 'NS_WR_LIMBO_TALK', NS_WR_LIMBO + 1 );
-// DS 2011-12-01 a huge sandbox
+// 2011-12-01 a huge sandbox
 define( 'NS_WR_PRACTICE', 120 );
 define( 'NS_WR_PRACTICE_TALK', NS_WR_PRACTICE + 1 );
-// DS 2012-03-07 holding small data like "tax reduction point"
+// 2012-03-07 holding small data like "tax reduction point"
 define( 'NS_WR_DATA', 122 );
 define( 'NS_WR_DATA_TALK', NS_WR_DATA + 1 );
+// 2019-08-05 Landing Pages
+define( 'NS_WR_LANDING', 124 );
+define( 'NS_WR_LANDING_TALK', NS_WR_LANDING + 1 );
 
 /** Enable subpages on most namespaces [DS 2009-12-28] */
 $wgNamespacesWithSubpages[NS_WR_COMPANY] = true;
@@ -105,8 +108,6 @@ $wgNamespaceProtection[NS_TEMPLATE] = [ 'editproject' ];
 	$wgSpecialPageLockdown['LinkSearch'] = [ 'editor', 'staff' ];
 	$wgSpecialPageLockdown['Export'] = [ 'editor', 'staff' ];
 
-/** Disable search engines indexing */
+/** The default, as set in CommonSettings.php, is noindex, nofollow. These are exceptions: */
 $wgNamespaceRobotPolicies[NS_MAIN] = 'index,follow';
 $wgNamespaceRobotPolicies[NS_PROJECT] = 'index,follow';
-$wgNamespaceRobotPolicies[NS_WR_COMPANY] = 'index,follow';
-$wgNamespaceRobotPolicies[NS_WR_COMMUNITY] = 'index,follow';

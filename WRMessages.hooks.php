@@ -24,8 +24,8 @@ class WRMessagesHooks {
 		$list[NS_WR_PRACTICE_TALK] = 'שיחת_תרגול';
 		$list[NS_WR_DATA] = 'נתון';
 		$list[NS_WR_DATA_TALK] = 'שיחת_נתון';
-
-		return true;
+		$list[NS_WR_LANDING] = 'נחיתה';
+		$list[NS_WR_LANDING_TALK] = 'שיחת_נחיתה';
 	}
 
 	/**
