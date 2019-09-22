@@ -87,6 +87,10 @@ $wgNamespaceProtection[NS_WR_LIMBO] = [ 'edit-main' ];
 $wgNamespaceProtection[NS_HELP] = [ 'edit-main' ];
 $wgNamespaceProtection[NS_WR_DATA] = [ 'edit-main' ];
 
+/** Add namespaces to be searched by default */
+$wgNamespacesToBeSearchedDefault[NS_WR_DRAFTS] = true;
+$wgNamespacesToBeSearchedDefault[NS_WR_LANDING] = true;
+
 // Only allow staff to edit NS_PROJECT
 $wgNamespaceProtection[NS_PROJECT] = [ 'editproject' ];
 // If allowed to edit the NS_PROJECT, allowed to edit the following as well:
