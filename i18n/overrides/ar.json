@@ -29,7 +29,7 @@
 	"kz-createaccounterror": "تعذر إنشاء حساب المستخدم: $1",
 	"kz-upload": "ارفع ملفا",
 	"kz-noarticletext": "لا يوجد حاليا أي نص في هذه الصفحة.\nيمكنك [[Special:Search/{{PAGENAME}}|البحث عن عنوان هذه الصفحة]] في الصفحات الأخرى،\n<span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} البحث في السجلات المتعلقة]،\nأو [{{fullurl:{{FULLPAGENAME}}|action=edit}} تعديل هذه الصفحة]</span>.",
-	"kz-noarticletext-nopermission": "لا يوجد حاليا أي نص في هذه الصفحة.\nيمكنك [[Special:Search/{{PAGENAME}}|البحث عن عنوان هذه الصفحة]] في الصفحات الأخرى، أو <span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} البحث في السجلات المتعلقة بها]</span>، لكنك لست مخولاً لإنشاء هذه الصفحة.",
+	"kz-noarticletext-nopermission": "{{Mediawiki:kz-noarticletext}}",
     "kz-protect-dropdown": "* סיבות הגנה נפוצות\n** בניהול צוות האתר\n** מלחמת עריכה בלתי מועילה\n** דף שאסור להזיז\n** דף בשימוש רב",
 	"kz-siteuser": "$1",
 	"kz-siteusers": "$1",
