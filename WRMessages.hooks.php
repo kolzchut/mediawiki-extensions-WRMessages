@@ -9,7 +9,7 @@ class WRMessagesHooks {
 	 */
 	public static function onLinkerMakeExternalLink( &$url, &$text, &$link, &$attribs, $linktype ) {
 		$parsedUrl = wfParseUrl( $url );
-		if ( preg_match( '/gov.il$/i', $parsedUrl['host'] ) === 1 ) {
+		if ( $parsedUrl !== false && preg_match( '/gov.il$/i', $parsedUrl['host'] ) === 1 ) {
 			$attribs['rel'] = str_replace( 'noreferrer', '', $attribs['rel'] );
 		}
 	}
