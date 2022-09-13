@@ -3,7 +3,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die();
 }
 /**
- * An extension to add Kol-Zchut-specific messsages and override some of the default ones.
+ * An extension to add Kol-Zchut-specific messsages and override some default ones.
  * Originally based on [[Extension:WikimediaMessages]]
  *
  * @file
@@ -16,7 +16,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['other'][] = [
 	'path'           => __FILE__,
 	'name'           => 'WRMessages',
-	'author'         => 'Dror S. [FFS] ([http://www.kolzchut.org.il Kol-Zchut])',
+	'author'         => 'Dror S. [FFS] ([https://www.kolzchut.org.il Kol-Zchut])',
 	'version'        => '0.3.0',
 	'url'            => 'https://github.com/kolzchut/mediawiki-extensions-WRMessages',
 	'descriptionmsg' => 'wrmessages-desc',
@@ -97,7 +97,7 @@ $wgNamespaceProtection[NS_PROJECT] = [ 'editproject' ];
 $wgNamespaceProtection[NS_WR_COMPANY] = [ 'editproject' ];
 $wgNamespaceProtection[NS_TEMPLATE] = [ 'editproject' ];
 
-/** Extra security for non-public-oriented namespaces, [dependant on Extension:Lockdown!] */
+/** Extra security for non-public-oriented namespaces, [dependent on Extension:Lockdown!] */
 	// $wgNamespacePermissionLockdown[NS_WR_DRAFTS]['*'] = array('editor', 'staff');
 	// $wgNonincludableNamespaces[] = NS_WR_DRAFTS;
 	// $wgNamespacePermissionLockdown[NS_WR_LIMBO]['*'] = array('editor', 'staff');
@@ -105,7 +105,7 @@ $wgNamespaceProtection[NS_TEMPLATE] = [ 'editproject' ];
 	$wgNamespacePermissionLockdown[NS_WR_PRACTICE]['*'] = [ 'editor', 'staff' ];
 	$wgNonincludableNamespaces[] = NS_WR_PRACTICE;
 
-/** Extra security for potentially private information [dependant on Extension:Lockdown!] */
+/** Extra security for potentially private information [dependent on Extension:Lockdown!] */
 	$wgSpecialPageLockdown['Listusers'] = [ 'staff' ];
 	$wgSpecialPageLockdown['Activeusers'] = [ 'editor', 'staff' ];
 	$wgSpecialPageLockdown['BlockList'] = [ 'editor', 'staff' ];
