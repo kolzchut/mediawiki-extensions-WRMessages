@@ -105,3 +105,13 @@ $namespaceNames['ar'] = [
 ];
 
 $namespaceAliases['ar'] = $namespaceAliases['he'];
+
+$namespaceNames['ru'] = [
+	NS_WR_COMPANY   => 'О',
+	NS_WR_LIMBO     => 'Заморожено',
+	NS_WR_LANDING	=> 'Целевая страница',
+	NS_WR_DATA		=> 'Данные',
+	NS_WR_PRACTICE  => 'Упражнение',
+	NS_WR_DRAFTS    => 'Новый'
+
+];
