@@ -90,7 +90,7 @@
 	"tpl-letter-filelinks-title": "Ссылка на файл письма:",
 	"tpl-letter-filelinks-pdf-format": "Версия PDF",
 	"tpl-letter-filelinks-word-format": "Версия Microsoft Word",
-	"tpl-letter-filelinks-addressee": "Получатели",
+	"tpl-letter-filelinks-recipients": "Получатели",
 
 	"tpl-letter-infobox-title": "Детали",
 	"tpl-letter-infobox-addressee": "Получатели",

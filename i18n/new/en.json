@@ -6,7 +6,6 @@
 		]
 	},
 	"wrmessages-desc": "Kol-Zchut specific messages",
-
 	"group-staff": "Staff",
 	"group-staff+": "Staff: extra permissions",
 	"group-automaton": "Automatons",
@@ -22,6 +21,8 @@
 	"grouppage-socialworker": "{{ns:project}}:Social Workers",
 	"right-staff": "Staff only",
 	"restriction-level-staff": "Staff only",
+	"multiboilerplate": "* Right | תבנית:זכות/en\n* Portal | תבנית:פורטל/en\n* Portal/Subpage | תבנית:פורטל/תת-עמוד\n* Proceeding | תבנית:הליך/en\n* Term | תבנית:מושג/en\n* Service | תבנית:שירות/en\n* Court Ruling | תבנית:פסק דין/en\n* Law | תבנית:חוק/en\n* Organization | תבנית:ארגון/en\n* Government agency | תבנית:גורם ממשל/en\n* Disease/Syndrome/Disorder | תבנית:מחלה/en\n<!--* Letter | תבנית:מכתב-->\n* User | תבנית:משתמש/en",
+	"kz-disclaimers": "<span>The information contained in \"All-Rights\" is general in nature and does not purport to be binding or authoritative. Use of this information is not a substitute for obtaining legal or other professional advice and the user assumes sole responsibility when relying on this information. While all English pages are maintained on an on-going basis, it is highly recommended to refer to the corresponding Hebrew page for updates.</span><div  dir=\"rtl\" style=\"font-size: 120%;font-weight: bold;\">אתר \"כל זכות\" מופעל ע\"י [[:he:Project:אודות המיזם|כל זכות בע\"מ (חל\"צ)]]</div><span dir=\"rtl\">המידע באתר הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד - יש לעיין [[:he:Project:הבהרה משפטית | בתנאי השימוש]].<br>אין בסיוע משרד המשפטים ומערך הדיגיטל הלאומי משום נטילת אחריות לפעילות האתר או לתכניו.</span>",
 
 	"tpl-lead-link-text": "Additional details...",
 	"tpl-דוגמה-title": "Example",
@@ -47,6 +48,65 @@
 	"tpl-טבלת_ארגונים-address": "Address",
 	"tpl-טבלת_ארגונים-website": "Website",
 
-	"multiboilerplate": "* Right | תבנית:זכות/en\n* Portal | תבנית:פורטל/en\n* Portal/Subpage | תבנית:פורטל/תת-עמוד\n* Proceeding | תבנית:הליך/en\n* Term | תבנית:מושג/en\n* Service | תבנית:שירות/en\n* Court Ruling | תבנית:פסק דין/en\n* Law | תבנית:חוק/en\n* Organization | תבנית:ארגון/en\n* Government agency | תבנית:גורם ממשל/en\n* Disease/Syndrome/Disorder | תבנית:מחלה/en\n<!--* Letter | תבנית:מכתב-->\n* User | תבנית:משתמש/en",
-	"kz-disclaimers": "<span>The information contained in \"All-Rights\" is general in nature and does not purport to be binding or authoritative. Use of this information is not a substitute for obtaining legal or other professional advice and the user assumes sole responsibility when relying on this information. While all English pages are maintained on an on-going basis, it is highly recommended to refer to the corresponding Hebrew page for updates.</span><div  dir=\"rtl\" style=\"font-size: 120%;font-weight: bold;\">אתר \"כל זכות\" מופעל ע\"י [[:he:Project:אודות המיזם|כל זכות בע\"מ (חל\"צ)]]</div><span dir=\"rtl\">המידע באתר הוא מידע כללי ואינו מידע מחייב. הזכויות המחייבות נקבעות על-פי חוק, תקנות ופסיקות בתי המשפט. השימוש במידע המופיע באתר אינו תחליף לקבלת ייעוץ או טיפול משפטי, מקצועי או אחר והסתמכות על האמור בו היא באחריות המשתמש בלבד - יש לעיין [[:he:Project:הבהרה משפטית | בתנאי השימוש]].<br>אין בסיוע משרד המשפטים ומערך הדיגיטל הלאומי משום נטילת אחריות לפעילות האתר או לתכניו.</span>"
+	"tpl-gov-infobox-title": "Details",
+	"tpl-gov-infobox-association": "Relationship",
+	"tpl-gov-infobox-areas": "Fields of activity",
+	"tpl-gov-infobox-website": "Website",
+	"tpl-gov-infobox-website-link-text": "Organization's website",
+	"tpl-gov-infobox-facebook": "Facebook",
+	"tpl-gov-infobox-facebook-link-text": "Organization's Page",
+	"tpl-gov-infobox-email": "email",
+	"tpl-gov-infobox-address": "Address",
+	"tpl-gov-infobox-phone": "Telephone",
+	"tpl-gov-infobox-additional-phones": "Telephone",
+	"tpl-gov-infobox-fax": "Fax",
+	"tpl-gov-infobox-key-people": "Key individuals",
+
+	"tpl-law-infobox-title": "Details",
+	"tpl-law-infobox-name": "Name of the law",
+	"tpl-law-infobox-link": "Link",
+	"tpl-law-infobox-link-text": "Letter of the law",
+	"tpl-law-infobox-link-knesset": "Letter of the law - Knesset website",
+	"tpl-law-infobox-link-openlawbook": "החוק ב\"ספר החוקים הפתוח\"",
+	"tpl-law-infobox-link-nevo": "Letter of the law - Nevo website",
+	"tpl-law-infobox-minister": "Minister responsible",
+	"tpl-law-infobox-succeeding": "Replaced",
+
+	"tpl-forms-title": "Forms",
+
+	"tpl-letter-filelinks-title": "Link to letter file:",
+	"tpl-letter-filelinks-pdf-format": "PDF version",
+	"tpl-letter-filelinks-word-format": "Microsoft Word version",
+	"tpl-letter-filelinks-recipients": "Recipients:",
+
+	"tpl-letter-infobox-title": "Details",
+	"tpl-letter-infobox-recipients": "Recipients",
+	"tpl-letter-infobox-creator": "Created by",
+	"tpl-letter-infobox-date": "Creation date",
+	"tpl-letter-infobox-last-update": "Last updated",
+
+	"tpl-youtube-additional-clips": "[https://www.youtube.com/user/KolZchut More All-Rights videos on YouTube]",
+
+	"tpl-ruling-infobox-tooltip": "We use the term &quot;precedent&quot; to indicate a case that was tried in a court of any kind and from which it is possible to learn how the legal system treats such situations. The intent is not only &quot;binding precedents&quot; or &quot;instructional precedents&quot; in the legal sense, and we also show rulings that bind only sides of the specific process. It is possible to use these previous cases as a basis when applying to public or government agencies, and they serve a convincing purpose, even if the precedents are not binding.",
+	"tpl-ruling-infobox-title": "Details of court ruling",
+	"tpl-ruling-infobox-case-name": "Case name",
+	"tpl-ruling-infobox-court": "Proceeding",
+	"tpl-ruling-infobox-judges": "Judges",
+	"tpl-ruling-infobox-case-number": "Case no.",
+	"tpl-ruling-infobox-date": "Date",
+	"tpl-ruling-infobox-link": "Link",
+
+	"tpl-service-infobox-title": "Details",
+	"tpl-service-infobox-organization": "Service providers",
+	"tpl-service-infobox-additional-info": "מידע נוסף",
+	"tpl-service-infobox-link": "פרטי השירות באתר המפעיל",
+	"tpl-service-infobox-city": "Location",
+	"tpl-service-infobox-phone": "Telephone",
+	"tpl-service-infobox-additional-phones": "Additional phones",
+	"tpl-service-infobox-languages": "Available in",
+	"tpl-service-infobox-cost": "Cost",
+	"tpl-service-infobox-main-area": "Main area",
+	"tpl-service-infobox-secondary-area": "Secondary area",
+
+	"tpl-see-also-title": "See also"
 }
