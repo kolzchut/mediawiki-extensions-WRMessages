@@ -115,3 +115,7 @@ $namespaceNames['ru'] = [
 	NS_WR_DRAFTS    => 'Новый'
 
 ];
+
+$namespaceAliases['ru'] = $namespaceAliases['he'] + [
+	'New' => NS_WR_DRAFTS
+];
