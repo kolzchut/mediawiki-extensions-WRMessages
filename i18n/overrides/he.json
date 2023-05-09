@@ -50,11 +50,9 @@
 	"kz-enotif_body_intro_changed": "הדף $1 ב{{grammar:תחילית|{{SITENAME}}}} שונה ב־$PAGEEDITDATE על ידי $2, ראו $3",
 	"kz-enotif_lastvisited": "",
 	"kz-enotif_lastdiff": "",
-
 	"kz-helena-disclaimers": "{{Mediawiki:kz-disclaimers}}",
 	"kz-userpage": "דף משתמש",
 	"kz-wr-langlinks-label": "תרגום:",
-
 	"kz-smw_purge": "רענון",
 	"kz-emailsender": "{{SITENAME}}"
 }
