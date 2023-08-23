@@ -5,11 +5,27 @@ class WRMessagesHooks {
 	/**
 	 * Hook: LinkerMakeExternalLink
 	 *
-	 * Remove 'noreferrer' (added automatically by the parser) from government URLs
+	 * Remove 'noreferrer' (added automatically by the parser) from whitelisted URLs
 	 */
 	public static function onLinkerMakeExternalLink( &$url, &$text, &$link, &$attribs, $linktype ) {
-		$parsedUrl = wfParseUrl( $url );
-		if ( $parsedUrl !== false && preg_match( '/gov.il$/i', $parsedUrl['host'] ) === 1 ) {
+		global $wgWRMessagesReferrerWhitelistRegexp;
+		$whitelisted = false;
+		if ( !$whitelisted && is_array( $wgWRMessagesReferrerWhitelistRegexp ) &&
+			!empty( $wgWRMessagesReferrerWhitelistRegexp )
+		) {
+			$parsedUrl = wfParseUrl( $url );
+			$host = $parsedUrl['host'];
+
+			// Check for regex whitelisting
+			foreach ( $wgWRMessagesReferrerWhitelistRegexp as $listItem ) {
+				if ( preg_match( $listItem, $host ) ) {
+					$whitelisted = true;
+					break;
+				}
+			}
+		}
+
+		if ( $whitelisted ) {
 			$attribs['rel'] = str_replace( 'noreferrer', '', $attribs['rel'] );
 		}
 	}

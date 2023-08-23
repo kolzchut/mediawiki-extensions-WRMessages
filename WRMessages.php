@@ -116,3 +116,5 @@ $wgNamespaceProtection[NS_TEMPLATE] = [ 'editproject' ];
 /** The default, as set in CommonSettings.php, is noindex, nofollow. These are exceptions: */
 $wgNamespaceRobotPolicies[NS_MAIN] = 'index,follow';
 $wgNamespaceRobotPolicies[NS_PROJECT] = 'index,follow';
+
+$wgWRMessagesReferrerWhitelistRegexp = [ '/gov.il$/', '/kolsherut.org.il$/' ];
