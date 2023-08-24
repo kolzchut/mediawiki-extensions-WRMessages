@@ -3,25 +3,34 @@
 class WRMessagesHooks {
 
 	/**
-	 * Hook: LinkerMakeExternalLink
+	 *  Remove 'noreferrer' (added automatically by the parser) from whitelisted URLs
 	 *
-	 * Remove 'noreferrer' (added automatically by the parser) from whitelisted URLs
+	 * Hook: LinkerMakeExternalLink
+	 *  This hook is called at the end of Linker::makeExternalLink() just before the return.
+	 *
+	 * @param string &$url Link URL
+	 * @param string &$text Link text
+	 * @param string &$link New link HTML (if returning false)
+	 * @param string[] &$attribs Attributes to be applied
+	 * @param string $linkType External link type
 	 */
-	public static function onLinkerMakeExternalLink( &$url, &$text, &$link, &$attribs, $linktype ) {
+	public static function onLinkerMakeExternalLink( &$url, &$text, &$link, &$attribs, $linkType ) {
 		global $wgWRMessagesReferrerWhitelistRegexp;
 		$whitelisted = false;
-		if ( !$whitelisted && is_array( $wgWRMessagesReferrerWhitelistRegexp ) &&
-			!empty( $wgWRMessagesReferrerWhitelistRegexp )
-		) {
-			$parsedUrl = wfParseUrl( $url );
-			$host = $parsedUrl['host'];
+		if ( !is_array( $wgWRMessagesReferrerWhitelistRegexp ) || empty( $wgWRMessagesReferrerWhitelistRegexp ) ) {
+			return;
+		}
 
-			// Check for regex whitelisting
-			foreach ( $wgWRMessagesReferrerWhitelistRegexp as $listItem ) {
-				if ( preg_match( $listItem, $host ) ) {
-					$whitelisted = true;
-					break;
-				}
+		$parsedUrl = wfParseUrl( $url );
+		if ( !isset( $parsedUrl['host'] ) ) {
+			return;
+		}
+
+		// Check for regex whitelisting
+		foreach ( $wgWRMessagesReferrerWhitelistRegexp as $listItem ) {
+			if ( preg_match( $listItem, $parsedUrl['host'] ) ) {
+				$whitelisted = true;
+				break;
 			}
 		}
 
