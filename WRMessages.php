@@ -66,6 +66,10 @@ define( 'NS_WR_DATA_TALK', NS_WR_DATA + 1 );
 define( 'NS_WR_LANDING', 124 );
 define( 'NS_WR_LANDING_TALK', NS_WR_LANDING + 1 );
 
+// 2024-03-25 Linguistic simplification
+define( 'NS_WR_SIMPLIFICATION', 126 );
+define( 'NS_WR_SIMPLIFICATION_TALK', NS_WR_LANDING + 1 );
+
 /** Enable subpages on most namespaces [DS 2009-12-28] */
 $wgNamespacesWithSubpages[NS_WR_COMPANY] = true;
 $wgNamespacesWithSubpages[NS_WR_COMMUNITY] = true;
@@ -78,6 +82,8 @@ $wgNamespacesWithSubpages[NS_MAIN] = true;
 $wgNamespacesWithSubpages[NS_HELP] = true;
 $wgNamespacesWithSubpages[NS_TEMPLATE] = true;
 $wgNamespacesWithSubpages[NS_PROJECT] = true;
+$wgNamespacesWithSubpages[NS_WR_SIMPLIFICATION] = true;
+
 
 /** Edit protection for some sensitive namespaces */
 $wgNamespaceProtection[NS_MAIN] = [ 'edit-main' ];

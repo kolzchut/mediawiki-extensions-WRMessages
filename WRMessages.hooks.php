@@ -64,6 +64,8 @@ class WRMessagesHooks {
 		$list[NS_WR_DATA_TALK] = 'שיחת_נתון';
 		$list[NS_WR_LANDING] = 'נחיתה';
 		$list[NS_WR_LANDING_TALK] = 'שיחת_נחיתה';
+		$list[NS_WR_SIMPLIFICATION] = 'פישוט';
+		$list[NS_WR_LANDING_TALK] = 'שיחת_פישוט';
 	}
 
 	/**

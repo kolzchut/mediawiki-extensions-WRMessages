@@ -30,6 +30,8 @@ $namespaceNames['en'] = [
 	NS_WR_DATA_TALK			=> 'Data_talk',
 	NS_WR_LANDING			=> 'Landing',
 	NS_WR_LANDING_TALK		=> 'Landing_talk',
+	NS_WR_SIMPLIFICATION	=> 'Simplification',
+	NS_WR_SIMPLIFICATION_TALK	=> 'Simplification_talk',
 ];
 
 $namespaceAliases['en'] = [
@@ -65,6 +67,9 @@ $namespaceNames['he'] = [
 	NS_WR_DATA_TALK			=> 'שיחת_נתון',
 	NS_WR_LANDING			=> 'נחיתה',
 	NS_WR_LANDING_TALK		=> 'שיחת_נחיתה',
+	NS_WR_SIMPLIFICATION	=> 'פישוט',
+	NS_WR_SIMPLIFICATION_TALK	=> 'שיחת_פישוט',
+
 ];
 
 $namespaceAliases['he'] = $namespaceAliases['en'] + [
