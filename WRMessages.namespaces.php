@@ -22,7 +22,7 @@ $namespaceNames['en'] = [
 	NS_WR_PORTAL_TALK       => 'Portal_talk',
 	NS_WR_DRAFTS            => 'New',
 	NS_WR_DRAFTS_TALK       => 'New_talk',
-	NS_WR_PRACTICE		    =>	'Practice',
+	NS_WR_PRACTICE		    => 'Practice',
 	NS_WR_PRACTICE_TALK		=> 'Practice_talk',
 	NS_WR_LIMBO				=> 'On_Hold',
 	NS_WR_LIMBO_TALK		=> 'On_Hold_talk',
@@ -35,13 +35,17 @@ $namespaceNames['en'] = [
 ];
 
 $namespaceAliases['en'] = [
-	'mw'     => NS_MEDIAWIKI, # Short alias - faster to type
-	'תבנית' 	 => NS_TEMPLATE, 	# Allow easy importing from HE instance
-	'תב' 	 => NS_TEMPLATE, 	# Short alias - faster to type
-	'קטגוריה' 	 => NS_CATEGORY, 	# Allow the Hebrew keyword to be used in other language instances
-	'קובץ' 	 => NS_FILE, 	# Allow the Hebrew keyword to be used in other language instances
-	'מדיה' 	 => NS_MEDIA, 	# Allow the Hebrew keyword to be used in other language instances
-	'מדיה-ויקי' => NS_MEDIAWIKI, 	# Allow the Hebrew keyword to be used in other language instances
+	# Short alias - faster to type
+	'mw' => NS_MEDIAWIKI,
+	'תב' => NS_TEMPLATE,
+
+	# Allow the Hebrew keyword to be used in other language instances (good for importing too)
+	'תבנית' => NS_TEMPLATE,
+	'קטגוריה' 	 => NS_CATEGORY,
+	'קובץ' 	 => NS_FILE,
+	'מדיה' 	 => NS_MEDIA,
+	'מדיה-ויקי' => NS_MEDIAWIKI,
+	'נתון' => NS_WR_DATA
 ];
 
 /**
@@ -73,10 +77,15 @@ $namespaceNames['he'] = [
 ];
 
 $namespaceAliases['he'] = $namespaceAliases['en'] + [
-	'תירגול'      => NS_WR_PRACTICE, # alias for spelling variation
+	# aliases for spelling variation
+	'תירגול'      => NS_WR_PRACTICE,
 	'שיחת_תירגול' => NS_WR_PRACTICE_TALK,
-	'כל_זכות'	=> NS_PROJECT,	# alias for the project namespace, because people might forget the hyphen
-	'כלזכות'	=> NS_PROJECT, # alias for the project namespace, because people might forget the hyphen
+
+	# aliases for the project namespace, because people might forget the hyphen
+	'כל_זכות'	=> NS_PROJECT,
+	'כלזכות'	=> NS_PROJECT,
+
+	'Data' => NS_WR_DATA
 ];
 
 /**
@@ -85,8 +94,10 @@ $namespaceAliases['he'] = $namespaceAliases['en'] + [
  * @author Jalal Hassan
  * @author Suheir Daksa-Halabi
  */
+# DS: 30/5/2011 Do not use arabic numerals
 global $wgTranslateNumerals;
-$wgTranslateNumerals = false; # DS: 30/5/2011 Do not use arabic numerals
+$wgTranslateNumerals = false;
+
 $namespaceNames['ar'] = [
 	NS_WR_COMPANY           => 'حول',
 	NS_WR_COMPANY_TALK      => 'نقاش_حول',
@@ -96,17 +107,6 @@ $namespaceNames['ar'] = [
 	NS_WR_LIMBO_TALK        => 'نقاش_تجميد',
 	NS_WR_LANDING			=> 'صفحة_البدء',
 	NS_WR_LANDING_TALK		=> 'صفحة_البدء_نقاش'
-	/*
-	NS_WR_PORTAL          => 'פורטל',
-	NS_WR_PORTAL_TALK     => 'שיחת_פורטל',
-	NS_WR_DRAFTS          => 'חדש',
-	NS_WR_DRAFTS_TALK     => 'שיחת_חדש',
-	NS_WR_PRACTICE			=>	'תרגול',
-	NS_WR_PRACTICE_TALK		=> 'שיחת_תרגול',
-
-	NS_WR_DATA				=> 'נתון',
-	NS_WR_DATA_TALK			=> 'שיחת_נתון',
-	*/
 ];
 
 $namespaceAliases['ar'] = $namespaceAliases['he'];
