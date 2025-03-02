@@ -68,7 +68,7 @@ define( 'NS_WR_LANDING_TALK', NS_WR_LANDING + 1 );
 
 // 2024-03-25 Linguistic simplification. Skip 126 because it's in use as a custom namespace in production.
 define( 'NS_WR_SIMPLIFICATION', 128 );
-define( 'NS_WR_SIMPLIFICATION_TALK', NS_WR_LANDING + 1 );
+define( 'NS_WR_SIMPLIFICATION_TALK', NS_WR_SIMPLIFICATION + 1 );
 
 /** Enable subpages on most namespaces [DS 2009-12-28] */
 $wgNamespacesWithSubpages[NS_WR_COMPANY] = true;
