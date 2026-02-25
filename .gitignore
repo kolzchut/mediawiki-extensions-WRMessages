@@ -1,5 +1,6 @@
 /composer.lock
-/vendor/
-/coverage/
-/node_modules/
-/.eslintcache
+/vendor
+/node_modules
+/package-lock.json
+.eslintcache
+/.stylelintcache
