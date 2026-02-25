@@ -1,0 +1,59 @@
+{
+	"name": "WRMessages",
+	"author": "Dror S. [FFS] ([https://www.kolzchut.org.il Kol-Zchut])",
+	"version": "0.5.0",
+	"url": "https://github.com/kolzchut/mediawiki-extensions-WRMessages",
+	"descriptionmsg": "wrmessages-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.43.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\WRMessages\\": "src/"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\WRMessages\\Hooks",
+			"services": [ "MainConfig", "UrlUtils" ]
+		}
+	},
+	"Hooks": {
+		"LinkerMakeExternalLink": "main",
+		"MessageCacheFetchOverrides": "main"
+	},
+	"MessagesDirs": {
+		"WRMessages": [ "i18n/new", "i18n/overrides" ]
+	},
+	"ExtensionMessagesFiles": {
+		"WRMessagesNamespaces": "WRMessages.namespaces.php",
+		"WRMessagesAliases": "WRMessages.alias.php"
+	},
+	"config": {
+		"WRMessagesReferrerWhitelistRegexp": {
+			"value": [ "/gov.il$/", "/kolsherut.org.il$/" ],
+			"description": "Array of regexps matching URL hostnames from which the noreferrer rel attribute should be stripped."
+		}
+	},
+	"namespaces": [
+		{ "id": 110, "constant": "NS_WR_COMPANY", "name": "אודות", "subpages": true },
+		{ "id": 111, "constant": "NS_WR_COMPANY_TALK", "name": "שיחת_אודות" },
+		{ "id": 112, "constant": "NS_WR_COMMUNITY", "name": "קהילת_ידע", "subpages": true },
+		{ "id": 113, "constant": "NS_WR_COMMUNITY_TALK", "name": "שיחת_קהילת_ידע" },
+		{ "id": 114, "constant": "NS_WR_PORTAL", "name": "פורטל", "subpages": true },
+		{ "id": 115, "constant": "NS_WR_PORTAL_TALK", "name": "שיחת_פורטל" },
+		{ "id": 116, "constant": "NS_WR_DRAFTS", "name": "חדש", "subpages": true },
+		{ "id": 117, "constant": "NS_WR_DRAFTS_TALK", "name": "שיחת_חדש" },
+		{ "id": 118, "constant": "NS_WR_LIMBO", "name": "הקפאה" },
+		{ "id": 119, "constant": "NS_WR_LIMBO_TALK", "name": "שיחת_הקפאה" },
+		{ "id": 120, "constant": "NS_WR_PRACTICE", "name": "תרגול", "subpages": true },
+		{ "id": 121, "constant": "NS_WR_PRACTICE_TALK", "name": "שיחת_תרגול" },
+		{ "id": 122, "constant": "NS_WR_DATA", "name": "נתון", "subpages": true },
+		{ "id": 123, "constant": "NS_WR_DATA_TALK", "name": "שיחת_נתון" },
+		{ "id": 124, "constant": "NS_WR_LANDING", "name": "נחיתה" },
+		{ "id": 125, "constant": "NS_WR_LANDING_TALK", "name": "שיחת_נחיתה" },
+		{ "id": 128, "constant": "NS_WR_SIMPLIFICATION", "name": "פישוט", "subpages": true },
+		{ "id": 129, "constant": "NS_WR_SIMPLIFICATION_TALK", "name": "שיחת_פישוט" }
+	],
+	"manifest_version": 2
+}

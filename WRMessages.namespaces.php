@@ -89,15 +89,11 @@ $namespaceAliases['he'] = $namespaceAliases['en'] + [
 ];
 
 /**
-/* Arabic (العربية)
+ * Arabic (العربية)
  * Custom namespaces for Kol-Zchut (WikiRights)
  * @author Jalal Hassan
  * @author Suheir Daksa-Halabi
  */
-# DS: 30/5/2011 Do not use arabic numerals
-global $wgTranslateNumerals;
-$wgTranslateNumerals = false;
-
 $namespaceNames['ar'] = [
 	NS_WR_COMPANY           => 'حول',
 	NS_WR_COMPANY_TALK      => 'نقاش_حول',
