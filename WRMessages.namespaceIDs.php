@@ -35,7 +35,9 @@ const NS_WR_DATA_TALK = NS_WR_DATA + 1;
 // 2019-08-05 Landing pages
 const NS_WR_LANDING = 124;
 const NS_WR_LANDING_TALK = NS_WR_LANDING + 1;
-// ID 126 is skipped (in use as a custom NS in production).
+// 2018 Kol-Sherut (service directory) — registered HE-only via $wgExtraNamespaces.
+const NS_WR_KOLSHERUT = 126;
+const NS_WR_KOLSHERUT_TALK = NS_WR_KOLSHERUT + 1;
 // 2024-03-25 Linguistic simplification.
 const NS_WR_SIMPLIFICATION = 128;
 const NS_WR_SIMPLIFICATION_TALK = NS_WR_SIMPLIFICATION + 1;
