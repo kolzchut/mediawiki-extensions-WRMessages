@@ -26,7 +26,7 @@
 	"kz-gotaccountlink": "Override core. Link text for users who already have an account (shown on registration page).",
 	"kz-createaccounterror": "Override core. Error message when account creation fails. $1 is the error details.",
 	"kz-upload": "Override core. Label for the 'Upload file' action.",
-	"kz-noarticletext": "Override core. Full HTML content of the 404 / page-not-found page. Contains search box and guidance for visitors.",
+	"kz-noarticletext": "Override core. Wikitext content of the page-not-found page: an apology heading, an editor-only note (search/log/edit links), guidance for visitors, and a link to {{ll|Special:Search}} pre-seeded with the page title. Styled with the skin's existing 'messagebox' class.",
 	"kz-noarticletext-nopermission": "Override core. Same as kz-noarticletext, shown when the user also lacks permission to create the page.",
 	"kz-protect-dropdown": "Override core. List of preset reasons in the page-protection dropdown. Each line is a reason or sub-reason.",
 	"kz-siteuser": "Override core. Display string for a single site user. $1 is the username.",
