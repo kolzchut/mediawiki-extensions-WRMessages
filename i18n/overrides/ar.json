@@ -28,7 +28,7 @@
 	"kz-gotaccountlink": "تسجيل الدخول",
 	"kz-createaccounterror": "تعذر إنشاء حساب المستخدم: $1",
 	"kz-upload": "ارفع ملفا",
-	"kz-noarticletext": "لا يوجد حاليا أي نص في هذه الصفحة.\nيمكنك [[Special:Search/{{PAGENAME}}|البحث عن عنوان هذه الصفحة]] في الصفحات الأخرى،\n<span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} البحث في السجلات المتعلقة]،\nأو [{{fullurl:{{FULLPAGENAME}}|action=edit}} تعديل هذه الصفحة]</span>.",
+	"kz-noarticletext": "{{DISPLAYTITLE:{{FULLPAGENAME}} - الصفحة غير موجودة}}\n<h2>عذرًا! لا توجد حاليًا صفحة بهذا الاسم في {{SITENAME}}.</h2>\n<div class=\"editor-only-content messagebox\">'''للمحرّرين الأعزّاء:'''\nيمكنك [[Special:Search/{{PAGENAME}}|البحث عن عنوان هذه الصفحة]] في الصفحات الأخرى، <span class=\"plainlinks\">[{{fullurl:{{#Special:Log}}|page={{FULLPAGENAMEE}}}} البحث في السجلات المتعلقة] أو [{{fullurl:{{FULLPAGENAME}}|action=edit}} تعديل هذه الصفحة]</span>.\n</div>\n\n'''نودّ مساعدتك، فلنرَ ما يمكننا فعله:'''\n* إذا كتبت العنوان بنفسك، فيُرجى التحقق من عدم وجود خطأ فيه.\n* إذا وصلت إلى هنا عبر رابط داخل الموقع نفسه، فالأرجح أنه معطوب وسنعمل على إصلاحه قريبًا.\n* إذا وصلت إلى هنا عبر رابط من موقع آخر، فالأرجح أن رابطهم غير صحيح. يمكنك إبلاغهم بذلك...\n* يمكنك [[{{Mediawiki:mainpage}} | العودة إلى الصفحة الرئيسية]].\n* أو [[Special:Search/{{PAGENAME}}|تجربة بحث جديد]].",
 	"kz-noarticletext-nopermission": "{{Mediawiki:kz-noarticletext}}",
 	"kz-protect-dropdown": "* סיבות הגנה נפוצות\n** בניהול צוות האתר\n** מלחמת עריכה בלתי מועילה\n** דף שאסור להזיז\n** דף בשימוש רב",
 	"kz-siteuser": "$1",
