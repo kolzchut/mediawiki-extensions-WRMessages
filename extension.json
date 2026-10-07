@@ -31,8 +31,8 @@
 	},
 	"config": {
 		"WRMessagesReferrerWhitelistRegexp": {
-			"value": [ "/gov.il$/", "/kolsherut.org.il$/" ],
-			"description": "Array of regexps matching URL hostnames from which the noreferrer rel attribute should be stripped."
+			"value": [ "/(^|\\.)gov\\.il$/", "/(^|\\.)kolsherut\\.org\\.il$/" ],
+			"description": "Array of PCRE patterns (with delimiters) matched against an external link's hostname; a match strips the noreferrer rel attribute. Anchor each pattern at both ends and escape literal dots, e.g. /(^|\\.)example\\.org$/ matches example.org and its subdomains only."
 		}
 	},
 	"namespaces": [
