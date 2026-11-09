@@ -132,8 +132,8 @@
 
 	"tpl-expiry-date": "Label for the 'expiry date' field in content templates.",
 
-	"tpl-nevo-link-text": "Default link text of Template:נבו, used when the link has no text of its own.",
-	"tpl-nevo-credit": "Credit shown after a link made by Template:נבו to a court ruling copied from the Nevo legal database.",
-	"tpl-nevo-file-credit": "Credit box text on the file page of a court ruling copied from Nevo (Template:נבו/קובץ). Wikitext; keep the link.",
+	"tpl-nevo-link-text": "Default link text of Template:נבו/פסק דין, used when the link has no text of its own.",
+	"tpl-nevo-credit": "Credit shown after a link made by Template:נבו/פסק דין to a court ruling copied from the Nevo legal database.",
+	"tpl-nevo-file-credit": "Credit box text on the file page of a court ruling copied from Nevo (Template:נבו/דף קובץ). Wikitext; keep the link.",
 	"tpl-nevo-file-source": "Label on a Nevo ruling's file page, followed by the original URL on nevo.co.il."
 }
