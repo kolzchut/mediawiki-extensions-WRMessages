@@ -130,5 +130,10 @@
 	"tpl-cityrights-welcome-gov-content": "אנחנו ב{{{שם}}} משתפים פעולה עם פרויקט \"כל זכות\" וסבורים שיש באתר זה מידע חיוני לציבור בתחומים שונים ומגוונים.",
 	"tpl-cityrights-welcome-gov-disclaimer": "התוכן באתר \"כל זכות\" אינו מהווה תחליף לייעוץ משפטי ואיננו אחראים לו.",
 
-	"tpl-expiry-date": "תאריך תפוגה"
+	"tpl-expiry-date": "תאריך תפוגה",
+
+	"tpl-nevo-link-text": "פסק הדין",
+	"tpl-nevo-credit": "(באדיבות אתר נבו)",
+	"tpl-nevo-file-credit": "פסק הדין מתפרסם באתר כל-זכות באדיבות [https://www.nevo.co.il אתר נבו – המאגר המשפטי].",
+	"tpl-nevo-file-source": "המקור באתר נבו:"
 }

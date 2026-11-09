@@ -130,5 +130,10 @@
 	"tpl-cityrights-welcome-gov-content": "אנחנו ב{{{שם}}} משתפים פעולה עם פרויקט \"כל זכות\" וסבורים שיש באתר זה מידע חיוני לציבור בתחומים שונים ומגוונים.",
 	"tpl-cityrights-welcome-gov-disclaimer": "התוכן באתר \"כל זכות\" אינו מהווה תחליף לייעוץ משפטי ואיננו אחראים לו.",
 
-	"tpl-expiry-date": "Expiry date"
+	"tpl-expiry-date": "Expiry date",
+
+	"tpl-nevo-link-text": "The ruling",
+	"tpl-nevo-credit": "(courtesy of Nevo)",
+	"tpl-nevo-file-credit": "This ruling is published on Kol-Zchut courtesy of [https://www.nevo.co.il Nevo, the legal database].",
+	"tpl-nevo-file-source": "Source on Nevo:"
 }
